@@ -1,17 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <title>Mapa</title>
+    <meta charset="UTF-8">
+    <title>Mapa de Hospitales</title>
+    
+    <!-- 1. CSS de Leaflet Base -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    
+    <!-- 2. CSS de los Marker Clusters -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
 
-  <!-- CSS de Leaflet -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
+    <!-- 3. CSS de Leaflet Routing Machine -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+    
+    <style>
+        #map { height: 100vh; width: 100%; }
+    </style>
 </head>
-<body style="height: 100%;">
-  <div id="map" style="height: 100vh;"></div>
+<body>
+    <div id="map"></div>
+
+    <!-- 4. JS de Leaflet Base (Siempre primero) -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <!-- 5. JS de los Marker Clusters -->
+    <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+
+    <!-- 6. JS de Leaflet Routing Machine (¡NUEVO! Tiene que ir DESPUÉS del Leaflet base) -->
+    <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+
+    <!-- 7. TU código final (Siempre al final, porque usa todo lo de arriba) -->
+    <script src="api.js"></script>
+
 </body>
-  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-  <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
-  <script src="api.js"></script>
 </html>
