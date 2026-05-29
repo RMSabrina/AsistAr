@@ -1,15 +1,171 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <title>Mapa</title>
+
+  <meta charset="UTF-8">
+
+<title>Servicios Argentina</title>
+
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet/dist/leaflet.css"
+  />
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+<div id="panel">
+
+  <select id="provincia">
+
+    <option value="Buenos Aires">
+      Buenos Aires
+    </option>
+
+    <option value="Catamarca">
+      Catamarca
+    </option>
+
+    <option value="Chaco">
+      Chaco
+    </option>
+
+    <option value="Chubut">
+      Chubut
+    </option>
+
+    <option value="Córdoba">
+      Córdoba
+    </option>
+
+    <option value="Corrientes">
+      Corrientes
+    </option>
+
+    <option value="Entre Ríos">
+      Entre Ríos
+    </option>
+
+    <option value="Formosa">
+      Formosa
+    </option>
+
+    <option value="Jujuy">
+      Jujuy
+    </option>
+
+    <option value="La Pampa">
+      La Pampa
+    </option>
+
+    <option value="La Rioja">
+      La Rioja
+    </option>
+
+    <option value="Mendoza">
+      Mendoza
+    </option>
+
+    <option value="Misiones">
+      Misiones
+    </option>
+
+    <option value="Neuquén">
+      Neuquén
+    </option>
+
+    <option value="Río Negro">
+      Río Negro
+    </option>
+
+    <option value="Salta">
+      Salta
+    </option>
+
+    <option value="San Juan">
+      San Juan
+    </option>
+
+    <option value="San Luis">
+      San Luis
+    </option>
+
+    <option value="Santa Cruz">
+      Santa Cruz
+    </option>
+
+    <option value="Santa Fe">
+      Santa Fe
+    </option>
+
+    <option value="Santiago del Estero">
+      Santiago del Estero
+    </option>
+
+    <option value="Tierra del Fuego">
+      Tierra del Fuego
+    </option>
+
+    <option value="Tucumán">
+      Tucumán
+    </option>
+
+  </select>
+
+  <button
+    class="boton-servicio"
+    data-tipo="hospital"
+    onclick="cargar('hospital')"
+  >
+    🏥 Hospitales
+  </button>
+
+  <button
+    class="boton-servicio"
+    data-tipo="pharmacy"
+    onclick="cargar('pharmacy')"
+  >
+    💊 Farmacias
+  </button>
+
+  <button
+    class="boton-servicio"
+    data-tipo="clinic"
+    onclick="cargar('clinic')"
+  >
+    🩺 Clínicas
+  </button>
+
+  <button
+    class="boton-servicio"
+    data-tipo="dentist"
+    onclick="cargar('dentist')"
+  >
+    🦷 Dentistas
+  </button>
+
+  <button
+    class="boton-servicio"
+    data-tipo="veterinary"
+    onclick="cargar('veterinary')"
+  >
+    🐶 Veterinarias
+  </button>
+
+</div>
+
+  <div id="map"></div>
+
+  <!-- <title>Mapa</title>
 
   <!-- CSS de Leaflet -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <!-- <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
-</head>
-<body style="height: 100%;">
-  <div id="map" style="height: 100vh;"></div>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" /> -->
+<!-- </head> -->
+<!-- <body style="height: 100%;">
+  <div id="map" style="height: 100vh;"></div> -->
 </body>
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
