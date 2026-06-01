@@ -349,3 +349,25 @@ document
 
     }
   );
+
+
+  const lugaresUnicos = [
+
+  ...new Map(
+
+    response.data.map(
+      lugar => [
+
+        (
+          lugar.title +
+          lugar.address
+        ).toLowerCase(),
+
+        lugar
+
+      ]
+    )
+
+  ).values()
+
+];
