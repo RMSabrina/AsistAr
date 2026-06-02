@@ -1,0 +1,4151 @@
+[
+  {
+    "nombre": "Centro Médico Veterinario Buenos Aires",
+    "provincia": "Buenos Aires",
+    "direccion": "Av. Boedo 840, C1228 Cdad. Autónoma de Buenos Aires, Argentina",
+    "telefono": "+54 11 4931-4425",
+    "sitioWeb": "http://www.boedovet.com.ar/",
+    "lat": -34.6228739,
+    "lon": -58.416064
+  },
+  {
+    "nombre": "Veterinaria \"Del Labrador\"",
+    "provincia": "Buenos Aires",
+    "direccion": "Av. Corrientes 4545, C1195AAE Cdad. Autónoma de Buenos Aires, Argentina",
+    "telefono": "+54 11 4863-0700",
+    "sitioWeb": "https://petshopdellabrador.com.ar/",
+    "lat": -34.6022313,
+    "lon": -58.4291875
+  },
+  {
+    "nombre": "Centro Quirúrgico Veterinario (C.Q.V)",
+    "provincia": "Buenos Aires",
+    "direccion": "Paraguay 1855 timbre CQV, C1020 Cdad. Autónoma de Buenos Aires, Argentina",
+    "telefono": "+54 11 2613-5803",
+    "sitioWeb": "",
+    "lat": -34.5986127,
+    "lon": -58.3939148
+  },
+  {
+    "nombre": "Veterinary Center Paunero",
+    "provincia": "Buenos Aires",
+    "direccion": "Agüero 1884, C1425EHP Cdad. Autónoma de Buenos Aires, Argentina",
+    "telefono": "+54 11 4802-6837",
+    "sitioWeb": "http://www.cvpaunero.com/",
+    "lat": -34.5896777,
+    "lon": -58.4046339
+  },
+  {
+    "nombre": "Veterinaria",
+    "provincia": "Buenos Aires",
+    "direccion": "C1107 Buenos Aires, Argentina",
+    "telefono": "",
+    "sitioWeb": "",
+    "lat": -34.6177194,
+    "lon": -58.3620561
+  },
+  {
+    "nombre": "Veterinarias Servicios Profesionales Veterinarias.com.ar",
+    "provincia": "Buenos Aires",
+    "direccion": "",
+    "telefono": "+54 11 4937-3000",
+    "sitioWeb": "http://www.veterinarias.com.ar/",
+    "lat": -38.45155,
+    "lon": -63.5989957
+  },
+  {
+    "nombre": "Facultad de Ciencias Veterinarias",
+    "provincia": "Buenos Aires",
+    "direccion": "Av. Chorroarín 280, C1427CWN Cdad. Autónoma de Buenos Aires, Argentina",
+    "telefono": "+54 11 5287-2000",
+    "sitioWeb": "http://www.fvet.uba.ar/",
+    "lat": -34.5942331,
+    "lon": -58.4783102
+  },
+  {
+    "nombre": "Budhapets",
+    "provincia": "Buenos Aires",
+    "direccion": "Av. Tte. Gral. Donato Álvarez 2077 1416, C1416BTJ Cdad. Autónoma de Buenos Aires, Argentina",
+    "telefono": "",
+    "sitioWeb": "http://www.budhapets.com.ar/",
+    "lat": -34.603688,
+    "lon": -58.46427
+  },
+  {
+    "nombre": "Veterinaria Argentina",
+    "provincia": "Buenos Aires",
+    "direccion": "Av. Gral. Mosconi 4278, C1419ERV Cdad. Autónoma de Buenos Aires, Argentina",
+    "telefono": "+54 11 4501-9375",
+    "sitioWeb": "",
+    "lat": -34.5970948,
+    "lon": -58.5196132
+  },
+  {
+    "nombre": "Veterinario Castraciones Gatos Castre a Su Mascota sin Tener Usted Que Moverse de Su Casa. Dr Pablo Saenz",
+    "provincia": "Buenos Aires",
+    "direccion": "Julián Álvarez 2700, C1425 Cdad. Autónoma de Buenos Aires, Argentina",
+    "telefono": "+54 11 4096-3316",
+    "sitioWeb": "",
+    "lat": -34.5845523,
+    "lon": -58.4117658
+  },
+  {
+    "nombre": "Clínica Buenos Ayres",
+    "provincia": "Buenos Aires",
+    "direccion": "Gallo 495, C1172 ABI, Cdad. Autónoma de Buenos Aires, Argentina",
+    "telefono": "+54 11 4865-4201",
+    "sitioWeb": "http://www.clinicabuenosayres.com.ar/",
+    "lat": -34.603328,
+    "lon": -58.412805
+  },
+  {
+    "nombre": "Veterinary Clinic Cordoba",
+    "provincia": "Buenos Aires",
+    "direccion": "Jean Jaures 1035, C1215 ACS, Cdad. Autónoma de Buenos Aires, Argentina",
+    "telefono": "+54 11 4966-0771",
+    "sitioWeb": "http://www.clinicavetcordoba.com/",
+    "lat": -34.5975596,
+    "lon": -58.4064782
+  },
+  {
+    "nombre": "VETERINARY CLINIC BUENOS AIRES",
+    "provincia": "Buenos Aires",
+    "direccion": "Miranda 4501, C1407 AOL, Cdad. Autónoma de Buenos Aires, Argentina",
+    "telefono": "+54 11 4567-8807",
+    "sitioWeb": "",
+    "lat": -34.6197404,
+    "lon": -58.5004929
+  },
+  {
+    "nombre": "Veterinaria del Centro",
+    "provincia": "Buenos Aires",
+    "direccion": "ADE, Paraná 1281, C1018 C1018ADE, Cdad. Autónoma de Buenos Aires, Argentina",
+    "telefono": "+54 11 4811-6488",
+    "sitioWeb": "",
+    "lat": -34.5932219,
+    "lon": -58.3886428
+  },
+  {
+    "nombre": "VETERINARY CENTER",
+    "provincia": "Buenos Aires",
+    "direccion": "Pres. José Evaristo Uriburu 662, C1027 AAN, Cdad. Autónoma de Buenos Aires, Argentina",
+    "telefono": "+54 11 4954-0981",
+    "sitioWeb": "",
+    "lat": -34.6015257,
+    "lon": -58.3986813
+  },
+  {
+    "nombre": "Veterinaria",
+    "provincia": "Buenos Aires",
+    "direccion": "C1437 Buenos Aires, Argentina",
+    "telefono": "",
+    "sitioWeb": "",
+    "lat": -34.6456798,
+    "lon": -58.4258621
+  },
+  {
+    "nombre": "Veterinaria Uriburu",
+    "provincia": "Buenos Aires",
+    "direccion": "Pres. José Evaristo Uriburu 1381, C1114AAK Cdad. Autónoma de Buenos Aires, Argentina",
+    "telefono": "+54 11 4827-9369",
+    "sitioWeb": "",
+    "lat": -34.5923209,
+    "lon": -58.3971662
+  },
+  {
+    "nombre": "CEMV - Veterinary Medical Specialties Center",
+    "provincia": "Buenos Aires",
+    "direccion": "Av. Córdoba 2663, C1425 Cdad. Autónoma de Buenos Aires, Argentina",
+    "telefono": "+54 11 4962-9037",
+    "sitioWeb": "https://www.cemvargentina.com.ar/",
+    "lat": -34.597884,
+    "lon": -58.404837
+  },
+  {
+    "nombre": "Veterinaria en casa",
+    "provincia": "Buenos Aires",
+    "direccion": "Av. Gral. Las Heras 3200, C1425 Cdad. Autónoma de Buenos Aires, Argentina",
+    "telefono": "+54 9 11 6515-2683",
+    "sitioWeb": "https://tuveterinariaencasa.com.ar/",
+    "lat": -34.5837299,
+    "lon": -58.4059095
+  },
+  {
+    "nombre": "Consultorio Veterinario",
+    "provincia": "Buenos Aires",
+    "direccion": "Gral. Urquiza 2196, C1243AET C1243AET, Cdad. Autónoma de Buenos Aires, Argentina",
+    "telefono": "+54 11 7636-0684",
+    "sitioWeb": "",
+    "lat": -34.6361361,
+    "lon": -58.4076184
+  },
+  {
+    "nombre": "VETERINARIA SALVAPET",
+    "provincia": "Buenos Aires",
+    "direccion": "Argentina, Solidaridad, Buenos Aires I, 30700 Tapachula de Córdova y Ordóñez, Chis., Mexico",
+    "telefono": "+52 962 137 6388",
+    "sitioWeb": "https://www.facebook.com/profile.php?id=100017015676605",
+    "lat": 14.8752235,
+    "lon": -92.3017312
+  },
+  {
+    "nombre": "Centro Veterinario La Mascota",
+    "provincia": "Buenos Aires",
+    "direccion": "C. La Mascota 230, San Salvador, El Salvador",
+    "telefono": "+503 2298 4230",
+    "sitioWeb": "https://veterinarialamascota.com/",
+    "lat": 13.69739,
+    "lon": -89.2321667
+  },
+  {
+    "nombre": "Clínica Veterinaria Probian Chetumal",
+    "provincia": "Buenos Aires",
+    "direccion": "2, Calle Cipreses Lote 91 entre curacao y cocodrilo Fraccionamiento Sian ka’an, 77086 Chetumal, Q.R., Mexico",
+    "telefono": "+52 983 183 8596",
+    "sitioWeb": "",
+    "lat": 18.5455353,
+    "lon": -88.2942233
+  },
+  {
+    "nombre": "Clínica Veterinaria El Surco",
+    "provincia": "Buenos Aires",
+    "direccion": "6 Avenida Sur 1-8, Santa Tecla, El Salvador",
+    "telefono": "+503 2564 1912",
+    "sitioWeb": "http://www.elsurco.com.sv/",
+    "lat": 13.6737461,
+    "lon": -89.2915689
+  },
+  {
+    "nombre": "CATHOME Salvador del Mundo",
+    "provincia": "Buenos Aires",
+    "direccion": "Alameda Roosevelt y 57 Ave. Nte. #2940, Ex Edificio STB, UFG frente a, San Salvador, El Salvador",
+    "telefono": "+503 6308 9364",
+    "sitioWeb": "",
+    "lat": 13.7010456,
+    "lon": -89.2196671
+  },
+  {
+    "nombre": "Hospital Veterinario Especies",
+    "provincia": "Buenos Aires",
+    "direccion": "De los semáforos de La Racachaca 25 vrs hacia arriba, Managua, Nicaragua",
+    "telefono": "+505 8119 6290",
+    "sitioWeb": "",
+    "lat": 12.1380889,
+    "lon": -86.2910963
+  },
+  {
+    "nombre": "The Dog House VHSA",
+    "provincia": "Buenos Aires",
+    "direccion": "Av de los Árboles #226, Heriberto Kehoe Vicent, 86030 Villahermosa, Tab., Mexico",
+    "telefono": "+52 993 230 3293",
+    "sitioWeb": "https://www.facebook.com/thedoghousevhsa/",
+    "lat": 18.0065738,
+    "lon": -92.937114
+  },
+  {
+    "nombre": "Veterinaria Mundo Mascota RR2C+J66 Apopa",
+    "provincia": "Buenos Aires",
+    "direccion": "RR2C+J66, Apopa, El Salvador",
+    "telefono": "+503 2214 8627",
+    "sitioWeb": "",
+    "lat": 13.8015375,
+    "lon": -89.1794844
+  },
+  {
+    "nombre": "CLINICA VETERINARIA DR PET",
+    "provincia": "Buenos Aires",
+    "direccion": "2A Avenida Sur, San Miguel, El Salvador",
+    "telefono": "+503 7559 8160",
+    "sitioWeb": "https://www.facebook.com/DrVeterinarioPet",
+    "lat": 13.4800126,
+    "lon": -88.1752996
+  },
+  {
+    "nombre": "Veterinaria del Ahorro. Surtidora de Insumos",
+    "provincia": "Buenos Aires",
+    "direccion": "Av. Segunda Sur 155, San Martin, 30479 Villaflores, Chis., Mexico",
+    "telefono": "+52 965 655 7826",
+    "sitioWeb": "http://www.facebook.com/vetahorro?ref=bookmarks",
+    "lat": 16.2306515,
+    "lon": -93.2720383
+  },
+  {
+    "nombre": "PELUDOS",
+    "provincia": "Buenos Aires",
+    "direccion": "81 Avenida Nte. 410, San Salvador, El Salvador",
+    "telefono": "+503 2264 7329",
+    "sitioWeb": "",
+    "lat": 13.7057502,
+    "lon": -89.2363803
+  },
+  {
+    "nombre": "Veterinarios La Paz (Zootech El Salvador)",
+    "provincia": "Buenos Aires",
+    "direccion": "503, El Rosario, El Salvador",
+    "telefono": "+503 7683 7173",
+    "sitioWeb": "",
+    "lat": 13.4940929,
+    "lon": -89.0308302
+  },
+  {
+    "nombre": "Veterinaria Raquel Brizuela",
+    "provincia": "Catamarca",
+    "direccion": "Los Tilos 85, K4700CRC San Fernando del Valle de Catamarca, Catamarca, Argentina",
+    "telefono": "+54 383 469-6799",
+    "sitioWeb": "",
+    "lat": -28.4323078,
+    "lon": -65.7857834
+  },
+  {
+    "nombre": "Veterinaria Del Valle",
+    "provincia": "Catamarca",
+    "direccion": "Av. Misiónes, K4700EXF San Fernando del Valle de Catamarca, Catamarca, Argentina",
+    "telefono": "",
+    "sitioWeb": "",
+    "lat": -28.4780793,
+    "lon": -65.7973832
+  },
+  {
+    "nombre": "Cima - Integral Center for Animal Medicine",
+    "provincia": "Catamarca",
+    "direccion": "Caseros 956, K4703AAN San Fernando del Valle de Catamarca, Catamarca, Argentina",
+    "telefono": "+54 383 442-7730",
+    "sitioWeb": "",
+    "lat": -28.4732422,
+    "lon": -65.785414
+  },
+  {
+    "nombre": "Clínica Veterinaria Colón",
+    "provincia": "Catamarca",
+    "direccion": "Av. Enrique Ocampo 508, K4700 San Fernando del Valle de Catamarca, Catamarca, Argentina",
+    "telefono": "+54 383 492-0244",
+    "sitioWeb": "https://www.facebook.com/profile.php?id=100074394923590&mibextid=ZbWKwL",
+    "lat": -28.4704107,
+    "lon": -65.7943312
+  },
+  {
+    "nombre": "Veterinaria Altos Del Solar",
+    "provincia": "Catamarca",
+    "direccion": "Ignacio de Agüero 1298, K4700 San Fernando del Valle de Catamarca, Catamarca, Argentina",
+    "telefono": "",
+    "sitioWeb": "",
+    "lat": -28.4640064,
+    "lon": -65.800503
+  },
+  {
+    "nombre": "Veterinaria Mí Granja Dr Pastoriza",
+    "provincia": "Catamarca",
+    "direccion": "Av. Los Terebintos, K4700 San Fernando del Valle de Catamarca, Catamarca, Argentina",
+    "telefono": "",
+    "sitioWeb": "",
+    "lat": -28.4302689,
+    "lon": -65.7842507
+  },
+  {
+    "nombre": "Veterinaria Guayna",
+    "provincia": "Catamarca",
+    "direccion": "Av. Pres. Castillo 4519, K4700 San Fernando del Valle de Catamarca, Catamarca, Argentina",
+    "telefono": "+54 383 452-8202",
+    "sitioWeb": "",
+    "lat": -28.4504836,
+    "lon": -65.7330762
+  },
+  {
+    "nombre": "Veterinaria Hocicos",
+    "provincia": "Catamarca",
+    "direccion": "Av. Güemes Oeste, K4700 San Fernando del Valle de Catamarca, Catamarca, Argentina",
+    "telefono": "+54 383 343-4575",
+    "sitioWeb": "",
+    "lat": -28.4775129,
+    "lon": -65.8144596
+  },
+  {
+    "nombre": "Clinica Veterinaria Catamarca",
+    "provincia": "Catamarca",
+    "direccion": "Núñez del Prado 615, K4703BMJ San Fernando del Valle de Catamarca, Catamarca, Argentina",
+    "telefono": "+54 383 443-8869",
+    "sitioWeb": "",
+    "lat": -28.4658167,
+    "lon": -65.7781357
+  },
+  {
+    "nombre": "Veterinaria Fleming",
+    "provincia": "Catamarca",
+    "direccion": "Av Vg del Valle 222, K4700 San Fernando del Valle de Catamarca, Catamarca, Argentina",
+    "telefono": "+54 383 442-4049",
+    "sitioWeb": "",
+    "lat": -28.4638062,
+    "lon": -65.7869968
+  },
+  {
+    "nombre": "MAC Medicina Animal Catamarca",
+    "provincia": "Catamarca",
+    "direccion": "Av. Enrique Ocampo 1152, K4700 San Fernando del Valle de Catamarca, Catamarca, Argentina",
+    "telefono": "",
+    "sitioWeb": "",
+    "lat": -28.4708431,
+    "lon": -65.8018419
+  },
+  {
+    "nombre": "Ser-vet",
+    "provincia": "Catamarca",
+    "direccion": "Av. Gdor. Francisco Galindez 925, K4700 San Fernando del Valle de Catamarca, Catamarca, Argentina",
+    "telefono": "+54 383 474-9864",
+    "sitioWeb": "",
+    "lat": -28.4667632,
+    "lon": -65.7972893
+  },
+  {
+    "nombre": "Clínica Veterinaria Doctor Vet & MichiVet",
+    "provincia": "Catamarca",
+    "direccion": "Av. Pres. Castillo 380, K4700 San Fernando del Valle de Catamarca, Catamarca, Argentina",
+    "telefono": "+54 383 417-3808",
+    "sitioWeb": "http://www.facebook.com/veterinarioscatamarca",
+    "lat": -28.4631381,
+    "lon": -65.7652636
+  },
+  {
+    "nombre": "NeoZoo... Pet Shop Pet Love",
+    "provincia": "Catamarca",
+    "direccion": "Av. Acosta Villafañez 2420, K4700 San Fernando del Valle de Catamarca, Catamarca, Argentina",
+    "telefono": "+54 383 409-5522",
+    "sitioWeb": "",
+    "lat": -28.4664575,
+    "lon": -65.7548103
+  },
+  {
+    "nombre": "Veterinaria Dra. Alessandro",
+    "provincia": "Catamarca",
+    "direccion": "Perú 646, K4700 San Fernando del Valle de Catamarca, Catamarca, Argentina",
+    "telefono": "+54 383 452-5100",
+    "sitioWeb": "",
+    "lat": -28.4616432,
+    "lon": -65.7778306
+  },
+  {
+    "nombre": "Clinica Veterinaria El Litoral",
+    "provincia": "Catamarca",
+    "direccion": "Sotomayor 650, K4700 San Fernando del Valle de Catamarca, Catamarca, Argentina",
+    "telefono": "+54 383 417-3454",
+    "sitioWeb": "",
+    "lat": -28.4696677,
+    "lon": -65.7863273
+  },
+  {
+    "nombre": "Vet-Can Veterinaria & Petshop",
+    "provincia": "Catamarca",
+    "direccion": "Av. Italia, K4700 San Fernando del Valle de Catamarca, Catamarca, Argentina",
+    "telefono": "+54 383 406-6069",
+    "sitioWeb": "",
+    "lat": -28.4642331,
+    "lon": -65.7728297
+  },
+  {
+    "nombre": "Clinica Veterinaria Peirano",
+    "provincia": "Catamarca",
+    "direccion": "Av. Gdor. Francisco Galindez 695, K4700 San Fernando del Valle de Catamarca, Catamarca, Argentina",
+    "telefono": "+54 383 443-4412",
+    "sitioWeb": "https://gurugo-duda-00815097-16656838.argentina.publicar.guru/",
+    "lat": -28.4666832,
+    "lon": -65.7959073
+  },
+  {
+    "nombre": "LA VETERINARIA CLINICA ANIMAL",
+    "provincia": "Catamarca",
+    "direccion": "Mota Botello 1066, K4700 San Fernando del Valle de Catamarca, Catamarca, Argentina",
+    "telefono": "+54 4183206",
+    "sitioWeb": "",
+    "lat": -28.4717271,
+    "lon": -65.7714771
+  },
+  {
+    "nombre": "Veterinaria Valderrama",
+    "provincia": "Catamarca",
+    "direccion": "Av. Pres. Juan Domingo Perón 205, K4700 San Fernando del Valle de Catamarca, Catamarca, Argentina",
+    "telefono": "+54 383 443-2145",
+    "sitioWeb": "",
+    "lat": -28.4643572,
+    "lon": -65.7920508
+  },
+  {
+    "nombre": "Clínica Veterinaria Integral",
+    "provincia": "Chaco",
+    "direccion": "Liniers 793, H3500 Resistencia, Chaco, Argentina",
+    "telefono": "+54 362 517-0194",
+    "sitioWeb": "https://instagram.com/veterinariaintegral.rcia",
+    "lat": -27.4418168,
+    "lon": -58.9832223
+  },
+  {
+    "nombre": "Clinica Veterinaria NEAL",
+    "provincia": "Chaco",
+    "direccion": "Hipólito Yrigoyen, H3500 Resistencia, Chaco, Argentina",
+    "telefono": "+54 362 535-1608",
+    "sitioWeb": "",
+    "lat": -27.4554732,
+    "lon": -58.980037
+  },
+  {
+    "nombre": "Veterinaria Nuevo Mundo Animal",
+    "provincia": "Chaco",
+    "direccion": "Villa Central Norte, Av. 9 de Julio 1418, H3508AZT Resistencia, Chaco, Argentina",
+    "telefono": "+54 362 457-0452",
+    "sitioWeb": "",
+    "lat": -27.462354,
+    "lon": -58.974053
+  },
+  {
+    "nombre": "veterinaria \"Pocas Pulgas 2\" servicio 24hs",
+    "provincia": "Chaco",
+    "direccion": "Av. Rivadavia 34, H3500 Resistencia, Chaco, Argentina",
+    "telefono": "+54 362 416-4432",
+    "sitioWeb": "",
+    "lat": -27.4467699,
+    "lon": -58.9822939
+  },
+  {
+    "nombre": "Consultorio Veterinario Dra. Cooke",
+    "provincia": "Chaco",
+    "direccion": "Dodero 1949, H3504EMQ Resistencia, Chaco, Argentina",
+    "telefono": "+54 379 462-8752",
+    "sitioWeb": "",
+    "lat": -27.4762909,
+    "lon": -58.9795383
+  },
+  {
+    "nombre": "Veterinaria \"El Gateado\"",
+    "provincia": "Chaco",
+    "direccion": "H3502 Resistencia, Chaco Province, Argentina",
+    "telefono": "",
+    "sitioWeb": "",
+    "lat": -27.4382973,
+    "lon": -58.9955888
+  },
+  {
+    "nombre": "Veterinaria Mascotas Unidas",
+    "provincia": "Chaco",
+    "direccion": "Barrio Provincias Unidas PC 42 Uf14, H3500 Resistencia, Chaco, Argentina",
+    "telefono": "+54 362 401-2866",
+    "sitioWeb": "",
+    "lat": -27.4477761,
+    "lon": -59.0174192
+  },
+  {
+    "nombre": "Espacio Animal Veterinaria",
+    "provincia": "Chaco",
+    "direccion": "Las Heras 217, H3500 Resistencia, Chaco, Argentina",
+    "telefono": "+54 362 519-7525",
+    "sitioWeb": "",
+    "lat": -27.459356,
+    "lon": -58.9810782
+  },
+  {
+    "nombre": "Centro Veterinario Resistencia",
+    "provincia": "Chaco",
+    "direccion": "DIG, Av. Soberania Nacional 645, H3504 Resistencia, Chaco, Argentina",
+    "telefono": "+54 362 489-6050",
+    "sitioWeb": "",
+    "lat": -27.4754219,
+    "lon": -59.0020007
+  },
+  {
+    "nombre": "Clínica Médica Veterinaria",
+    "provincia": "Chaco",
+    "direccion": "AXB Resistencia Chaco AR, Julio Tort 26, H3508, Argentina",
+    "telefono": "+54 362 542-4446",
+    "sitioWeb": "https://instagram.com/cmvresistencia?igshid=x7zcgsozei6i",
+    "lat": -27.4630955,
+    "lon": -58.9736934
+  },
+  {
+    "nombre": "Andrea Lomonaco Veterinary Hospital",
+    "provincia": "Chaco",
+    "direccion": "Arturo Illia 1274, H3500 Resistencia, Chaco, Argentina",
+    "telefono": "+54 362 542-6356",
+    "sitioWeb": "",
+    "lat": -27.4627612,
+    "lon": -58.9770486
+  },
+  {
+    "nombre": "Veterinaria \"Mascotas\"",
+    "provincia": "Chaco",
+    "direccion": "AMJ, La Rioja 454, H3500AMJ Resistencia, Chaco, Argentina",
+    "telefono": "+54 362 442-5067",
+    "sitioWeb": "",
+    "lat": -27.4428618,
+    "lon": -58.9851354
+  },
+  {
+    "nombre": "Clínica Veterinaria Animalia",
+    "provincia": "Chaco",
+    "direccion": "Av. Wilde 749, H3500BTH Resistencia, Chaco, Argentina",
+    "telefono": "",
+    "sitioWeb": "",
+    "lat": -27.4413005,
+    "lon": -58.9845408
+  },
+  {
+    "nombre": "Mundo Veterinario",
+    "provincia": "Chaco",
+    "direccion": "Av. Hernandarias 332, H3500BYQ Resistencia, Chaco, Argentina",
+    "telefono": "+54 9 362 522-5785",
+    "sitioWeb": "",
+    "lat": -27.4472784,
+    "lon": -58.9967824
+  },
+  {
+    "nombre": "Paraíso animal",
+    "provincia": "Chaco",
+    "direccion": "CIR, Las Heras 1502, H3500 Resistencia, Chaco, Argentina",
+    "telefono": "+54 4572837",
+    "sitioWeb": "",
+    "lat": -27.4693874,
+    "lon": -58.9930989
+  },
+  {
+    "nombre": "Dra. Mega",
+    "provincia": "Chaco",
+    "direccion": "Av. San Martín 726, H3500CIU Resistencia, Chaco, Argentina",
+    "telefono": "+54 362 474-4888",
+    "sitioWeb": "",
+    "lat": -27.4606346,
+    "lon": -58.9886495
+  },
+  {
+    "nombre": "Model Veterinary Clinic",
+    "provincia": "Chaco",
+    "direccion": "Av. San Martín 2055, H3500 Resistencia, Chaco, Argentina",
+    "telefono": "+54 362 441-8302",
+    "sitioWeb": "https://clinicamodeloveterinaria.site/",
+    "lat": -27.4717855,
+    "lon": -59.0005553
+  },
+  {
+    "nombre": "Veterinaria El Rodeo",
+    "provincia": "Chaco",
+    "direccion": "Juan Domingo Perón 717, H3500 Resistencia, Chaco, Argentina",
+    "telefono": "+54 362 442-9304",
+    "sitioWeb": "https://www.facebook.com/rodeovet717",
+    "lat": -27.4471119,
+    "lon": -58.9947179
+  },
+  {
+    "nombre": "Veterinaria Animal Happy",
+    "provincia": "Chaco",
+    "direccion": "Av. Chaco 965 Villa Elisa, H3504FNJ Resistencia, Chaco, Argentina",
+    "telefono": "+54 362 452-8279",
+    "sitioWeb": "",
+    "lat": -27.4716615,
+    "lon": -58.9805772
+  },
+  {
+    "nombre": "Veterinaria El Picaso. Urg. 24 hs",
+    "provincia": "Chaco",
+    "direccion": "Almte. Brown 1525, H3500 Resistencia, Chaco, Argentina",
+    "telefono": "+54 362 426-1402",
+    "sitioWeb": "",
+    "lat": -27.4615122,
+    "lon": -58.9711044
+  },
+  {
+    "nombre": "Veterinaria Argentina de Ramírez y Schadlich",
+    "provincia": "Chubut",
+    "direccion": "FLA, Ameghino 1275, U9002 Comodoro Rivadavia, Chubut, Argentina",
+    "telefono": "+54 297 624-6850",
+    "sitioWeb": "http://www.vetargentina.com.ar/",
+    "lat": -45.8633842,
+    "lon": -67.4933657
+  },
+  {
+    "nombre": "Diagnovet, Veterinary Clinic",
+    "provincia": "Chubut",
+    "direccion": "Chile 73, U9100 Trelew, Chubut, Argentina",
+    "telefono": "",
+    "sitioWeb": "",
+    "lat": -43.2548543,
+    "lon": -65.3054636
+  },
+  {
+    "nombre": "Veterinaria Roca",
+    "provincia": "Chubut",
+    "direccion": "Av. Portugal 364, U9002 Comodoro Rivadavia, Chubut, Argentina",
+    "telefono": "+54 297 446-7328",
+    "sitioWeb": "",
+    "lat": -45.8762823,
+    "lon": -67.5152142
+  },
+  {
+    "nombre": "Veterinaria Alem - Clinica Urgencias",
+    "provincia": "Chubut",
+    "direccion": "BWR, Leandro N. Alem 888, U9000 Comodoro Rivadavia, Chubut, Argentina",
+    "telefono": "+54 9 297 425-7126",
+    "sitioWeb": "",
+    "lat": -45.8613119,
+    "lon": -67.4989745
+  },
+  {
+    "nombre": "Veterinaria Pocas Pulgas",
+    "provincia": "Chubut",
+    "direccion": "Tte. Vanesia 01, U9010 Comodoro Rivadavia, Chubut, Argentina",
+    "telefono": "+54 297 597-4315",
+    "sitioWeb": "",
+    "lat": -45.7937411,
+    "lon": -67.4749515
+  },
+  {
+    "nombre": "Veterinaria Del Mar",
+    "provincia": "Chubut",
+    "direccion": "Av. Tte. Coronel Piedrabuena 1755, U9001 Rada Tilly, Chubut, Argentina",
+    "telefono": "+54 297 445-1983",
+    "sitioWeb": "",
+    "lat": -45.9277848,
+    "lon": -67.5545678
+  },
+  {
+    "nombre": "Veterinaria Chubut de Hector Luis Lafourcade",
+    "provincia": "Chubut",
+    "direccion": "Pellegrini 1882, U9100 Trelew, Chubut, Argentina",
+    "telefono": "+54 280 443-7466",
+    "sitioWeb": "",
+    "lat": -43.2689698,
+    "lon": -65.2968749
+  },
+  {
+    "nombre": "Clinivet",
+    "provincia": "Chubut",
+    "direccion": "Av. Juan José Paso 1838, Comodoro Rivadavia, Chubut, Argentina",
+    "telefono": "+54 4549902",
+    "sitioWeb": "",
+    "lat": -45.7947519,
+    "lon": -67.4686432
+  },
+  {
+    "nombre": "Consultorio Veterinario Patagonia",
+    "provincia": "Chubut",
+    "direccion": "Av. Juan Manuel de Rosas 284, U9120 Playa Union, Chubut, Argentina",
+    "telefono": "+54 280 469-0722",
+    "sitioWeb": "",
+    "lat": -43.3113005,
+    "lon": -65.0416947
+  },
+  {
+    "nombre": "Veterinaria Sol de Mayo",
+    "provincia": "Chubut",
+    "direccion": "Ameghino 1346, U9002FLD Comodoro Rivadavia, Chubut, Argentina",
+    "telefono": "+54 297 447-7277",
+    "sitioWeb": "",
+    "lat": -45.8636077,
+    "lon": -67.4948365
+  },
+  {
+    "nombre": "Veterinaria Tehuelches",
+    "provincia": "Chubut",
+    "direccion": "Av. Tehuelches 151, U9000 Comodoro Rivadavia, Chubut, Argentina",
+    "telefono": "+54 297 455-8348",
+    "sitioWeb": "",
+    "lat": -45.8349787,
+    "lon": -67.4782555
+  },
+  {
+    "nombre": "Diagnosis",
+    "provincia": "Chubut",
+    "direccion": "Musters 1916, U9100 Trelew, Chubut, Argentina",
+    "telefono": "",
+    "sitioWeb": "",
+    "lat": -43.2737026,
+    "lon": -65.3023531
+  },
+  {
+    "nombre": "Veterinaria Playa",
+    "provincia": "Chubut",
+    "direccion": "Canonico Vivaldi 146, U9120 Playa Union, Chubut, Argentina",
+    "telefono": "+54 9 280 462-0966",
+    "sitioWeb": "",
+    "lat": -43.3212353,
+    "lon": -65.0486204
+  },
+  {
+    "nombre": "Centro Veterinario Trelew",
+    "provincia": "Chubut",
+    "direccion": "Moreno 1479, U9100 Trelew, Chubut, Argentina",
+    "telefono": "+54 280 443-9422",
+    "sitioWeb": "https://www.facebook.com/Centro-Veterinario-Trelew-170381879735750/",
+    "lat": -43.2609345,
+    "lon": -65.2931383
+  },
+  {
+    "nombre": "Latidos.ar",
+    "provincia": "Chubut",
+    "direccion": "",
+    "telefono": "+54 297 457-6677",
+    "sitioWeb": "",
+    "lat": -45.837134,
+    "lon": -67.5012645
+  },
+  {
+    "nombre": "Veterinaria Matias",
+    "provincia": "Chubut",
+    "direccion": "Saavedra 555, U9002 Comodoro Rivadavia, Chubut, Argentina",
+    "telefono": "+54 297 446-1799",
+    "sitioWeb": "https://www.facebook.com/VeterinariaMatias/",
+    "lat": -45.8650382,
+    "lon": -67.4955529
+  },
+  {
+    "nombre": "Clinica Veterinaria Integral Dr Albanesi Marcelo",
+    "provincia": "Chubut",
+    "direccion": "Av. Hipólito Yrigoyen 846, U9100 Trelew, Chubut, Argentina",
+    "telefono": "+54 280 442-8800",
+    "sitioWeb": "",
+    "lat": -43.2570741,
+    "lon": -65.3003205
+  },
+  {
+    "nombre": "Veterinaria Gachen`s",
+    "provincia": "Chubut",
+    "direccion": "Brig. Juan Gutiérrez de la Concha 383, U9001 Rada Tilly, Chubut, Argentina",
+    "telefono": "+54 297 424-2184",
+    "sitioWeb": "",
+    "lat": -45.9407169,
+    "lon": -67.5620105
+  },
+  {
+    "nombre": "Veterinarios A Domicilio CR",
+    "provincia": "Chubut",
+    "direccion": "",
+    "telefono": "+54 297 513-5377",
+    "sitioWeb": "",
+    "lat": -45.8597874,
+    "lon": -67.5404738
+  },
+  {
+    "nombre": "San Andres veterinary",
+    "provincia": "Chubut",
+    "direccion": "Antártida Argentina 08, U9000 Comodoro Rivadavia, Chubut, Argentina",
+    "telefono": "+54 297 623-7299",
+    "sitioWeb": "",
+    "lat": -45.7943329,
+    "lon": -67.4836404
+  },
+  {
+    "nombre": "Hospital Veterinario Córdoba (PRIVADO)",
+    "provincia": "Córdoba",
+    "direccion": "Fructuoso Rivera 35, X5000BOA Córdoba, Argentina",
+    "telefono": "+54 351 428-2426",
+    "sitioWeb": "https://hvcweb.ar/",
+    "lat": -31.4266656,
+    "lon": -64.1889428
+  },
+  {
+    "nombre": "Veterinaria EIKCOS, Urgencias 24HS",
+    "provincia": "Córdoba",
+    "direccion": "Rodríguez del Busto 3068, X5000 Córdoba, Argentina",
+    "telefono": "+54 351 365-1916",
+    "sitioWeb": "",
+    "lat": -31.3730441,
+    "lon": -64.2219498
+  },
+  {
+    "nombre": "Veterinaria Centauro",
+    "provincia": "Córdoba",
+    "direccion": "Av Armada Argentina 141, Las Flores, X5016DFB Córdoba, Argentina",
+    "telefono": "+54 351 878-4858",
+    "sitioWeb": "",
+    "lat": -31.451526,
+    "lon": -64.2028299
+  },
+  {
+    "nombre": "PRO-VET",
+    "provincia": "Córdoba",
+    "direccion": "Av. Pablo Richieri 2760 Jardín, X5014 OPH, Córdoba, Argentina",
+    "telefono": "+54 351 464-8690",
+    "sitioWeb": "",
+    "lat": -31.443646,
+    "lon": -64.176829
+  },
+  {
+    "nombre": "AGMA Veterinaria",
+    "provincia": "Córdoba",
+    "direccion": "Av. J. M. de Pueyrredón 1680, X5000 Córdoba, Argentina",
+    "telefono": "+54 351 877-6719",
+    "sitioWeb": "",
+    "lat": -31.4208584,
+    "lon": -64.2099246
+  },
+  {
+    "nombre": "Mac Animal Medicine Cba",
+    "provincia": "Córdoba",
+    "direccion": "Av. Recta Martinolli 6455, X5147 Córdoba, Argentina",
+    "telefono": "",
+    "sitioWeb": "https://m.facebook.com/veterinariamac/?locale2=es_LA",
+    "lat": -31.3486842,
+    "lon": -64.2550875
+  },
+  {
+    "nombre": "Clinica Veterinaria Jaguel SA",
+    "provincia": "Córdoba",
+    "direccion": "Av. Juan B Justo 3680, X5000 Córdoba, Argentina",
+    "telefono": "+54 351 600-8429",
+    "sitioWeb": "https://www.facebook.com/veterinariajaguelok/",
+    "lat": -31.3821938,
+    "lon": -64.1757731
+  },
+  {
+    "nombre": "CLÍNICA VETERINARIA PLANETA ANIMAL",
+    "provincia": "Córdoba",
+    "direccion": "Av. 24 de Septiembre 1336, X5004 FTN, Córdoba, Argentina",
+    "telefono": "+54 351 351-1984",
+    "sitioWeb": "",
+    "lat": -31.4137911,
+    "lon": -64.165463
+  },
+  {
+    "nombre": "Veterinaria Nueva Córdoba",
+    "provincia": "Córdoba",
+    "direccion": "Ituzaingó 755, X5000BFF Córdoba, Argentina",
+    "telefono": "+54 351 531-6058",
+    "sitioWeb": "",
+    "lat": -31.4257683,
+    "lon": -64.1850307
+  },
+  {
+    "nombre": "Clínicas Veterinarias Eva Inguerman Sucursal Nueva Cordoba",
+    "provincia": "Córdoba",
+    "direccion": "Obispo Trejo 629, X5000 Córdoba, Argentina",
+    "telefono": "+54 351 643-8888",
+    "sitioWeb": "https://evainguerman.com/",
+    "lat": -31.4232484,
+    "lon": -64.1884916
+  },
+  {
+    "nombre": "Veterinaria \"El Naranjo\"",
+    "provincia": "Córdoba",
+    "direccion": "Maestro Vidal 1833, X5000 Córdoba, Argentina",
+    "telefono": "+54 351 813-3808",
+    "sitioWeb": "https://instagram.com/elnaranjoveterinaria?igshid=NmQ2ZmYxZjA=",
+    "lat": -31.430228,
+    "lon": -64.2299871
+  },
+  {
+    "nombre": "Clínicas Veterinarias Eva Inguerman Sucursal Central",
+    "provincia": "Córdoba",
+    "direccion": "Av. Colón 6200, X5000 Córdoba, Argentina",
+    "telefono": "+54 351 260-2222",
+    "sitioWeb": "https://evainguerman.com/",
+    "lat": -31.3939714,
+    "lon": -64.2629118
+  },
+  {
+    "nombre": "Veterinaria Córdoba",
+    "provincia": "Córdoba",
+    "direccion": "Jujuy 1491, X5000KBG Córdoba, Argentina",
+    "telefono": "+54 351 764-4824",
+    "sitioWeb": "",
+    "lat": -31.3988432,
+    "lon": -64.184503
+  },
+  {
+    "nombre": "veterinaria 𝗚𝗨̈𝗘𝗠𝗘𝗦",
+    "provincia": "Córdoba",
+    "direccion": "Av. Marcelo T. de Alvear 1085, X5000 Córdoba, Argentina",
+    "telefono": "+54 351 645-8061",
+    "sitioWeb": "https://instagram.com/veterinariaguemes",
+    "lat": -31.4269014,
+    "lon": -64.1944221
+  },
+  {
+    "nombre": "MEGAVET veterinaria y distribuidora",
+    "provincia": "Córdoba",
+    "direccion": "Av. Armada Argentina 910, X5016 Córdoba, Argentina",
+    "telefono": "+54 351 806-4715",
+    "sitioWeb": "",
+    "lat": -31.4585863,
+    "lon": -64.2134405
+  },
+  {
+    "nombre": "Hocicos – Sanatorio Veterinario",
+    "provincia": "Córdoba",
+    "direccion": "Av. Colón 3870, X5000 Córdoba, Argentina",
+    "telefono": "+54 351 202-9506",
+    "sitioWeb": "https://instagram.com/hocicosveterinaria?igshid=ZDdkNTZiNTM=",
+    "lat": -31.3988742,
+    "lon": -64.2310794
+  },
+  {
+    "nombre": "Ucle Veterinaria",
+    "provincia": "Córdoba",
+    "direccion": "Maestro Vidal 1600, X5001 Córdoba, Argentina",
+    "telefono": "+54 351 465-5495",
+    "sitioWeb": "",
+    "lat": -31.4276187,
+    "lon": -64.2296549
+  },
+  {
+    "nombre": "La Cucha Veterinaria",
+    "provincia": "Córdoba",
+    "direccion": "Av. Colón 2183, X5003 DCF, Córdoba, Argentina",
+    "telefono": "+54 351 489-8499",
+    "sitioWeb": "https://www.instagram.com/lacucha.veterinaria/",
+    "lat": -31.4054857,
+    "lon": -64.2113699
+  },
+  {
+    "nombre": "VETERINARIA A DOMICILIO CÓRDOBA",
+    "provincia": "Córdoba",
+    "direccion": "",
+    "telefono": "+54 351 621-4333",
+    "sitioWeb": "",
+    "lat": -31.3994723,
+    "lon": -64.1896443
+  },
+  {
+    "nombre": "Hakuna Matata Veterinary",
+    "provincia": "Córdoba",
+    "direccion": "Av. Armada Argentina 209, X5008 Córdoba, Argentina",
+    "telefono": "+54 351 461-0303",
+    "sitioWeb": "https://www.facebook.com/vetehakunamatata",
+    "lat": -31.4526285,
+    "lon": -64.2043255
+  },
+  {
+    "nombre": "Armenia Clínica Veterinaria & Tienda de Mascotas",
+    "provincia": "Corrientes",
+    "direccion": "Av. Armenia 3450, W3400 Corrientes, Argentina",
+    "telefono": "+54 379 418-4888",
+    "sitioWeb": "",
+    "lat": -27.4677483,
+    "lon": -58.8059529
+  },
+  {
+    "nombre": "Veterinaria Pedro Pujol",
+    "provincia": "Corrientes",
+    "direccion": "Dr. Felipe Cabral 2346, W3400 Corrientes, Argentina",
+    "telefono": "+54 379 460-8370",
+    "sitioWeb": "http://www.instagram.com/pedropujol.vet",
+    "lat": -27.4656301,
+    "lon": -58.8202981
+  },
+  {
+    "nombre": "E.ME.VET EQUIPO MEDICO VETERINARIO",
+    "provincia": "Corrientes",
+    "direccion": "Av. Pedro Ferré 2714, W3400 Corrientes, Argentina",
+    "telefono": "",
+    "sitioWeb": "https://www.facebook.com/emevet24/",
+    "lat": -27.478334,
+    "lon": -58.8183089
+  },
+  {
+    "nombre": "Veterinaria Dr. Sapito",
+    "provincia": "Corrientes",
+    "direccion": "Lamadrid 3635, W3400 Corrientes, Argentina",
+    "telefono": "+54 379 477-4611",
+    "sitioWeb": "https://instagram.com/sapitopetshop/",
+    "lat": -27.4853549,
+    "lon": -58.8077562
+  },
+  {
+    "nombre": "Veterinaria del sol",
+    "provincia": "Corrientes",
+    "direccion": "Mendoza 1321, W3400CCT Corrientes, Argentina",
+    "telefono": "",
+    "sitioWeb": "",
+    "lat": -27.4724851,
+    "lon": -58.835988
+  },
+  {
+    "nombre": "Veterinaria Costanera",
+    "provincia": "Corrientes",
+    "direccion": "San Martín 329, W3400AVM W3400BOH, Corrientes, Argentina",
+    "telefono": "+54 379 484-1052",
+    "sitioWeb": "",
+    "lat": -27.4690003,
+    "lon": -58.8465668
+  },
+  {
+    "nombre": "Veterinaria Magus",
+    "provincia": "Corrientes",
+    "direccion": "José María Rolón 2404, W3400 Corrientes, Argentina",
+    "telefono": "+54 379 507-2566",
+    "sitioWeb": "https://www.instagram.com/veterinariamagus?igsh=MXE3N3UzNmZteWNwcA==",
+    "lat": -27.4617458,
+    "lon": -58.8189973
+  },
+  {
+    "nombre": "Veterinaria Yahuaré",
+    "provincia": "Corrientes",
+    "direccion": "Av. Artigas 1410, W3400 Corrientes, Argentina",
+    "telefono": "+54 379 482-9658",
+    "sitioWeb": "",
+    "lat": -27.475129,
+    "lon": -58.819556
+  },
+  {
+    "nombre": "Iberá Clínica Veterinaria",
+    "provincia": "Corrientes",
+    "direccion": "W3400BAP, Carlos Pellegrini 843, W3400BAP Corrientes, Argentina",
+    "telefono": "+54 379 517-6191",
+    "sitioWeb": "https://www.facebook.com/Ibera-Veterinaria-1166025383432480",
+    "lat": -27.4649814,
+    "lon": -58.8398517
+  },
+  {
+    "nombre": "Clínica Veterinaria Madagascar",
+    "provincia": "Corrientes",
+    "direccion": "Pago Largo, W3400 Corrientes, Argentina",
+    "telefono": "+54 379 433-6359",
+    "sitioWeb": "http://www.facebook.com/clinicaveterinariamadagascar",
+    "lat": -27.4679306,
+    "lon": -58.8480107
+  },
+  {
+    "nombre": "Clínica Veterinaria Ta'yrusú",
+    "provincia": "Corrientes",
+    "direccion": "Lavalle 685, W3410BCM Corrientes, Argentina",
+    "telefono": "+54 379 443-6611",
+    "sitioWeb": "",
+    "lat": -27.476114,
+    "lon": -58.843416
+  },
+  {
+    "nombre": "Vet House",
+    "provincia": "Corrientes",
+    "direccion": "2114, HWK, Gutenberg, W3410 Corrientes, Argentina",
+    "telefono": "+54 4978498",
+    "sitioWeb": "",
+    "lat": -27.4825387,
+    "lon": -58.8322639
+  },
+  {
+    "nombre": "Veterinaria Ozikos",
+    "provincia": "Corrientes",
+    "direccion": "Av. Raúl Alfonsín 4604, W3402 Corrientes, Argentina",
+    "telefono": "+54 379 462-4346",
+    "sitioWeb": "",
+    "lat": -27.4758552,
+    "lon": -58.7943433
+  },
+  {
+    "nombre": "La Jungla Pet Shop",
+    "provincia": "Corrientes",
+    "direccion": "Hipólito Yrigoyen 1778, W3400 Corrientes, Argentina",
+    "telefono": "+54 379 467-1000",
+    "sitioWeb": "",
+    "lat": -27.4695421,
+    "lon": -58.8283322
+  },
+  {
+    "nombre": "Veterinaria \"La Familia\"",
+    "provincia": "Corrientes",
+    "direccion": "Bañado Norte, French 2262, W3402AKF Corrientes, Argentina",
+    "telefono": "+54 379 428-9401",
+    "sitioWeb": "",
+    "lat": -27.4637908,
+    "lon": -58.8211236
+  },
+  {
+    "nombre": "Veterinaria Salta",
+    "provincia": "Corrientes",
+    "direccion": "San Martín 1201, W3400APY Corrientes, Argentina",
+    "telefono": "+54 379 442-2488",
+    "sitioWeb": "",
+    "lat": -27.4697634,
+    "lon": -58.8357526
+  },
+  {
+    "nombre": "Cambá Cuá Vet Shop & Spa",
+    "provincia": "Corrientes",
+    "direccion": "Entre Ríos 1581, W3400BOT Corrientes, Argentina",
+    "telefono": "+54 379 504-8310",
+    "sitioWeb": "http://cambacuavetshop.com.ar/",
+    "lat": -27.4742042,
+    "lon": -58.8446355
+  },
+  {
+    "nombre": "Consultorio Veterinario San Luis",
+    "provincia": "Corrientes",
+    "direccion": "San Luís 1497, W3400BOS Corrientes, Argentina",
+    "telefono": "+54 379 467-2956",
+    "sitioWeb": "",
+    "lat": -27.4736915,
+    "lon": -58.8433329
+  },
+  {
+    "nombre": "Ñandeyara Veterinaria",
+    "provincia": "Corrientes",
+    "direccion": "Congreso 1503, W3400 Corrientes, Argentina",
+    "telefono": "+54 379 461-8028",
+    "sitioWeb": "",
+    "lat": -27.4928049,
+    "lon": -58.8343883
+  },
+  {
+    "nombre": "Clinica Veterinaria La Paz",
+    "provincia": "Corrientes",
+    "direccion": "San Lorenzo 720, W3400CFJ Corrientes, Argentina",
+    "telefono": "+54 379 497-8171",
+    "sitioWeb": "https://www.facebook.com/clinicavet.lapaz/",
+    "lat": -27.4659726,
+    "lon": -58.8316835
+  },
+  {
+    "nombre": "Veterinary Referral Center",
+    "provincia": "Entre Ríos",
+    "direccion": "J Rondeau 823, E3100 Paraná, Entre Ríos, Argentina",
+    "telefono": "+54 343 698-5321",
+    "sitioWeb": "http://www.urgenciasveterinariasparana.com/",
+    "lat": -31.7447401,
+    "lon": -60.5010291
+  },
+  {
+    "nombre": "Veterinaria RIO",
+    "provincia": "Entre Ríos",
+    "direccion": "Provincias Unidas 615, E3100 Paraná, Entre Ríos, Argentina",
+    "telefono": "+54 343 434-4165",
+    "sitioWeb": "",
+    "lat": -31.757839,
+    "lon": -60.5121279
+  },
+  {
+    "nombre": "Veterinaria Argentina Guillermo Cura",
+    "provincia": "Entre Ríos",
+    "direccion": "Casiano Calderón 1648, E3100 Paraná, Entre Ríos, Argentina",
+    "telefono": "+54 343 427-1893",
+    "sitioWeb": "",
+    "lat": -31.7409415,
+    "lon": -60.5420312
+  },
+  {
+    "nombre": "Clinica Veterinaria 24HS",
+    "provincia": "Entre Ríos",
+    "direccion": "Av. Ejército 1466, E3100 Paraná, Entre Ríos, Argentina",
+    "telefono": "+54 9 343 500-0524",
+    "sitioWeb": "https://www.parana.com.ar/veterinaria-24hs",
+    "lat": -31.7443297,
+    "lon": -60.5361661
+  },
+  {
+    "nombre": "Veterinaria Kober",
+    "provincia": "Entre Ríos",
+    "direccion": "Yrigoyen 150 ,San Jose de Feliciano, Entre Ríos, Hipólito Irigoyen 135, E3187AIF San Jose de Feliciano, Entre Ríos, Argentina",
+    "telefono": "+54 9 3458 49-6011",
+    "sitioWeb": "https://www.facebook.com/veterinariakober",
+    "lat": -30.3852718,
+    "lon": -58.7456103
+  },
+  {
+    "nombre": "Veterinaria Victoria",
+    "provincia": "Entre Ríos",
+    "direccion": "9 de Julio 269, E3153 Victoria, Entre Ríos, Argentina",
+    "telefono": "+54 3436 42-5439",
+    "sitioWeb": "",
+    "lat": -32.6241362,
+    "lon": -60.1519005
+  },
+  {
+    "nombre": "Veterinaria San José",
+    "provincia": "Entre Ríos",
+    "direccion": "E3283 San José, Entre Ríos Province, Argentina",
+    "telefono": "+54 3447 45-3809",
+    "sitioWeb": "",
+    "lat": -32.2082338,
+    "lon": -58.2231417
+  },
+  {
+    "nombre": "Hospital Veterinario Gualeguaychu HVG",
+    "provincia": "Entre Ríos",
+    "direccion": "Urquiza 225, E2820 Gualeguaychú, Entre Ríos, Argentina",
+    "telefono": "+54 3446 65-8324",
+    "sitioWeb": "",
+    "lat": -33.008625,
+    "lon": -58.5054887
+  },
+  {
+    "nombre": "Clínica Veterinaria Crespo",
+    "provincia": "Entre Ríos",
+    "direccion": "Av. Los Constituyentes 1750, E3116 Crespo, Entre Ríos, Argentina",
+    "telefono": "+54 9 343 429-8261",
+    "sitioWeb": "https://www.instagram.com/crespoveterinaria_",
+    "lat": -32.0401528,
+    "lon": -60.2991522
+  },
+  {
+    "nombre": "Veterinaria San Jose SRL - Asesoramiento Avicola",
+    "provincia": "Entre Ríos",
+    "direccion": "Av Independencia 1071, Crespo, ENTRE RIOS, Argentina",
+    "telefono": "+54 343 495-2908",
+    "sitioWeb": "",
+    "lat": -31.736263,
+    "lon": -60.50046
+  },
+  {
+    "nombre": "Veterinaria Cachorros",
+    "provincia": "Entre Ríos",
+    "direccion": "Alte Francisco Segui 10, Concepci n del Uruguay, Entre Rios, Argentina",
+    "telefono": "+54 3442 42-7016",
+    "sitioWeb": "",
+    "lat": -32.48325,
+    "lon": -58.233334
+  },
+  {
+    "nombre": "Veterinaria Integral Victoria",
+    "provincia": "Entre Ríos",
+    "direccion": "Sola 248, E3153 Victoria, Entre Ríos, Argentina",
+    "telefono": "+54 9 3436 61-2586",
+    "sitioWeb": "",
+    "lat": -32.6280369,
+    "lon": -60.1563943
+  },
+  {
+    "nombre": "Centro de Diagnostico Veterinario",
+    "provincia": "Entre Ríos",
+    "direccion": "Antonio Crespo 13, E3100 Paran , Entre Ríos, Argentina",
+    "telefono": "+54 343 422-5009",
+    "sitioWeb": "",
+    "lat": -31.7231491,
+    "lon": -60.5132443
+  },
+  {
+    "nombre": "Veterinaria Colon",
+    "provincia": "Entre Ríos",
+    "direccion": "Av. Leopoldo Herrera 877, E3240 Villaguay, Entre Ríos, Argentina",
+    "telefono": "+54 3455 42-1437",
+    "sitioWeb": "",
+    "lat": -31.8620428,
+    "lon": -59.0315734
+  },
+  {
+    "nombre": "San Francisco De Asís Clínica Veterinaria",
+    "provincia": "Entre Ríos",
+    "direccion": "Salvador Caputto 2283, E3106 Paraná, Entre Ríos, Argentina",
+    "telefono": "+54 343 450-8805",
+    "sitioWeb": "https://www.instagram.com/veterinaria.sanfranciscodeasis/",
+    "lat": -31.7770965,
+    "lon": -60.4837455
+  },
+  {
+    "nombre": "Clinica Veterinaria Dr. Marcelo Rojo",
+    "provincia": "Entre Ríos",
+    "direccion": "Av San Martín 786, E3280 Colón, Entre Ríos, Argentina",
+    "telefono": "",
+    "sitioWeb": "",
+    "lat": -32.2266523,
+    "lon": -58.1473376
+  },
+  {
+    "nombre": "Veterinaria Integral",
+    "provincia": "Entre Ríos",
+    "direccion": "",
+    "telefono": "+54 3446 42-2494",
+    "sitioWeb": "",
+    "lat": -38.45155,
+    "lon": -63.5989957
+  },
+  {
+    "nombre": "Agroveterinaria 9 de Julio",
+    "provincia": "Entre Ríos",
+    "direccion": "9 de Julio 235, E3174 Rosario del Tala, Entre Ríos, Argentina",
+    "telefono": "+54 3445 42-1361",
+    "sitioWeb": "",
+    "lat": -32.2992291,
+    "lon": -59.137601
+  },
+  {
+    "nombre": "Veterinaria de Peque os Y Grandes Animales Dr Reynoso Horaci",
+    "provincia": "Entre Ríos",
+    "direccion": "Espa a Avda 1112, Nogoy , Entre Rios, Argentina",
+    "telefono": "+54 3435 42-2770",
+    "sitioWeb": "",
+    "lat": -32.399918,
+    "lon": -59.816666
+  },
+  {
+    "nombre": "Clinica Veterinaria Argentina",
+    "provincia": "Entre Ríos",
+    "direccion": "Casiano Calderón 1642, E3100 Paraná, Entre Ríos, Argentina",
+    "telefono": "",
+    "sitioWeb": "",
+    "lat": -31.741027,
+    "lon": -60.5419689
+  },
+  {
+    "nombre": "Clinica Veterinaria Pet World",
+    "provincia": "Entre Ríos",
+    "direccion": "GXVP+Q7G, Bulevar del Nte., 21102 San Pedro Sula, Cortés",
+    "telefono": "3190-3668",
+    "sitioWeb": "",
+    "lat": 15.544439,
+    "lon": -88.014308
+  },
+  {
+    "nombre": "Huellas",
+    "provincia": "Formosa",
+    "direccion": "P3600AIU, 9 de Julio 1355, P3600AIU Formosa, Argentina",
+    "telefono": "+54 370 443-1428",
+    "sitioWeb": "",
+    "lat": -26.1911359,
+    "lon": -58.1723798
+  },
+  {
+    "nombre": "San Roque veterinary",
+    "provincia": "Formosa",
+    "direccion": "P3600IWL, Padre Grotti 1000-1098, P3600IWL Formosa, Argentina",
+    "telefono": "+54 9 370 454-4705",
+    "sitioWeb": "",
+    "lat": -26.190687,
+    "lon": -58.181121
+  },
+  {
+    "nombre": "Marina Ayala Clínica Veterinaria",
+    "provincia": "Formosa",
+    "direccion": "Puchini 2198, P3600 Formosa, Argentina",
+    "telefono": "+54 370 464-4134",
+    "sitioWeb": "https://www.instagram.com/dramarinaayala/",
+    "lat": -26.1678632,
+    "lon": -58.1982262
+  },
+  {
+    "nombre": "Clínica Veterinaria Felipe",
+    "provincia": "Formosa",
+    "direccion": "Pringles 1706, P3600 Formosa, Argentina",
+    "telefono": "+54 370 534-1373",
+    "sitioWeb": "",
+    "lat": -26.1850873,
+    "lon": -58.1851839
+  },
+  {
+    "nombre": "Veterinaria Casa Blanca",
+    "provincia": "Formosa",
+    "direccion": "Padre Patiño 431, P3600 Formosa, Argentina",
+    "telefono": "",
+    "sitioWeb": "",
+    "lat": -26.1799649,
+    "lon": -58.1713355
+  },
+  {
+    "nombre": "Veterinaria Sandocan",
+    "provincia": "Formosa",
+    "direccion": "Moreno 1378, P3600 Formosa, Argentina",
+    "telefono": "+54 370 403-9114",
+    "sitioWeb": "",
+    "lat": -26.1888513,
+    "lon": -58.1651798
+  },
+  {
+    "nombre": "VETERINARIA OkDoc",
+    "provincia": "Formosa",
+    "direccion": "Fortín Yunka 145, P3600 Formosa, Argentina",
+    "telefono": "+54 379 409-5592",
+    "sitioWeb": "https://www.instagram.com/okdoc_veterinaria?igsh=MWZ6eXBmdDZkMWxsNA==",
+    "lat": -26.1800066,
+    "lon": -58.1818186
+  },
+  {
+    "nombre": "VETERINARIA FORMOSA",
+    "provincia": "Formosa",
+    "direccion": "Barrio El Resguardo, Marighetti 856, P3600 Formosa, Argentina",
+    "telefono": "+54 370 471-7272",
+    "sitioWeb": "",
+    "lat": -26.1603049,
+    "lon": -58.1830596
+  },
+  {
+    "nombre": "LOLA VET",
+    "provincia": "Formosa",
+    "direccion": "Río Negro entre Winter y, C. C Girola, 3600 Formosa, Argentina",
+    "telefono": "+54 370 460-4016",
+    "sitioWeb": "",
+    "lat": -26.1769124,
+    "lon": -58.1998381
+  },
+  {
+    "nombre": "VETLIFE Veterinaria",
+    "provincia": "Formosa",
+    "direccion": "Av. Dr. Luis Gutnisky 4050, P3600 Formosa, Argentina",
+    "telefono": "+54 370 429-7721",
+    "sitioWeb": "https://www.instagram.com/veterinaria_vetlifeformosa/",
+    "lat": -26.1964278,
+    "lon": -58.2072052
+  },
+  {
+    "nombre": "Veterinaria Sabuesos",
+    "provincia": "Formosa",
+    "direccion": "Pringles, P3600 Formosa, Argentina",
+    "telefono": "",
+    "sitioWeb": "",
+    "lat": -26.1841682,
+    "lon": -58.1823262
+  },
+  {
+    "nombre": "VETERINARIA ROMERO GARCÍA",
+    "provincia": "Formosa",
+    "direccion": "Av. Italia 1864, P3600JWA P3600JWA, Formosa, Argentina",
+    "telefono": "+54 370 402-9021",
+    "sitioWeb": "",
+    "lat": -26.1719387,
+    "lon": -58.1925222
+  },
+  {
+    "nombre": "Veterinary Cucha",
+    "provincia": "Formosa",
+    "direccion": "Moreno 410, P3600 Formosa, Argentina",
+    "telefono": "+54 370 534-1539",
+    "sitioWeb": "https://www.facebook.com/vetlacuchaformosa/",
+    "lat": -26.1789375,
+    "lon": -58.1689096
+  },
+  {
+    "nombre": "Neozoo Tienda de Mascotas",
+    "provincia": "Formosa",
+    "direccion": "Av. Dr. Luis Gutnisky 2085, P3600 Formosa, Argentina",
+    "telefono": "+54 370 502-2675",
+    "sitioWeb": "https://neozoo.com.ar/",
+    "lat": -26.1895628,
+    "lon": -58.1881921
+  },
+  {
+    "nombre": "Veterinaria Las Mellis",
+    "provincia": "Formosa",
+    "direccion": "Blas Parera 839, P3600ERY Formosa, Argentina",
+    "telefono": "+54 379 404-2317",
+    "sitioWeb": "",
+    "lat": -26.19614,
+    "lon": -58.2056529
+  },
+  {
+    "nombre": "VETERINARIA ESPACIO ANIMAL",
+    "provincia": "Formosa",
+    "direccion": "Carlos Brunelli 375, P3600 Formosa, Argentina",
+    "telefono": "+54 370 496-9840",
+    "sitioWeb": "https://www.gvetweb.com/espacio-animal",
+    "lat": -26.1721403,
+    "lon": -58.1766848
+  },
+  {
+    "nombre": "Veterinaria El Rebenque",
+    "provincia": "Formosa",
+    "direccion": "Av. González Lelong 154, P3600 DDW, Formosa, Argentina",
+    "telefono": "",
+    "sitioWeb": "",
+    "lat": -26.1743328,
+    "lon": -58.1690882
+  },
+  {
+    "nombre": "Veterinaria La Cucha",
+    "provincia": "Formosa",
+    "direccion": "Fortín Yunka 748, P3600 Formosa, Argentina",
+    "telefono": "",
+    "sitioWeb": "",
+    "lat": -26.186029,
+    "lon": -58.1791096
+  },
+  {
+    "nombre": "Vida animal Clinica Veterinária - FORMOSA",
+    "provincia": "Formosa",
+    "direccion": "Av das Américas 160 setor industrial 2, Formosa - GO, 73803-135, Brazil",
+    "telefono": "+55 61 99694-2535",
+    "sitioWeb": "",
+    "lat": -15.5462139,
+    "lon": -47.347263
+  },
+  {
+    "nombre": "Veterinaria Libertad",
+    "provincia": "Formosa",
+    "direccion": "P3600ABZ, Av. 25 de Mayo 460, P3600ABZ Formosa, Argentina",
+    "telefono": "+54 370 406-3575",
+    "sitioWeb": "",
+    "lat": -26.1838841,
+    "lon": -58.1693366
+  },
+  {
+    "nombre": "Veterinaria Alqo-Mishi en JUJUY",
+    "provincia": "Jujuy",
+    "direccion": "Av. 10 de Junio 456, Y4600 San Salvador de Jujuy, Jujuy, Argentina",
+    "telefono": "+54 388 585-8716",
+    "sitioWeb": "",
+    "lat": -24.2125403,
+    "lon": -65.2662881
+  },
+  {
+    "nombre": "VETERINARY CLINIC Campero",
+    "provincia": "Jujuy",
+    "direccion": "Av. Dr. Joaquín Carrillo 461, Y4600 San Salvador de Jujuy, Jujuy, Argentina",
+    "telefono": "+54 388 422-9199",
+    "sitioWeb": "http://www.facebook.com/veterinariacampero",
+    "lat": -24.1863893,
+    "lon": -65.3194152
+  },
+  {
+    "nombre": "CENTRO VETERINARIO JUJUY",
+    "provincia": "Jujuy",
+    "direccion": "Leandro N. Alem 642, Y4600 San Salvador de Jujuy, Jujuy, Argentina",
+    "telefono": "+54 388 431-0053",
+    "sitioWeb": "https://www.paginasamarillas.com.ar/fichas/centro-veterinario-jujuy_14113251/",
+    "lat": -24.1924037,
+    "lon": -65.2984189
+  },
+  {
+    "nombre": "Veterinaria Los Perales - Urgencias - Cirugias - Farmacia",
+    "provincia": "Jujuy",
+    "direccion": "Av. Dr. Arturo Illia 686, Y4600 San Salvador de Jujuy, Jujuy, Argentina",
+    "telefono": "+54 9 388 484-3322",
+    "sitioWeb": "",
+    "lat": -24.1678747,
+    "lon": -65.3246607
+  },
+  {
+    "nombre": "Veterinary Clinic Pussetto",
+    "provincia": "Jujuy",
+    "direccion": "Av. Parroco Marshke 998, Y4600 San Salvador de Jujuy, Jujuy, Argentina",
+    "telefono": "+54 388 344-9402",
+    "sitioWeb": "",
+    "lat": -24.2010157,
+    "lon": -65.2869837
+  },
+  {
+    "nombre": "Dr Canedi Clínica Veterinaria",
+    "provincia": "Jujuy",
+    "direccion": "Juan A. Carrizo 690, Y4600 San Salvador de Jujuy, Jujuy, Argentina",
+    "telefono": "+54 388 424-3354",
+    "sitioWeb": "",
+    "lat": -24.1799823,
+    "lon": -65.3171851
+  },
+  {
+    "nombre": "Clínica Veterinaria Norte",
+    "provincia": "Jujuy",
+    "direccion": "Libertad 275, Y4600 San Salvador de Jujuy, Jujuy, Argentina",
+    "telefono": "+54 388 410-9812",
+    "sitioWeb": "",
+    "lat": -24.1880086,
+    "lon": -65.3139026
+  },
+  {
+    "nombre": "Veterinaria La Tranquera",
+    "provincia": "Jujuy",
+    "direccion": "Las Vicuñas 890, Y4600 San Salvador de Jujuy, Jujuy, Argentina",
+    "telefono": "+54 388 682-9945",
+    "sitioWeb": "",
+    "lat": -24.170343,
+    "lon": -65.297151
+  },
+  {
+    "nombre": "Veterinaria Belgrano Sur - Dr. Guillermo Diedrich",
+    "provincia": "Jujuy",
+    "direccion": "Av. Almte. Brown 1448, Y4600 San Salvador de Jujuy, Jujuy, Argentina",
+    "telefono": "+54 388 425-9492",
+    "sitioWeb": "https://www.gurugo.com.ar/fichas/veterinaria-belgrano-sur-dr-guillermo-diedrich_14663429",
+    "lat": -24.2049132,
+    "lon": -65.282697
+  },
+  {
+    "nombre": "Veterinaria El Arca De Noé",
+    "provincia": "Jujuy",
+    "direccion": "Av. Dr. Arturo Illia 176, Y4600 San Salvador de Jujuy, Jujuy, Argentina",
+    "telefono": "+54 388 426-2303",
+    "sitioWeb": "",
+    "lat": -24.170503,
+    "lon": -65.3120231
+  },
+  {
+    "nombre": "Don Braulio Veterinaria",
+    "provincia": "Jujuy",
+    "direccion": "Gral. Lamadrid 132, Y4600 San Salvador de Jujuy, Jujuy, Argentina",
+    "telefono": "+54 388 423-4262",
+    "sitioWeb": "https://www.facebook.com/gustavo.bustamante.9847",
+    "lat": -24.187814,
+    "lon": -65.306741
+  },
+  {
+    "nombre": "Clínica Veterinaria Dra. de Aparici",
+    "provincia": "Jujuy",
+    "direccion": "Gral. Belgrano 1374, Y4600ABZ San Salvador de Jujuy, Jujuy, Argentina",
+    "telefono": "+54 388 423-2399",
+    "sitioWeb": "",
+    "lat": -24.1858432,
+    "lon": -65.3121602
+  },
+  {
+    "nombre": "Urgencias Veterinarias",
+    "provincia": "Jujuy",
+    "direccion": "Av. Almte. Brown 1448, Y4600 San Salvador de Jujuy, Jujuy, Argentina",
+    "telefono": "",
+    "sitioWeb": "",
+    "lat": -24.2048823,
+    "lon": -65.2827305
+  },
+  {
+    "nombre": "Veterinaria Rocky",
+    "provincia": "Jujuy",
+    "direccion": "Cnel. Pérez de Uriondo 388, Y4600 San Salvador de Jujuy, Jujuy, Argentina",
+    "telefono": "+54 388 593-1472",
+    "sitioWeb": "",
+    "lat": -24.1932537,
+    "lon": -65.2967148
+  },
+  {
+    "nombre": "La Vete",
+    "provincia": "Jujuy",
+    "direccion": "Las Heras 663, Y4600 San Salvador de Jujuy, Jujuy, Argentina",
+    "telefono": "",
+    "sitioWeb": "",
+    "lat": -24.1968155,
+    "lon": -65.2893189
+  },
+  {
+    "nombre": "Veterinaria Como Perros y Gatos",
+    "provincia": "Jujuy",
+    "direccion": "Av. Hipólito Yrigoyen 1398, Y4600 San Salvador de Jujuy, Jujuy, Argentina",
+    "telefono": "+54 388 343-1921",
+    "sitioWeb": "",
+    "lat": -24.1900564,
+    "lon": -65.3077098
+  },
+  {
+    "nombre": "Veterinaria Calvó",
+    "provincia": "Jujuy",
+    "direccion": "Juana Manuela Gorriti 367, Y4607 San Salvador de Jujuy, Jujuy, Argentina",
+    "telefono": "+54 388 570-3956",
+    "sitioWeb": "",
+    "lat": -24.1917357,
+    "lon": -65.2950882
+  },
+  {
+    "nombre": "Don Bartolomé",
+    "provincia": "Jujuy",
+    "direccion": "Av. Almte. Brown 368, Y4600 San Salvador de Jujuy, Jujuy, Argentina",
+    "telefono": "+54 388 402-0677",
+    "sitioWeb": "",
+    "lat": -24.1930127,
+    "lon": -65.2901517
+  },
+  {
+    "nombre": "Veterinaria El Arriero",
+    "provincia": "Jujuy",
+    "direccion": "Urdininea 320, Y4600 San Salvador de Jujuy, Jujuy, Argentina",
+    "telefono": "+54 358 487-5892",
+    "sitioWeb": "",
+    "lat": -24.1922825,
+    "lon": -65.3012817
+  },
+  {
+    "nombre": "Veterinaria CIVET",
+    "provincia": "Jujuy",
+    "direccion": "Av. José de la Iglesia 1280, Y4607AEP San Salvador de Jujuy, Jujuy, Argentina",
+    "telefono": "+54 388 599-6345",
+    "sitioWeb": "",
+    "lat": -24.1909286,
+    "lon": -65.3059019
+  },
+  {
+    "nombre": "Clínica Veterinaria Argentina",
+    "provincia": "La Pampa",
+    "direccion": "Av. San Martin, L6221 Int. Alvear, La Pampa, Argentina",
+    "telefono": "",
+    "sitioWeb": "",
+    "lat": -35.2337785,
+    "lon": -63.5936481
+  },
+  {
+    "nombre": "Giunta Sanchez Veterinary Center",
+    "provincia": "La Pampa",
+    "direccion": "Av. Uruguay 556, L6300 Santa Rosa, La Pampa, Argentina",
+    "telefono": "+54 9 2954 31-7309",
+    "sitioWeb": "",
+    "lat": -36.6252537,
+    "lon": -64.2985356
+  },
+  {
+    "nombre": "Veterinaria Pampa Sur SRL",
+    "provincia": "La Pampa",
+    "direccion": "FWO Santa Rosa La Pampa AR, Av. Circunvalación Ing Marzo 2136, L6304, Argentina",
+    "telefono": "+54 2954 43-9749",
+    "sitioWeb": "",
+    "lat": -36.6380754,
+    "lon": -64.2726933
+  },
+  {
+    "nombre": "Veterinaria Vaca Negra",
+    "provincia": "La Pampa",
+    "direccion": "8 Nte. 385, L6360 Gral. Pico, La Pampa, Argentina",
+    "telefono": "+54 2302 30-6430",
+    "sitioWeb": "",
+    "lat": -35.6565762,
+    "lon": -63.7701455
+  },
+  {
+    "nombre": "Agroveterinaria El Pampa",
+    "provincia": "La Pampa",
+    "direccion": "Av. Pres. Juan Domingo Perón 2278, L6304 Santa Rosa, La Pampa, Argentina",
+    "telefono": "+54 2954 27-1117",
+    "sitioWeb": "https://www.instagram.com/agroveterinariaelpampa?igsh=MWl6M2M5MjVubzBveQ%3D%3D&utm_source=qr",
+    "lat": -36.6335741,
+    "lon": -64.3147592
+  },
+  {
+    "nombre": "Veterinario A Domicilio 15673779",
+    "provincia": "La Pampa",
+    "direccion": "L6300AVK, Hipólito Yrigoyen 571, L6300AVK Santa Rosa, La Pampa, Argentina",
+    "telefono": "+54 9 2954 67-3779",
+    "sitioWeb": "",
+    "lat": -36.6197246,
+    "lon": -64.2838066
+  },
+  {
+    "nombre": "Veterinaria Argentina",
+    "provincia": "La Pampa",
+    "direccion": "300 1468, L6360 Gral. Pico, La Pampa, Argentina",
+    "telefono": "+54 2302 32-5040",
+    "sitioWeb": "",
+    "lat": -35.6605879,
+    "lon": -63.7785061
+  },
+  {
+    "nombre": "Veterinaria Campos Pampeanos",
+    "provincia": "La Pampa",
+    "direccion": "Av. Bv. Brown 1594, L6303 Toay, La Pampa, Argentina",
+    "telefono": "+54 2954 49-2792",
+    "sitioWeb": "",
+    "lat": -36.676176,
+    "lon": -64.383604
+  },
+  {
+    "nombre": "VETERINARIA CORRIENTES",
+    "provincia": "La Pampa",
+    "direccion": "Moreno 464, L6300 Santa Rosa, La Pampa, Argentina",
+    "telefono": "+54 2954 45-5252",
+    "sitioWeb": "",
+    "lat": -36.6216267,
+    "lon": -64.2862286
+  },
+  {
+    "nombre": "Veterinaria El Candil",
+    "provincia": "La Pampa",
+    "direccion": "Av. Argentino Valle 36, L6300 Santa Rosa, La Pampa, Argentina",
+    "telefono": "+54 2954 41-8172",
+    "sitioWeb": "",
+    "lat": -36.6257839,
+    "lon": -64.2808561
+  },
+  {
+    "nombre": "La Docta Clínica Veterinaria",
+    "provincia": "La Pampa",
+    "direccion": "Av. Argentino Valle 254, L6300 Santa Rosa, La Pampa, Argentina",
+    "telefono": "+54 243233",
+    "sitioWeb": "https://m.facebook.com/ladocta",
+    "lat": -36.6257579,
+    "lon": -64.2784832
+  },
+  {
+    "nombre": "VETERINARIA ARGENTINA",
+    "provincia": "La Pampa",
+    "direccion": "Av San Martín 446, Int. Alvear, La Pampa, Argentina",
+    "telefono": "+54 2302 48-2046",
+    "sitioWeb": "",
+    "lat": -35.249916,
+    "lon": -63.6
+  },
+  {
+    "nombre": "CLÍNICA VETERINARIA MASCOTAS",
+    "provincia": "La Pampa",
+    "direccion": "Av. San Martín 976 21, L6360 Gral. Pico, La Pampa, Argentina",
+    "telefono": "+54 2302 43-0272",
+    "sitioWeb": "",
+    "lat": -35.6641935,
+    "lon": -63.7511247
+  },
+  {
+    "nombre": "Clinica Veterinaria \"El Hostal\"",
+    "provincia": "La Pampa",
+    "direccion": "Roque Sáenz Peña 807, L6300EXA Santa Rosa, La Pampa, Argentina",
+    "telefono": "+54 2954 24-2002",
+    "sitioWeb": "https://elhostal.pampeanamente.com.ar/",
+    "lat": -36.6260647,
+    "lon": -64.2884196
+  },
+  {
+    "nombre": "Pata De Perro",
+    "provincia": "La Pampa",
+    "direccion": "C. 107 1065, L6360 Gral. Pico, La Pampa, Argentina",
+    "telefono": "+54 2302 43-2247",
+    "sitioWeb": "",
+    "lat": -35.6505895,
+    "lon": -63.7627839
+  },
+  {
+    "nombre": "Veterinaria Lawen",
+    "provincia": "La Pampa",
+    "direccion": "Don Bosco 19, L8201 25 de Mayo, La Pampa, Argentina",
+    "telefono": "+54 299 494-8952",
+    "sitioWeb": "",
+    "lat": -37.7689492,
+    "lon": -67.7134899
+  },
+  {
+    "nombre": "Veterinaria La Matera",
+    "provincia": "La Pampa",
+    "direccion": "Roque Sáenz Peña N°575, L6387 Caleufú, La Pampa, Argentina",
+    "telefono": "+54 2302 46-4903",
+    "sitioWeb": "",
+    "lat": -35.5969778,
+    "lon": -64.5611523
+  },
+  {
+    "nombre": "City VET Clínica Veterinaria",
+    "provincia": "La Pampa",
+    "direccion": "Pestalozzi 706, L6304CIK Santa Rosa, La Pampa, Argentina",
+    "telefono": "+54 2954 83-0829",
+    "sitioWeb": "",
+    "lat": -36.6330453,
+    "lon": -64.286058
+  },
+  {
+    "nombre": "Veterinaria Federico Gonzalez",
+    "provincia": "La Pampa",
+    "direccion": "Av. México 895, L6304CPJ Santa Rosa, La Pampa, Argentina",
+    "telefono": "+54 2954 77-0660",
+    "sitioWeb": "",
+    "lat": -36.6365825,
+    "lon": -64.2851815
+  },
+  {
+    "nombre": "Veterinaria Zoovet",
+    "provincia": "La Pampa",
+    "direccion": "297, EMB, Av. Belgrano Nte., L6300 Santa Rosa, La Pampa, Argentina",
+    "telefono": "+54 2954 56-1211",
+    "sitioWeb": "https://www.instagram.com/zoovet_veterinaria/",
+    "lat": -36.6179203,
+    "lon": -64.2762868
+  },
+  {
+    "nombre": "Clínica Veterinaria Mascotas Felices",
+    "provincia": "La Pampa",
+    "direccion": "Q698+CHR, C. 2 NO, 41101 Santa Rosa de Copán, Copán",
+    "telefono": "9896-5582",
+    "sitioWeb": "",
+    "lat": 14.7686084,
+    "lon": -88.7835974
+  },
+  {
+    "nombre": "Veterinary Dr. de la Torre",
+    "provincia": "Mendoza",
+    "direccion": "Jorge A. Calle 224, M5500 Mendoza, Argentina",
+    "telefono": "+54 261 429-6132",
+    "sitioWeb": "",
+    "lat": -32.8688703,
+    "lon": -68.8478652
+  },
+  {
+    "nombre": "Veterinaria Clínica Veterinaria Estrada",
+    "provincia": "Mendoza",
+    "direccion": "Juan Manuel Estrada 472, M5502GWD Mendoza, Argentina",
+    "telefono": "+54 261 660-7232",
+    "sitioWeb": "https://m.facebook.com/vetestrada/",
+    "lat": -32.904857,
+    "lon": -68.8059937
+  },
+  {
+    "nombre": "Urgencias Veterinarias",
+    "provincia": "Mendoza",
+    "direccion": "Av. Bandera de los Andes 1893, M5519 Mendoza, Argentina",
+    "telefono": "+54 261 259-5336",
+    "sitioWeb": "http://www.urgenciasveterinarias.com.ar/",
+    "lat": -32.8960513,
+    "lon": -68.8117292
+  },
+  {
+    "nombre": "VETERINARIA GREENVET",
+    "provincia": "Mendoza",
+    "direccion": "Pueyrredón 884, M5500 Mendoza, Argentina",
+    "telefono": "+54 261 213-3343",
+    "sitioWeb": "https://greenvet.com.ar/",
+    "lat": -32.8994391,
+    "lon": -68.8633775
+  },
+  {
+    "nombre": "Veterinaria San Roque Hospital de Veterinaria",
+    "provincia": "Mendoza",
+    "direccion": "Avenida Juan B. Justo 535, M5500 Mendoza, Argentina",
+    "telefono": "+54 261 512-4566",
+    "sitioWeb": "https://sanroqueveterinaria.com/",
+    "lat": -32.883508,
+    "lon": -68.8565746
+  },
+  {
+    "nombre": "Myrtles VETERINARY CENTRE",
+    "provincia": "Mendoza",
+    "direccion": "Paraná 55, M5501 Godoy Cruz, Mendoza, Argentina",
+    "telefono": "+54 261 508-7717",
+    "sitioWeb": "",
+    "lat": -32.9216259,
+    "lon": -68.84821
+  },
+  {
+    "nombre": "ANDINO VETERINARY HOSPITAL",
+    "provincia": "Mendoza",
+    "direccion": "Los Carolinos Manzana 16 Casa 7, M5539 Las Heras, Mendoza, Argentina",
+    "telefono": "+54 261 444-4396",
+    "sitioWeb": "",
+    "lat": -32.858519,
+    "lon": -68.8584219
+  },
+  {
+    "nombre": "Asisvet 24h",
+    "provincia": "Mendoza",
+    "direccion": "Peltier 55, M5501 Godoy Cruz, Mendoza, Argentina",
+    "telefono": "+54 9 261 588-0840",
+    "sitioWeb": "",
+    "lat": -32.9467189,
+    "lon": -68.8485872
+  },
+  {
+    "nombre": "Ital Vet 24hs / Veterinaria de Urgencias Mendoza",
+    "provincia": "Mendoza",
+    "direccion": "Remedios de Escalada 992, M5519 Guaymallén, Mendoza, Argentina",
+    "telefono": "+54 261 709-0001",
+    "sitioWeb": "https://italvet24hs.com/",
+    "lat": -32.9060769,
+    "lon": -68.8308954
+  },
+  {
+    "nombre": "Veterinaria del Centro",
+    "provincia": "Mendoza",
+    "direccion": "San Juan 518, M5502 Mendoza, Argentina",
+    "telefono": "+54 261 251-5230",
+    "sitioWeb": "https://instagram.com/vetdelcentro.mza?igshid=YmMyMTA2M2Y=",
+    "lat": -32.8976289,
+    "lon": -68.8390151
+  },
+  {
+    "nombre": "FARMACIA VETERINARIA",
+    "provincia": "Mendoza",
+    "direccion": "Av. Bandera de los Andes 1893, M5519ION Mendoza, Argentina",
+    "telefono": "+54 261 513-8603",
+    "sitioWeb": "",
+    "lat": -32.8960513,
+    "lon": -68.8117292
+  },
+  {
+    "nombre": "Veterinaria Mendoza .",
+    "provincia": "Mendoza",
+    "direccion": "Silvano Rodríguez 6244, M5523 Guaymallén, Mendoza, Argentina",
+    "telefono": "+54 4219570",
+    "sitioWeb": "http://oncovetmdz.ar/",
+    "lat": -32.9064625,
+    "lon": -68.7670458
+  },
+  {
+    "nombre": "Alvaro Martin Bravo Veterinario a domicilio",
+    "provincia": "Mendoza",
+    "direccion": "",
+    "telefono": "+54 9 261 696-7611",
+    "sitioWeb": "",
+    "lat": -32.9212593,
+    "lon": -68.8365498
+  },
+  {
+    "nombre": "Veterinaria S.O.S",
+    "provincia": "Mendoza",
+    "direccion": "Ciudad Cuarta Sección, La Plata 92 Oeste, M5500 Mendoza, Argentina",
+    "telefono": "+54 261 588-8707",
+    "sitioWeb": "",
+    "lat": -32.8682374,
+    "lon": -68.8347789
+  },
+  {
+    "nombre": "Veterinaria hocico's",
+    "provincia": "Mendoza",
+    "direccion": "sebastian, Gaboto 2740, M5519 Mendoza, Argentina",
+    "telefono": "+54 261 205-5754",
+    "sitioWeb": "",
+    "lat": -32.8735973,
+    "lon": -68.8133323
+  },
+  {
+    "nombre": "Clínica Veterinaria Austral",
+    "provincia": "Mendoza",
+    "direccion": "Martínez de Rozas 1535, M5500 Mendoza, Argentina",
+    "telefono": "+54 261 682-3222",
+    "sitioWeb": "",
+    "lat": -32.8831898,
+    "lon": -68.8542306
+  },
+  {
+    "nombre": "ProMascota Clínica Veterinaria",
+    "provincia": "Mendoza",
+    "direccion": "Coronel Moldes 60, M5502 Mendoza, Argentina",
+    "telefono": "+54 261 723-2800",
+    "sitioWeb": "",
+    "lat": -32.8765853,
+    "lon": -68.8475236
+  },
+  {
+    "nombre": "VETERINARIA DEL PLATA",
+    "provincia": "Mendoza",
+    "direccion": "Yatay 4010, M5521 Mendoza, Argentina",
+    "telefono": "",
+    "sitioWeb": "",
+    "lat": -32.9037456,
+    "lon": -68.7908867
+  },
+  {
+    "nombre": "Mendieta VETERINARY CLINIC",
+    "provincia": "Mendoza",
+    "direccion": "Aguado 499 esquina, Benielli C., 5500 Mendoza, Argentina",
+    "telefono": "+54 261 269-3852",
+    "sitioWeb": "",
+    "lat": -32.8702655,
+    "lon": -68.8515895
+  },
+  {
+    "nombre": "VETERINARÍA DAL SANTO",
+    "provincia": "Mendoza",
+    "direccion": "Uruguay 305, M5519 Guaymallén, Mendoza, Argentina",
+    "telefono": "+54 261 804-4907",
+    "sitioWeb": "",
+    "lat": -32.8854759,
+    "lon": -68.8247338
+  },
+  {
+    "nombre": "Veterinary Animal World",
+    "provincia": "Misiones",
+    "direccion": "Av. Francisco de Haro 4505, N3300 Posadas, Misiones, Argentina",
+    "telefono": "+54 376 450-4018",
+    "sitioWeb": "https://animalworld.com.ar/",
+    "lat": -27.389682,
+    "lon": -55.9043444
+  },
+  {
+    "nombre": "UCIVET Posadas",
+    "provincia": "Misiones",
+    "direccion": "Sta. Fe 2267, N3301 Posadas, Misiones, Argentina",
+    "telefono": "+54 376 513-1010",
+    "sitioWeb": "",
+    "lat": -27.3638745,
+    "lon": -55.8980831
+  },
+  {
+    "nombre": "Veterinaria San Blas",
+    "provincia": "Misiones",
+    "direccion": "Av. Blas Parera 4109 N3300FNE, N3300LSG Posadas, Misiones, Argentina",
+    "telefono": "+54 376 465-9736",
+    "sitioWeb": "",
+    "lat": -27.3757232,
+    "lon": -55.9179332
+  },
+  {
+    "nombre": "Clínica veterinaria tropical",
+    "provincia": "Misiones",
+    "direccion": "Av. Jauretche 2466, N3300 Posadas, Misiones, Argentina",
+    "telefono": "+54 376 427-0710",
+    "sitioWeb": "",
+    "lat": -27.3685327,
+    "lon": -55.939693
+  },
+  {
+    "nombre": "Alma Veterinaria",
+    "provincia": "Misiones",
+    "direccion": "3 de Febrero 2056, N3300EEU Posadas, Misiones, Argentina",
+    "telefono": "+54 376 471-4047",
+    "sitioWeb": "https://instagram.com/veterinaria_alma_posadas?igshid=MzRlODBiNWFlZA==",
+    "lat": -27.3697002,
+    "lon": -55.8909476
+  },
+  {
+    "nombre": "Animalia Clínica Veterinaria",
+    "provincia": "Misiones",
+    "direccion": "Av. Francisco de Haro 2946, N3300NKB Posadas, Misiones, Argentina",
+    "telefono": "+54 376 422-2121",
+    "sitioWeb": "https://www.facebook.com/animalia.veterinaria/",
+    "lat": -27.3769427,
+    "lon": -55.9028304
+  },
+  {
+    "nombre": "Animal World Express",
+    "provincia": "Misiones",
+    "direccion": "Junín 1684, N3300 Posadas, Misiones, Argentina",
+    "telefono": "+54 376 450-4018",
+    "sitioWeb": "",
+    "lat": -27.3652928,
+    "lon": -55.8977738
+  },
+  {
+    "nombre": "Clinica Veterinaria Mundo Animal",
+    "provincia": "Misiones",
+    "direccion": "Rivadavia, Alvear y, N3300 Posadas, Misiones, Argentina",
+    "telefono": "+54 376 537-9005",
+    "sitioWeb": "",
+    "lat": -27.3626554,
+    "lon": -55.8909871
+  },
+  {
+    "nombre": "Clinica Veterinaria Campos Y Mascotas",
+    "provincia": "Misiones",
+    "direccion": "ELA, Av. Trincheras de San José 1980, N3301 Posadas, Misiones, Argentina",
+    "telefono": "+54 376 466-3595",
+    "sitioWeb": "",
+    "lat": -27.3777531,
+    "lon": -55.8970306
+  },
+  {
+    "nombre": "Veterinaria la Clinica Posadas",
+    "provincia": "Misiones",
+    "direccion": "Buenos Aires 1474, N3301IJS Posadas, Misiones, Argentina",
+    "telefono": "+54 376 443-5106",
+    "sitioWeb": "",
+    "lat": -27.3640024,
+    "lon": -55.8922281
+  },
+  {
+    "nombre": "Veterinaria Centro Medico Veterinario",
+    "provincia": "Misiones",
+    "direccion": "Av. Bartolomé Mitre 408, N3301 Posadas, Misiones, Argentina",
+    "telefono": "+54 376 439-1500",
+    "sitioWeb": "",
+    "lat": -27.3749441,
+    "lon": -55.8936086
+  },
+  {
+    "nombre": "Veterinaria Sandri",
+    "provincia": "Misiones",
+    "direccion": "Av. Francisco de Haro 5913, N3300 Posadas, Misiones, Argentina",
+    "telefono": "+54 376 488-8961",
+    "sitioWeb": "",
+    "lat": -27.4016316,
+    "lon": -55.9059536
+  },
+  {
+    "nombre": "Veterinaria Goofy",
+    "provincia": "Misiones",
+    "direccion": "Av. Tambor de Tacuarí 3379, N3301DNA Posadas, Misiones, Argentina",
+    "telefono": "+54 376 443-7285",
+    "sitioWeb": "",
+    "lat": -27.3698774,
+    "lon": -55.9103609
+  },
+  {
+    "nombre": "Veterinaria San Alberto",
+    "provincia": "Misiones",
+    "direccion": "RN12, N3334 Puerto Rico, Misiones, Argentina",
+    "telefono": "",
+    "sitioWeb": "",
+    "lat": -26.8205616,
+    "lon": -55.0251606
+  },
+  {
+    "nombre": "Veterinaria VETMIEREZ",
+    "provincia": "Misiones",
+    "direccion": "Santiago del Estero 2468, N3300 Posadas, Misiones, Argentina",
+    "telefono": "+54 376 443-9118",
+    "sitioWeb": "",
+    "lat": -27.3725088,
+    "lon": -55.9014099
+  },
+  {
+    "nombre": "Clínica VETERINARIA REINO ANIMAL",
+    "provincia": "Misiones",
+    "direccion": "Av. López y Planes 4519, N3301EUH Posadas, Misiones, Argentina",
+    "telefono": "+54 376 433-3949",
+    "sitioWeb": "",
+    "lat": -27.3719368,
+    "lon": -55.9213461
+  },
+  {
+    "nombre": "Veterinaria Pasteur",
+    "provincia": "Misiones",
+    "direccion": "N3301 Posadas, Misiones Province, Argentina",
+    "telefono": "+54 376 468-0394",
+    "sitioWeb": "",
+    "lat": -27.3879266,
+    "lon": -55.8990232
+  },
+  {
+    "nombre": "La taba",
+    "provincia": "Misiones",
+    "direccion": "Av. Quaranta, Av. Gral. Lavalle &, Posadas, Argentina",
+    "telefono": "+54 376 474-0369",
+    "sitioWeb": "",
+    "lat": -27.4032253,
+    "lon": -55.9106515
+  },
+  {
+    "nombre": "Gross Agroveterinaria",
+    "provincia": "Misiones",
+    "direccion": "Av. Libertad 315, N3360 Oberá, Misiones, Argentina",
+    "telefono": "+54 3755 42-1829",
+    "sitioWeb": "https://www.agroveterinariagross.com.ar/",
+    "lat": -27.4863271,
+    "lon": -55.1160017
+  },
+  {
+    "nombre": "DAWA Clínica Exclusiva de Felinos",
+    "provincia": "Misiones",
+    "direccion": "Av. López y Planes 5530, N3300 Posadas, Misiones, Argentina",
+    "telefono": "+54 376 412-5816",
+    "sitioWeb": "https://www.tuturno.io/dawaclinicaveterinaria1",
+    "lat": -27.3705552,
+    "lon": -55.9309809
+  },
+  {
+    "nombre": "Veterinaria de urgencias",
+    "provincia": "Neuquén",
+    "direccion": "Int. Chaneton 56, Q8302 Neuquén, Argentina",
+    "telefono": "+54 299 631-0528",
+    "sitioWeb": "https://www.facebook.com/veterinaria.del.sur.2023?mibextid=LQQJ4d",
+    "lat": -38.955514,
+    "lon": -68.0702916
+  },
+  {
+    "nombre": "Albeitar. Clínica de Mascotas",
+    "provincia": "Neuquén",
+    "direccion": "Tucumán 712, Q8300 Neuquén, Argentina",
+    "telefono": "+54 299 442-0025",
+    "sitioWeb": "",
+    "lat": -38.9473421,
+    "lon": -68.0521931
+  },
+  {
+    "nombre": "Veterinaria Argentina",
+    "provincia": "Neuquén",
+    "direccion": "Las Lajas 416, Plottier, Neuquén, Argentina",
+    "telefono": "+54 299 493-2080",
+    "sitioWeb": "",
+    "lat": -38.9495184,
+    "lon": -68.230903
+  },
+  {
+    "nombre": "Clínica Veterinaria FeliVet",
+    "provincia": "Neuquén",
+    "direccion": "Río Desaguadero 935, Q8300 Neuquén, Argentina",
+    "telefono": "+54 9 299 610-4312",
+    "sitioWeb": "https://instagram.com/felivet_cv?igshid=YmMyMTA2M2Y=",
+    "lat": -38.9451826,
+    "lon": -68.0373125
+  },
+  {
+    "nombre": "Clínica Veterinaria Kuvasz",
+    "provincia": "Neuquén",
+    "direccion": "Diag. 9 de Julio 228, Q8300 Neuquén, Argentina",
+    "telefono": "+54 299 442-0420",
+    "sitioWeb": "https://www.facebook.com/clinicaveterinaria.kuvasz",
+    "lat": -38.9483618,
+    "lon": -68.0627295
+  },
+  {
+    "nombre": "Clínica Veterinaria del Sur",
+    "provincia": "Neuquén",
+    "direccion": "Int. Chaneton 57, Q8300 Neuquén, Argentina",
+    "telefono": "+54 299 443-0281",
+    "sitioWeb": "",
+    "lat": -38.9556203,
+    "lon": -68.0706076
+  },
+  {
+    "nombre": "NOS MUDAMOS A ROCA 1854 VETERINARIA-GUARDIAS",
+    "provincia": "Neuquén",
+    "direccion": "Gral. Manuel Belgrano 1813, Q8300 Neuquén, Argentina",
+    "telefono": "+54 299 502-4935",
+    "sitioWeb": "http://www.veterinariacentral.com/",
+    "lat": -38.950468,
+    "lon": -68.0845437
+  },
+  {
+    "nombre": "Veterinary Dinos - Dr Fabian Perez Dr. Ivana Curroone",
+    "provincia": "Neuquén",
+    "direccion": "Ramos de Sal 2422, Q8304 Neuquén, Argentina",
+    "telefono": "+54 299 433-0821",
+    "sitioWeb": "",
+    "lat": -38.9288401,
+    "lon": -68.0753151
+  },
+  {
+    "nombre": "Gatica Veterinary Clinic",
+    "provincia": "Neuquén",
+    "direccion": "Gatica 1250, Q8302 Neuquén, Argentina",
+    "telefono": "+54 299 448-6462",
+    "sitioWeb": "https://m.facebook.com/veterinariagatica/",
+    "lat": -38.968195,
+    "lon": -68.0732248
+  },
+  {
+    "nombre": "Veterinaria Ricchieri",
+    "provincia": "Neuquén",
+    "direccion": "Tte. Gral. Pablo Ricchieri 714, Q8300 Neuquén, Argentina",
+    "telefono": "+54 299 458-8898",
+    "sitioWeb": "http://www.veterinariaricchieri.com/",
+    "lat": -38.9624709,
+    "lon": -68.0492662
+  },
+  {
+    "nombre": "Veterinaria Hakuna Matata",
+    "provincia": "Neuquén",
+    "direccion": "Gral. Manuel Belgrano 3201, Q8302 Neuquén, Argentina",
+    "telefono": "+54 299 446-2119",
+    "sitioWeb": "",
+    "lat": -38.950335,
+    "lon": -68.1038546
+  },
+  {
+    "nombre": "PVL - Veterinary Center Patagonico",
+    "provincia": "Neuquén",
+    "direccion": "Alderete 1039, Q8300 Neuquén, Argentina",
+    "telefono": "+54 299 448-0883",
+    "sitioWeb": "",
+    "lat": -38.9509337,
+    "lon": -68.0445533
+  },
+  {
+    "nombre": "Huellitas Veterinaria Dra Ivonne Beluzan",
+    "provincia": "Neuquén",
+    "direccion": "Gral. Manuel Belgrano 2510, Q8302 Neuquén, Argentina",
+    "telefono": "+54 299 447-7804",
+    "sitioWeb": "",
+    "lat": -38.950661,
+    "lon": -68.0940543
+  },
+  {
+    "nombre": "VETERINARY CLINIC AVELLI",
+    "provincia": "Neuquén",
+    "direccion": "San Martín 728, Q8300 Neuquén, Argentina",
+    "telefono": "+54 9 299 401-7081",
+    "sitioWeb": "http://clinicaveterinariaabelli.com.ar/",
+    "lat": -38.9551421,
+    "lon": -68.0695197
+  },
+  {
+    "nombre": "PICHICHUS VETERINARIA",
+    "provincia": "Neuquén",
+    "direccion": "Julio Argentino Roca 1796, Q8300 Neuquén, Argentina",
+    "telefono": "+54 299 588-9639",
+    "sitioWeb": "",
+    "lat": -38.9517798,
+    "lon": -68.0840032
+  },
+  {
+    "nombre": "Clínica Veterinaria Central de Neuquén GUARDIAS",
+    "provincia": "Neuquén",
+    "direccion": "Julio Argentino Roca 1854, Q8300 Neuquén, Argentina",
+    "telefono": "+54 9 299 502-4935",
+    "sitioWeb": "http://www.veterinariacentral.com/",
+    "lat": -38.9519076,
+    "lon": -68.0850384
+  },
+  {
+    "nombre": "Veterinaria BICHO'S",
+    "provincia": "Neuquén",
+    "direccion": "Salón B, Cristóbal Colón 270, Q8300 Neuquén, Argentina",
+    "telefono": "+54 299 635-3439",
+    "sitioWeb": "",
+    "lat": -38.952002,
+    "lon": -68.0788646
+  },
+  {
+    "nombre": "C.e.M. Vet",
+    "provincia": "Neuquén",
+    "direccion": "Fray Luis Beltrán 163, Q8300 Neuquén, Argentina",
+    "telefono": "+54 299 448-5766",
+    "sitioWeb": "",
+    "lat": -38.9623586,
+    "lon": -68.061591
+  },
+  {
+    "nombre": "Consultorios Veterinarios Comahue",
+    "provincia": "Neuquén",
+    "direccion": "Ramos de Sal 2422, Q8300 Neuquén, Argentina",
+    "telefono": "+54 299 656-8230",
+    "sitioWeb": "",
+    "lat": -38.9288219,
+    "lon": -68.0752672
+  },
+  {
+    "nombre": "Veterinaria Godoy",
+    "provincia": "Neuquén",
+    "direccion": "Dr. Luis Ramón 4165, Q8302 Neuquén, Argentina",
+    "telefono": "+54 299 629-1765",
+    "sitioWeb": "https://link.agendapro.com/ar/veterinariagodoy/c4d72ede",
+    "lat": -38.9415058,
+    "lon": -68.1167917
+  },
+  {
+    "nombre": "Centro Veterinario Cvpets",
+    "provincia": "Río Negro",
+    "direccion": "Cl. 43 #56-52, Rionegro, Antioquia, Colombia",
+    "telefono": "+57 323 4361870",
+    "sitioWeb": "",
+    "lat": 6.1491983,
+    "lon": -75.3793325
+  },
+  {
+    "nombre": "Makropet Veterinaria",
+    "provincia": "Río Negro",
+    "direccion": "Cra. 56 #39- 214, Rionegro, Antioquia, Colombia",
+    "telefono": "+57 304 5279776",
+    "sitioWeb": "https://www.makropetmascotas.com/",
+    "lat": 6.1454438,
+    "lon": -75.3791342
+  },
+  {
+    "nombre": "Clínica veterinaria la Vet oriente",
+    "provincia": "Río Negro",
+    "direccion": "Carrera 59 ##No 46-59, Rionegro, Antioquia, Colombia",
+    "telefono": "+57 310 7902753",
+    "sitioWeb": "",
+    "lat": 6.1518175,
+    "lon": -75.3745667
+  },
+  {
+    "nombre": "Centro Veterinario RioPet",
+    "provincia": "Río Negro",
+    "direccion": "Barrio Villa Manuela, Cl. 42 #61 DD 59, Rionegro, Antioquia, Colombia",
+    "telefono": "+57 323 2862059",
+    "sitioWeb": "https://whatsapp.com/channel/0029VaSER5RI1rcotXZ32i0p",
+    "lat": 6.1476428,
+    "lon": -75.3821834
+  },
+  {
+    "nombre": "Puppy Gold Clínica Veterinaria",
+    "provincia": "Río Negro",
+    "direccion": "Frente al Hospital del Porvenir, Cra. 70 #40-121 Segundo Piso, El Porvenir, Rionegro, Antioquia, Colombia",
+    "telefono": "+57 321 8815089",
+    "sitioWeb": "https://veterinariapuppygold.com/",
+    "lat": 6.148949,
+    "lon": -75.390385
+  },
+  {
+    "nombre": "RIOVET Clinica Veterinaria",
+    "provincia": "Río Negro",
+    "direccion": "Av. Pres. Raúl Ricardo Alfonsín 1082, Viedma, Río Negro, Argentina",
+    "telefono": "+54 2920 27-6868",
+    "sitioWeb": "http://www.instagram.com/riovetviedma",
+    "lat": -40.7998062,
+    "lon": -63.0007294
+  },
+  {
+    "nombre": "Unidad Veterinaria ZOO VET",
+    "provincia": "Río Negro",
+    "direccion": "Calle 63A #47-33, Rionegro, Antioquia, Colombia",
+    "telefono": "+57 314 8149759",
+    "sitioWeb": "https://www.aiyellow.com/unidadveterinariazoovet/",
+    "lat": 6.1615665,
+    "lon": -75.3686665
+  },
+  {
+    "nombre": "Luxury Vet",
+    "provincia": "Río Negro",
+    "direccion": "Don Diego, Km 4 Vía Rionegro a, Rionegro, Antioquia, Colombia",
+    "telefono": "+57 319 6494331",
+    "sitioWeb": "http://www.luxuryvet.com.co/",
+    "lat": 6.1303119,
+    "lon": -75.4122971
+  },
+  {
+    "nombre": "Veterinaria el Arca rionegro",
+    "provincia": "Río Negro",
+    "direccion": "Cra. 65 #41 B 45, Rionegro, Antioquia, Colombia",
+    "telefono": "+57 311 4462124",
+    "sitioWeb": "",
+    "lat": 6.1492295,
+    "lon": -75.3862425
+  },
+  {
+    "nombre": "Clínica Veterinaria - San Antonio",
+    "provincia": "Río Negro",
+    "direccion": "#19ab- 55ad-104, La Ceja-Río Negro, Rionegro, Antioquia, Colombia",
+    "telefono": "+57 324 4865501",
+    "sitioWeb": "http://veterinariasanantonio.com/",
+    "lat": 6.1278769,
+    "lon": -75.3818597
+  },
+  {
+    "nombre": "Vet & Vet",
+    "provincia": "Río Negro",
+    "direccion": "Av. Sarmiento, Colón &, Luis Beltrán, Argentina",
+    "telefono": "+54 298 461-9467",
+    "sitioWeb": "https://www.instagram.com/vetandvet21/?igshid=YmMyMTA2M2Y%3D",
+    "lat": -39.306035,
+    "lon": -65.7646972
+  },
+  {
+    "nombre": "Veterinaria Consentidos Agrospa",
+    "provincia": "Río Negro",
+    "direccion": "Cra. 40 #35C - 04, Rionegro, Antioquia, Colombia",
+    "telefono": "+57 311 5206560",
+    "sitioWeb": "",
+    "lat": 6.1493836,
+    "lon": -75.3598594
+  },
+  {
+    "nombre": "Clínica Veterinaria Patagónica",
+    "provincia": "Río Negro",
+    "direccion": "Adolfo Alsina 665, R8360 Choele-choel, Río Negro, Argentina",
+    "telefono": "",
+    "sitioWeb": "https://instagram.com/clivepa.choelechoel?igshid=cmNyOHhwNmVqdHYw",
+    "lat": -39.28996,
+    "lon": -65.6619077
+  },
+  {
+    "nombre": "Clínica Veterinaria FEVET",
+    "provincia": "Río Negro",
+    "direccion": "Av. Rivadavia 167, R8303 Cinco Saltos, Río Negro, Argentina",
+    "telefono": "+54 299 691-1480",
+    "sitioWeb": "",
+    "lat": -38.8308171,
+    "lon": -68.0647014
+  },
+  {
+    "nombre": "Veterinaría 4 Patas",
+    "provincia": "Río Negro",
+    "direccion": "25 de Mayo 1069, R8500EYK Viedma, Río Negro, Argentina",
+    "telefono": "+54 2920 65-1576",
+    "sitioWeb": "http://www.veterinarioonline.com.ar/",
+    "lat": -40.8106104,
+    "lon": -63.0016059
+  },
+  {
+    "nombre": "Consultorio Veterinario San Bernardo",
+    "provincia": "Río Negro",
+    "direccion": "Av. Santander #51-56, Rionegro, Antioquia, Colombia",
+    "telefono": "+57 6151415",
+    "sitioWeb": "",
+    "lat": 6.154834,
+    "lon": -75.3730383
+  },
+  {
+    "nombre": "Veterinaria Patagonica",
+    "provincia": "Río Negro",
+    "direccion": "R8332 General Roca, Río Negro Province, Argentina",
+    "telefono": "+54 298 443-0272",
+    "sitioWeb": "",
+    "lat": -39.0311431,
+    "lon": -67.5677934
+  },
+  {
+    "nombre": "Veterinaria Epecuén (Se atienden urgencias)",
+    "provincia": "Río Negro",
+    "direccion": "Gral. Villegas 270, R8328 Allen, Río Negro, Argentina",
+    "telefono": "+54 299 538-0206",
+    "sitioWeb": "",
+    "lat": -38.9806477,
+    "lon": -67.8344787
+  },
+  {
+    "nombre": "Veterinaria Del Comahue",
+    "provincia": "Río Negro",
+    "direccion": "Av. del Comahue 509, R8337 Chichinales, Río Negro, Argentina",
+    "telefono": "+54 298 466-6704",
+    "sitioWeb": "",
+    "lat": -39.1162477,
+    "lon": -66.9425639
+  },
+  {
+    "nombre": "Veterinaria Traful",
+    "provincia": "Río Negro",
+    "direccion": "Bartolomé Mitre 287, R8332 Gral. Roca, Río Negro, Argentina",
+    "telefono": "+54 298 442-3030",
+    "sitioWeb": "",
+    "lat": -39.0281252,
+    "lon": -67.5683786
+  },
+  {
+    "nombre": "Chihan Veterinary Clinic",
+    "provincia": "Salta",
+    "direccion": "10 de Octubre 402, A4400 Salta, Argentina",
+    "telefono": "+54 387 422-0101",
+    "sitioWeb": "",
+    "lat": -24.794045,
+    "lon": -65.4239978
+  },
+  {
+    "nombre": "Vets Center",
+    "provincia": "Salta",
+    "direccion": "Zuviria 1151, A4400 Salta, Argentina",
+    "telefono": "+54 387 421-1323",
+    "sitioWeb": "http://clinicaveterinariacentro.com/",
+    "lat": -24.7755424,
+    "lon": -65.4083411
+  },
+  {
+    "nombre": "Clínica Veterinaria Mascotas",
+    "provincia": "Salta",
+    "direccion": "Los Carolinos 297, A4400 Salta, Argentina",
+    "telefono": "+54 387 588-9068",
+    "sitioWeb": "",
+    "lat": -24.7677443,
+    "lon": -65.3931215
+  },
+  {
+    "nombre": "Veterinaria MIVet",
+    "provincia": "Salta",
+    "direccion": "Republica de Siria 836, A4400 Salta, Argentina",
+    "telefono": "+54 379 486-1952",
+    "sitioWeb": "",
+    "lat": -24.7782857,
+    "lon": -65.426525
+  },
+  {
+    "nombre": "Veterinaria Platense de Salta",
+    "provincia": "Salta",
+    "direccion": "Zuviria 2560, A4400 Salta, Argentina",
+    "telefono": "+54 9 387 584-1945",
+    "sitioWeb": "",
+    "lat": -24.7586747,
+    "lon": -65.4088929
+  },
+  {
+    "nombre": "MYMBA - Medicina Animal",
+    "provincia": "Salta",
+    "direccion": "Caseros 1365, A4400 Salta, Argentina",
+    "telefono": "+54 9 387 223-7449",
+    "sitioWeb": "https://mymbaveterinaria.com/",
+    "lat": -24.7891675,
+    "lon": -65.4215659
+  },
+  {
+    "nombre": "Veterinaria MIA",
+    "provincia": "Salta",
+    "direccion": "Av. Belgrano 2380, A4400 Salta, Argentina",
+    "telefono": "+54 387 410-2408",
+    "sitioWeb": "",
+    "lat": -24.785317,
+    "lon": -65.4348874
+  },
+  {
+    "nombre": "La Veterinaria",
+    "provincia": "Salta",
+    "direccion": "Av. Entre Ríos 1647, A4400 Salta, Argentina",
+    "telefono": "+54 387 421-2375",
+    "sitioWeb": "",
+    "lat": -24.7803695,
+    "lon": -65.4244139
+  },
+  {
+    "nombre": "La Pulga",
+    "provincia": "Salta",
+    "direccion": "Monje y Ortega, A4400 Salta, Argentina",
+    "telefono": "+54 387 578-5412",
+    "sitioWeb": "",
+    "lat": -24.8013713,
+    "lon": -65.4454425
+  },
+  {
+    "nombre": "Veterinaria Cruz del Sur",
+    "provincia": "Salta",
+    "direccion": "Av. Independencia 69, A4400 Salta, Argentina",
+    "telefono": "+54 387 514-5644",
+    "sitioWeb": "",
+    "lat": -24.8088997,
+    "lon": -65.4164932
+  },
+  {
+    "nombre": "Veterinaria Animal Soul",
+    "provincia": "Salta",
+    "direccion": "La Rioja 814, A4400 Salta, Argentina",
+    "telefono": "+54 3873 13-2660",
+    "sitioWeb": "",
+    "lat": -24.7982151,
+    "lon": -65.4149269
+  },
+  {
+    "nombre": "Clinica Veterinaria Salta",
+    "provincia": "Salta",
+    "direccion": "Las Araucarias 401, A4400 Salta, Argentina",
+    "telefono": "+54 387 444-8444",
+    "sitioWeb": "https://www.facebook.com/Clinica-Veterinaria-Salta-1200246026816071/?modal=admin_todo_tour",
+    "lat": -24.7665473,
+    "lon": -65.4030154
+  },
+  {
+    "nombre": "VETERINARIA CASTAÑARES",
+    "provincia": "Salta",
+    "direccion": "Nicolás López Isasmendi 186, A4400 Salta, Argentina",
+    "telefono": "+54 387 611-7493",
+    "sitioWeb": "",
+    "lat": -24.7281187,
+    "lon": -65.4011703
+  },
+  {
+    "nombre": "CENTRO VETERINARIO del NOA",
+    "provincia": "Salta",
+    "direccion": "Leguizamón 501, A4400 Salta, Argentina",
+    "telefono": "",
+    "sitioWeb": "",
+    "lat": -24.7838895,
+    "lon": -65.4091735
+  },
+  {
+    "nombre": "ClinVet",
+    "provincia": "Salta",
+    "direccion": "Diario El Territorio de Misiones 2817, A4400 Salta, Argentina",
+    "telefono": "+54 387 583-3242",
+    "sitioWeb": "",
+    "lat": -24.8491914,
+    "lon": -65.4446439
+  },
+  {
+    "nombre": "Veterinary Clinic Patitas",
+    "provincia": "Salta",
+    "direccion": "Buenos Aires 797, A4400 Salta, Argentina",
+    "telefono": "+54 387 513-2618",
+    "sitioWeb": "",
+    "lat": -24.800014,
+    "lon": -65.410451
+  },
+  {
+    "nombre": "Veterinaria Candy",
+    "provincia": "Salta",
+    "direccion": "A4400 Salta, Salta Province, Argentina",
+    "telefono": "+54 387 427-1167",
+    "sitioWeb": "",
+    "lat": -24.8296854,
+    "lon": -65.4252969
+  },
+  {
+    "nombre": "Veterinaria Medi-Can",
+    "provincia": "Salta",
+    "direccion": "Av. del Bicentenario de la Batalla de Salta 1680, A4400 Salta, Argentina",
+    "telefono": "+54 387 404-2845",
+    "sitioWeb": "",
+    "lat": -24.7659612,
+    "lon": -65.3975748
+  },
+  {
+    "nombre": "𝕎𝕆𝕎 ℂ𝕝í𝕟𝕚𝕔𝕒 𝕍𝕖𝕥𝕖𝕣𝕚𝕟𝕒𝕣𝕚𝕒",
+    "provincia": "Salta",
+    "direccion": "Av. Independencia 392, A4400 Salta, Argentina",
+    "telefono": "+54 387 552-8895",
+    "sitioWeb": "",
+    "lat": -24.8083064,
+    "lon": -65.4104709
+  },
+  {
+    "nombre": "Clínica Veterinaria Dr. Rodrigo A. Córdoba",
+    "provincia": "Salta",
+    "direccion": "Simón Bolívar 551, A4400 Salta, Argentina",
+    "telefono": "+54 387 244-3897",
+    "sitioWeb": "",
+    "lat": -24.7825179,
+    "lon": -65.4202168
+  },
+  {
+    "nombre": "San Martin de Porres veterinary",
+    "provincia": "San Juan",
+    "direccion": "25 de Mayo Oeste 1618, J5400 San Juan, Argentina",
+    "telefono": "+54 264 426-3827",
+    "sitioWeb": "https://www.veterinariasanmartindeporres.milink.guru/",
+    "lat": -31.527455,
+    "lon": -68.549025
+  },
+  {
+    "nombre": "El Arca",
+    "provincia": "San Juan",
+    "direccion": "Av. Rioja Sur 1248, J5402ELN San Juan, Argentina",
+    "telefono": "+54 264 422-6026",
+    "sitioWeb": "",
+    "lat": -31.5499644,
+    "lon": -68.520146
+  },
+  {
+    "nombre": "Veterinaria Tulum",
+    "provincia": "San Juan",
+    "direccion": "Rastreador Calivar Sur 248 J5400, J5400 Rivadavia, San Juan, Argentina",
+    "telefono": "+54 264 433-4276",
+    "sitioWeb": "https://www.facebook.com/Veterinaria-Tulum-144605562287629/",
+    "lat": -31.5329227,
+    "lon": -68.5936639
+  },
+  {
+    "nombre": "Veterinaria Chipet",
+    "provincia": "San Juan",
+    "direccion": "República del Líbano Oeste 2745 Oeste, J5400 Rivadavia, San Juan, Argentina",
+    "telefono": "+54 264 546-4503",
+    "sitioWeb": "",
+    "lat": -31.5584128,
+    "lon": -68.5584479
+  },
+  {
+    "nombre": "Veterinaria Montilla",
+    "provincia": "San Juan",
+    "direccion": "Tucumán Sur 1342, J5400 San Juan, Argentina",
+    "telefono": "+54 264 421-2142",
+    "sitioWeb": "http://www.veterinariamontilla.com.ar/",
+    "lat": -31.5514678,
+    "lon": -68.5210979
+  },
+  {
+    "nombre": "Veterinaria San Francisco",
+    "provincia": "San Juan",
+    "direccion": "Av. José Ignacio de la Roza Oeste 1131, J5402DCL San Juan, Argentina",
+    "telefono": "+54 264 420-3689",
+    "sitioWeb": "",
+    "lat": -31.5373467,
+    "lon": -68.5434826
+  },
+  {
+    "nombre": "Veterinaria Tassara",
+    "provincia": "San Juan",
+    "direccion": "Av. Libertador Gral. San Martin Este 922, J5400 ESTE, San Juan, Argentina",
+    "telefono": "+54 264 421-8983",
+    "sitioWeb": "",
+    "lat": -31.5332741,
+    "lon": -68.5128787
+  },
+  {
+    "nombre": "San Juan Veterinary Clinic Dr. Ernesto Cortinez",
+    "provincia": "San Juan",
+    "direccion": "esq, San Luis & Güemes, San Juan, Argentina",
+    "telefono": "+54 264 421-0478",
+    "sitioWeb": "https://www.instagram.com/clinicaveterinaria_san_juan?igsh=ZTY3NXhlbmNtMnpm",
+    "lat": -31.5324547,
+    "lon": -68.5165266
+  },
+  {
+    "nombre": "Clínica Veterinaria Urbana",
+    "provincia": "San Juan",
+    "direccion": "Hermogenes Ruiz 1227, J5400 San Juan, Argentina",
+    "telefono": "+54 264 568-5339",
+    "sitioWeb": "",
+    "lat": -31.5440311,
+    "lon": -68.5572533
+  },
+  {
+    "nombre": "Alem Vet Clinic",
+    "provincia": "San Juan",
+    "direccion": "Avenida Leandro N. Alem Norte 74, J5400DUN J5402DYN, San Juan, Argentina",
+    "telefono": "+54 264 422-4058",
+    "sitioWeb": "",
+    "lat": -31.5338757,
+    "lon": -68.5321113
+  },
+  {
+    "nombre": "Baistrocchi Roberto Veterinaria",
+    "provincia": "San Juan",
+    "direccion": "Salta Sur 661, J5402DUM San Juan, Argentina",
+    "telefono": "+54 264 422-4920",
+    "sitioWeb": "",
+    "lat": -31.5429352,
+    "lon": -68.5345691
+  },
+  {
+    "nombre": "Clinica Veterinaria del Sol",
+    "provincia": "San Juan",
+    "direccion": "Av. Guillermo Rawson Norte 704, J5400EZV San Juan, Argentina",
+    "telefono": "+54 264 422-3998",
+    "sitioWeb": "",
+    "lat": -31.5211498,
+    "lon": -68.5169091
+  },
+  {
+    "nombre": "Veterinaria Reta",
+    "provincia": "San Juan",
+    "direccion": "Calle Mendoza entre 12 y 13, J5429 San Juan, Argentina",
+    "telefono": "+54 264 605-2954",
+    "sitioWeb": "",
+    "lat": -31.673536,
+    "lon": -68.5696825
+  },
+  {
+    "nombre": "Dr. Lucas Olivera Vet Hospital",
+    "provincia": "San Juan",
+    "direccion": "J5419 Albardón, San Juan Province, Argentina",
+    "telefono": "+54 264 471-1220",
+    "sitioWeb": "https://www.facebook.com/Hospital-Veterinario-Albardon-483859081780272/",
+    "lat": -31.4191092,
+    "lon": -68.4936115
+  },
+  {
+    "nombre": "Clínica Veterinaria Central - CVC",
+    "provincia": "San Juan",
+    "direccion": "Av. José Ignacio de la Roza Oeste 1759, J5402DDE San Juan, Argentina",
+    "telefono": "+54 264 484-7000",
+    "sitioWeb": "",
+    "lat": -31.5375943,
+    "lon": -68.5512283
+  },
+  {
+    "nombre": "Veterinaria Pampa",
+    "provincia": "San Juan",
+    "direccion": "Av. Argentina Nte. 473, J5400 San Juan, Argentina",
+    "telefono": "+54 264 421-5239",
+    "sitioWeb": "",
+    "lat": -31.5275223,
+    "lon": -68.5107781
+  },
+  {
+    "nombre": "Veterinaria Don Perro",
+    "provincia": "San Juan",
+    "direccion": "Calle Fray Justo Sta María de Oro Norte, J5400 Rivadavia, San Juan, Argentina",
+    "telefono": "+54 264 499-1571",
+    "sitioWeb": "",
+    "lat": -31.5259661,
+    "lon": -68.566915
+  },
+  {
+    "nombre": "Veterinaria El Retoño",
+    "provincia": "San Juan",
+    "direccion": "Av. Nazario Benavidez Oeste 1401, J5400 Chimbas, San Juan, Argentina",
+    "telefono": "+54 264 405-4820",
+    "sitioWeb": "https://www.facebook.com/Clinica-Veterinaria-El-Reto%C3%B1o-302683073598557/",
+    "lat": -31.5109094,
+    "lon": -68.5480059
+  },
+  {
+    "nombre": "Clínica Veterinaria Inca",
+    "provincia": "San Juan",
+    "direccion": "Avenida Sarmiento Este 1221, 5400 San Juan, Argentina",
+    "telefono": "+54 264 582-3844",
+    "sitioWeb": "",
+    "lat": -31.5354951,
+    "lon": -68.5087109
+  },
+  {
+    "nombre": "LOYALVET Bienestar Animal SUC RIVADAVIA",
+    "provincia": "San Juan",
+    "direccion": "Av. Libertador Gral. San Martín 3878, J5400 San Juan, Argentina",
+    "telefono": "+54 264 660-5946",
+    "sitioWeb": "",
+    "lat": -31.5284067,
+    "lon": -68.5771948
+  },
+  {
+    "nombre": "Old San Juan Veterinary Center",
+    "provincia": "San Juan",
+    "direccion": "153 C. de la Cruz, San Juan, 00901, Puerto Rico",
+    "telefono": "+1 787-721-5927",
+    "sitioWeb": "https://www.facebook.com/1504970719765601/",
+    "lat": 18.4658088,
+    "lon": -66.1163138
+  },
+  {
+    "nombre": "Clínica Veterinaria Central",
+    "provincia": "San Juan",
+    "direccion": "277 Av. Jesús T. Piñero, San Juan, 00927, Puerto Rico",
+    "telefono": "+1 787-767-7052",
+    "sitioWeb": "http://clinicaveterinariacentral.com/",
+    "lat": 18.4073884,
+    "lon": -66.0610477
+  },
+  {
+    "nombre": "Centro de Especialistas Veterinarios",
+    "provincia": "San Juan",
+    "direccion": "873 PR-1, San Juan, 00926, Puerto Rico",
+    "telefono": "+1 787-708-4545",
+    "sitioWeb": "http://www.cevet.net/",
+    "lat": 18.3562111,
+    "lon": -66.0889871
+  },
+  {
+    "nombre": "Blanco Veterinary Hospital",
+    "provincia": "San Juan",
+    "direccion": "1595 Cll Alda, San Juan, 00926, Puerto Rico",
+    "telefono": "+1 787-425-0843",
+    "sitioWeb": "https://www.blancoveterinary.com/",
+    "lat": 18.3818769,
+    "lon": -66.0682977
+  },
+  {
+    "nombre": "Clínica Veterinaria Roosevelt",
+    "provincia": "San Juan",
+    "direccion": "1367 Avenida F.D. Roosevelt, San Juan, 00920, Puerto Rico",
+    "telefono": "+1 787-781-8152",
+    "sitioWeb": "",
+    "lat": 18.4138915,
+    "lon": -66.0930667
+  },
+  {
+    "nombre": "Clínica Veterinaria Acuario",
+    "provincia": "San Juan",
+    "direccion": "723 Cll Acuario, Trujillo Alto, San Juan 00976, Puerto Rico",
+    "telefono": "+1 787-755-1041",
+    "sitioWeb": "http://www.cvapr.com/",
+    "lat": 18.370247,
+    "lon": -66.035878
+  },
+  {
+    "nombre": "Banfield Pet Hospital",
+    "provincia": "San Juan",
+    "direccion": "Senorial Plaza Mall, PR-177 Intersection of PR-52, San Juan, 00926, Puerto Rico",
+    "telefono": "+1 787-751-4570",
+    "sitioWeb": "https://www.banfield.com/locations/veterinarians/pr/south-san-juan/ssj?utm_source=yext&utm_medium=yext&utm_campaign=yext&cid=yext_local",
+    "lat": 18.3689786,
+    "lon": -66.0676087
+  },
+  {
+    "nombre": "Centro de Protección y Adopción de Animales - Municipio de San Juan",
+    "provincia": "San Juan",
+    "direccion": "Calle Guillermo Ortiz González, 190 Calle Marginal, San Juan, 00936, Puerto Rico",
+    "telefono": "+1 787-480-3434",
+    "sitioWeb": "https://sanjuan.pr/servicios/centro-de-proteccion-adopcion-de-animales/",
+    "lat": 18.4324397,
+    "lon": -66.0857452
+  },
+  {
+    "nombre": "Veterinaria San Luis",
+    "provincia": "San Luis",
+    "direccion": "Av. Lafinur 384, D5700CGW San Luis, Argentina",
+    "telefono": "",
+    "sitioWeb": "",
+    "lat": -33.308489,
+    "lon": -66.3449354
+  },
+  {
+    "nombre": "Clínica veterinaria patas",
+    "provincia": "San Luis",
+    "direccion": "Aristobulo del Valle 184 oeste, D5700 San Luis, Argentina",
+    "telefono": "+54 266 444-5076",
+    "sitioWeb": "",
+    "lat": -33.2871602,
+    "lon": -66.3279
+  },
+  {
+    "nombre": "La Cuyana",
+    "provincia": "San Luis",
+    "direccion": "Juan Peral, Casa 1, D5700 San Luis, Argentina",
+    "telefono": "+54 266 422-0377",
+    "sitioWeb": "",
+    "lat": -33.2825993,
+    "lon": -66.3016969
+  },
+  {
+    "nombre": "Veterinaria Clinica Dr Ricardo Lavanchy",
+    "provincia": "San Luis",
+    "direccion": "Av. España 585, D5700 San Luis, Argentina",
+    "telefono": "+54 266 442-9809",
+    "sitioWeb": "https://www.instagram.com/veterinaria_lavanchysl/",
+    "lat": -33.2929356,
+    "lon": -66.3340244
+  },
+  {
+    "nombre": "Veterinaria Cemevet",
+    "provincia": "San Luis",
+    "direccion": "Catamarca s/n, D5700 San Luis, Argentina",
+    "telefono": "+54 266 441-8186",
+    "sitioWeb": "https://www.facebook.com/Clinica-Veterinaria-Cemevet-1032682973449678/",
+    "lat": -33.2897206,
+    "lon": -66.3098669
+  },
+  {
+    "nombre": "Clínica Veterinaria Animalia",
+    "provincia": "San Luis",
+    "direccion": "Las Heras 1317, D5700 San Luis, Argentina",
+    "telefono": "+54 266 402-7080",
+    "sitioWeb": "",
+    "lat": -33.297016,
+    "lon": -66.3439954
+  },
+  {
+    "nombre": "CLINICA VETERINARIA 24 HS",
+    "provincia": "San Luis",
+    "direccion": "Bolívar 877, D5700GTJ San Luis, Argentina",
+    "telefono": "+54 266 488-8328",
+    "sitioWeb": "",
+    "lat": -33.2973789,
+    "lon": -66.3369731
+  },
+  {
+    "nombre": "Nefrovet",
+    "provincia": "San Luis",
+    "direccion": "Colón 1310, D5700 San Luis, Argentina",
+    "telefono": "+54 266 496-4482",
+    "sitioWeb": "",
+    "lat": -33.2945509,
+    "lon": -66.3359585
+  },
+  {
+    "nombre": "Park Veterinary",
+    "provincia": "San Luis",
+    "direccion": "Riobamba 2123, D5700 San Luis, Argentina",
+    "telefono": "+54 266 496-4078",
+    "sitioWeb": "http://veterinariadelparque.com.ar/",
+    "lat": -33.2825418,
+    "lon": -66.3163333
+  },
+  {
+    "nombre": "Veterinaria Cerravet",
+    "provincia": "San Luis",
+    "direccion": "Chacabuco 361, D5700HKY San Luis, Argentina",
+    "telefono": "+54 266 402-9802",
+    "sitioWeb": "",
+    "lat": -33.3075935,
+    "lon": -66.337671
+  },
+  {
+    "nombre": "AGRONARIA",
+    "provincia": "San Luis",
+    "direccion": "Barrio ampare mz d casa 16, D5700 San Luis, Argentina",
+    "telefono": "+54 266 512-3437",
+    "sitioWeb": "",
+    "lat": -33.2870609,
+    "lon": -66.2926144
+  },
+  {
+    "nombre": "Clinica Veterinaria Merlo",
+    "provincia": "San Luis",
+    "direccion": "C. Pedernera 601, D5700 San Luis, Argentina",
+    "telefono": "+54 4459320",
+    "sitioWeb": "",
+    "lat": -33.2997687,
+    "lon": -66.3328622
+  },
+  {
+    "nombre": "Clínica Veterinaria «VET»",
+    "provincia": "San Luis",
+    "direccion": "Av. del Viento Chorrillero 2371, D5701 Juana Koslay, San Luis, Argentina",
+    "telefono": "+54 266 527-1855",
+    "sitioWeb": "",
+    "lat": -33.2852842,
+    "lon": -66.251131
+  },
+  {
+    "nombre": "Veterinaria Maskota's SRL",
+    "provincia": "San Luis",
+    "direccion": "Av. Juan Gilberto Funes 260 local 1035 Plata, D5700 San Luis, Argentina",
+    "telefono": "+54 266 443-9223",
+    "sitioWeb": "",
+    "lat": -33.3062157,
+    "lon": -66.3230421
+  },
+  {
+    "nombre": "Clínica Quirúrgica Veterinaria Dr. Iannizzotto Gustavo",
+    "provincia": "San Luis",
+    "direccion": "Bolívar 877, D5700GTJ San Luis, Argentina",
+    "telefono": "+54 266 488-8328",
+    "sitioWeb": "http://ccc.com/",
+    "lat": -33.297377,
+    "lon": -66.3369439
+  },
+  {
+    "nombre": "Clínica veterinaria Puppy's",
+    "provincia": "San Luis",
+    "direccion": "Av. Sarmiento 609, D5700 San Luis, Argentina",
+    "telefono": "+54 266 501-3710",
+    "sitioWeb": "https://www.instagram.com/puppysanluis/",
+    "lat": -33.3000474,
+    "lon": -66.3221793
+  },
+  {
+    "nombre": "CLINICA VETERINARIA SUR SAN LUIS ARGENTINA",
+    "provincia": "San Luis",
+    "direccion": "HILARIO ASCASUBI 184 LOCAL 2, D5700 San Luis, Argentina",
+    "telefono": "+54 266 437-3357",
+    "sitioWeb": "",
+    "lat": -33.3111539,
+    "lon": -66.3210118
+  },
+  {
+    "nombre": "Veterinaria el Cortijo",
+    "provincia": "San Luis",
+    "direccion": "San Martín 853, D5702 San Luis, Argentina",
+    "telefono": "+54 266 492-6087",
+    "sitioWeb": "",
+    "lat": -33.3008944,
+    "lon": -66.3381233
+  },
+  {
+    "nombre": "VETERINARIA DON BOSCO",
+    "provincia": "San Luis",
+    "direccion": "25 de Mayo 456, D5700 San Luis, Argentina",
+    "telefono": "+54 266 441-0956",
+    "sitioWeb": "",
+    "lat": -33.3070438,
+    "lon": -66.3293438
+  },
+  {
+    "nombre": "Agroveterinaria Milan S.A.",
+    "provincia": "San Luis",
+    "direccion": "Av. Justo Daract 1630, D5700AXP San Luis, Argentina",
+    "telefono": "+54 266 465-2850",
+    "sitioWeb": "",
+    "lat": -33.2899733,
+    "lon": -66.3364762
+  },
+  {
+    "nombre": "Clínica Veterinaria San Francisco",
+    "provincia": "Santa Cruz",
+    "direccion": "Calle Argentina 690, Moderna, 44190 Guadalajara, Jal., Mexico",
+    "telefono": "+52 33 3810 3098",
+    "sitioWeb": "https://wa.me/523332447988?text=%C2%A1Hola,%20Hospital%20Veterinario%20SF!%0AMe%20gustar%C3%ADa%20m%C3%A1s%20informaci%C3%B3n.",
+    "lat": 20.666673,
+    "lon": -103.3621058
+  },
+  {
+    "nombre": "Santa Cruz Animal Health",
+    "provincia": "Santa Cruz",
+    "direccion": "3600 Dry Creek Rd, Paso Robles, CA 93446",
+    "telefono": "(800) 457-3801",
+    "sitioWeb": "https://www.scahealth.com/home",
+    "lat": 35.6610229,
+    "lon": -120.6292563
+  },
+  {
+    "nombre": "Veterinaria Palmira AR",
+    "provincia": "Santa Cruz",
+    "direccion": "Cl. 32a #23-40, Palmira, Valle del Cauca, Colombia",
+    "telefono": "+57 350 6699819",
+    "sitioWeb": "https://www.instagram.com/arclinicaveterinaria/",
+    "lat": 3.528573,
+    "lon": -76.2949203
+  },
+  {
+    "nombre": "Veterans Memorial Building",
+    "provincia": "Santa Cruz",
+    "direccion": "846 Front St, Santa Cruz, CA 95060",
+    "telefono": "(831) 454-0478",
+    "sitioWeb": "http://veteranshall.org/",
+    "lat": 36.9764801,
+    "lon": -122.0263918
+  },
+  {
+    "nombre": "Clinipets Clínica Veterinaria",
+    "provincia": "Santa Cruz",
+    "direccion": "Av. Tres Pasos Al Frente, Santa Cruz de la Sierra, Bolivia",
+    "telefono": "+591 75042462",
+    "sitioWeb": "",
+    "lat": -17.7972745,
+    "lon": -63.1525938
+  },
+  {
+    "nombre": "Emervet",
+    "provincia": "Santa Cruz",
+    "direccion": "Santa Cruz de la Sierra, Bolivia",
+    "telefono": "+591 77332791",
+    "sitioWeb": "",
+    "lat": -17.794938,
+    "lon": -63.1536362
+  },
+  {
+    "nombre": "Veterinaria Dr. Jerjes 1",
+    "provincia": "Santa Cruz",
+    "direccion": "0000, Santa Cruz de la Sierra, Bolivia",
+    "telefono": "+591 73194104",
+    "sitioWeb": "",
+    "lat": -17.7964463,
+    "lon": -63.1575023
+  },
+  {
+    "nombre": "VETERINARIA EXPERTO ANIMAL",
+    "provincia": "Santa Cruz",
+    "direccion": "Cuarto Anillo, Santa Cruz de la Sierra, Bolivia",
+    "telefono": "+591 64493756",
+    "sitioWeb": "",
+    "lat": -17.7898298,
+    "lon": -63.1478414
+  },
+  {
+    "nombre": "Hospital Veterinario Patagonia Argentina",
+    "provincia": "Santa Cruz",
+    "direccion": "Av. Tehuelches, Z9041 Los Antiguos, Santa Cruz, Argentina",
+    "telefono": "+54 297 625-7434",
+    "sitioWeb": "http://www.facebook.com/VeterinariaPatagoniaArgentina",
+    "lat": -46.546591,
+    "lon": -71.6306472
+  },
+  {
+    "nombre": "Clinica Veterinaria \"La Manada\" Doctor Parola Victorio",
+    "provincia": "Santa Cruz",
+    "direccion": "Padre Zucarino 546, Z9400EOC Río Gallegos, Santa Cruz, Argentina",
+    "telefono": "+54 2966 25-3010",
+    "sitioWeb": "https://www.facebook.com/mvvoparola/",
+    "lat": -51.6284323,
+    "lon": -69.2355446
+  },
+  {
+    "nombre": "MISTER VET clínica veterinaria",
+    "provincia": "Santa Cruz",
+    "direccion": "Av. Argentina 349, Santa Cruz de la Sierra, Bolivia",
+    "telefono": "+591 71329913",
+    "sitioWeb": "",
+    "lat": -17.7971622,
+    "lon": -63.1743158
+  },
+  {
+    "nombre": "Veterinary Cruz Residence",
+    "provincia": "Santa Cruz",
+    "direccion": "Juan José Paso, Z9400 Río Gallegos, Santa Cruz, Argentina",
+    "telefono": "+54 2966 42-9269",
+    "sitioWeb": "",
+    "lat": -51.6372617,
+    "lon": -69.2178814
+  },
+  {
+    "nombre": "Clínica Veterinaria DogCenter",
+    "provincia": "Santa Cruz",
+    "direccion": "+59169068327, Santa Cruz de la Sierra, Bolivia",
+    "telefono": "+591 69068327",
+    "sitioWeb": "",
+    "lat": -17.7981952,
+    "lon": -63.1594225
+  },
+  {
+    "nombre": "Veterinaria Animal Green",
+    "provincia": "Santa Cruz",
+    "direccion": "Santa Cruz de la Sierra, Bolivia",
+    "telefono": "+591 72636747",
+    "sitioWeb": "",
+    "lat": -17.8046708,
+    "lon": -63.1555226
+  },
+  {
+    "nombre": "Centro Veterinario Reinoso",
+    "provincia": "Santa Cruz",
+    "direccion": "Manuel Belgrano 267, Z9400 Río Gallegos, Santa Cruz, Argentina",
+    "telefono": "+54 2966 50-3005",
+    "sitioWeb": "",
+    "lat": -51.6270445,
+    "lon": -69.2158889
+  },
+  {
+    "nombre": "Veterinaria Gatha",
+    "provincia": "Santa Cruz",
+    "direccion": "Calle Monseñor Peña 500, Santa Cruz de la Sierra, Bolivia",
+    "telefono": "+591 69076024",
+    "sitioWeb": "https://www.facebook.com/VeterinariaadomicilioGATHA/",
+    "lat": -17.8043264,
+    "lon": -63.1685515
+  },
+  {
+    "nombre": "Kauquen Veterinaria",
+    "provincia": "Santa Cruz",
+    "direccion": "Av. San Martín 1432, Z9040 Perito Moreno, Santa Cruz, Argentina",
+    "telefono": "+54 2963 41-1618",
+    "sitioWeb": "",
+    "lat": -46.593436,
+    "lon": -70.9254018
+  },
+  {
+    "nombre": "POLITÉCNICO DEL NORDESTE",
+    "provincia": "Santa Cruz",
+    "direccion": "",
+    "telefono": "+57 302 2972544",
+    "sitioWeb": "http://polinordeste.edu.co/",
+    "lat": 6.7728789,
+    "lon": -74.7964764
+  },
+  {
+    "nombre": "Veterinaria Cerro de la Cruz",
+    "provincia": "Santa Cruz",
+    "direccion": "Comodoro Py, Z9407 Río Turbio, Santa Cruz, Argentina",
+    "telefono": "+54 381 630-8969",
+    "sitioWeb": "https://www.facebook.com/VETE.CERRODELACRUZ/",
+    "lat": -51.5418331,
+    "lon": -72.3428875
+  },
+  {
+    "nombre": "Veterinaria Santa Cruz",
+    "provincia": "Santa Cruz",
+    "direccion": "Av. Argentina 292 local 1, X5152 Villa Santa Cruz del Lago, Córdoba, Argentina",
+    "telefono": "+54 3541 51-9456",
+    "sitioWeb": "",
+    "lat": -31.3728882,
+    "lon": -64.5162405
+  },
+  {
+    "nombre": "Santa Fe Vet Center",
+    "provincia": "Santa Fe",
+    "direccion": "Av. Santa Fe 578, Lomas de Santa Fe, Contadero, Cuajimalpa de Morelos, 05348 Ciudad de México, CDMX, Mexico",
+    "telefono": "+52 55 5292 1427",
+    "sitioWeb": "",
+    "lat": 19.3559151,
+    "lon": -99.2753542
+  },
+  {
+    "nombre": "Meraki Clínica Veterinaria",
+    "provincia": "Santa Fe",
+    "direccion": "Gdor. Crespo 3469, S3000 Santa Fe de la Vera Cruz, Santa Fe, Argentina",
+    "telefono": "+54 9 342 597-0660",
+    "sitioWeb": "",
+    "lat": -31.6390141,
+    "lon": -60.7160832
+  },
+  {
+    "nombre": "Azul veterinaria 24hs - Urgencias Veterinarias",
+    "provincia": "Santa Fe",
+    "direccion": "Avellaneda 3434, S3000 Santa Fe de la Vera Cruz, Santa Fe, Argentina",
+    "telefono": "+54 342 429-6152",
+    "sitioWeb": "http://azulveterinaria.com/",
+    "lat": -31.6396188,
+    "lon": -60.6881701
+  },
+  {
+    "nombre": "Veterinaria Argentina de Luciano Busaniche",
+    "provincia": "Santa Fe",
+    "direccion": "Milenio de Polonia 3116, S3000 Santa Fe de la Vera Cruz, Santa Fe, Argentina",
+    "telefono": "+54 9 342 442-7941",
+    "sitioWeb": "",
+    "lat": -31.6166279,
+    "lon": -60.7050691
+  },
+  {
+    "nombre": "Urgencias Veterinarias Santa Fe",
+    "provincia": "Santa Fe",
+    "direccion": "Av. Gral. Paz 7623, S3000 Santa Fe de la Vera Cruz, Santa Fe, Argentina",
+    "telefono": "+54 342 550-2341",
+    "sitioWeb": "https://linktr.ee/urgvet.santafe",
+    "lat": -31.6020044,
+    "lon": -60.6746936
+  },
+  {
+    "nombre": "ASISTENCIA VETERINARIA - GUARDIA 24 HS",
+    "provincia": "Santa Fe",
+    "direccion": "Av A Del Valle 5201, S3000 Santa Fe de la Vera Cruz, Santa Fe, Argentina",
+    "telefono": "+54 342 534-8854",
+    "sitioWeb": "http://www.asistenciaveterinariasantafe.com/",
+    "lat": -31.6199194,
+    "lon": -60.6988027
+  },
+  {
+    "nombre": "Urvet",
+    "provincia": "Santa Fe",
+    "direccion": "República de Siria 3664, S3000 Santa Fe de la Vera Cruz, Santa Fe, Argentina",
+    "telefono": "+54 9 342 530-2300",
+    "sitioWeb": "",
+    "lat": -31.6348554,
+    "lon": -60.6990385
+  },
+  {
+    "nombre": "Veterinary Clinic Sandaza",
+    "provincia": "Santa Fe",
+    "direccion": "Av. Gral. López 2957, S3000 DCM, Santa Fe, Argentina",
+    "telefono": "+54 342 458-1515",
+    "sitioWeb": "https://wa.me/message/5CZ64TXFSM4FH1",
+    "lat": -31.656349,
+    "lon": -60.714291
+  },
+  {
+    "nombre": "Clínica Veterinaria Gastaldi",
+    "provincia": "Santa Fe",
+    "direccion": "Bv. Pellegrini 3265, S3000 Santa Fe de la Vera Cruz, Santa Fe, Argentina",
+    "telefono": "+54 342 452-6946",
+    "sitioWeb": "https://www.facebook.com/Clinica-Veterinaria-Gastaldi",
+    "lat": -31.6337941,
+    "lon": -60.7119651
+  },
+  {
+    "nombre": "VETERINARIA SCOPPA",
+    "provincia": "Santa Fe",
+    "direccion": "Av. Aristóbulo del Valle 4677, S3002FHH Santa Fe de la Vera Cruz, Santa Fe, Argentina",
+    "telefono": "+54 342 613-2871",
+    "sitioWeb": "",
+    "lat": -31.6248885,
+    "lon": -60.7000137
+  },
+  {
+    "nombre": "Carlos Ayala Veterinary Clinic",
+    "provincia": "Santa Fe",
+    "direccion": "Gdor. Vera 3376 Oeste, S3000BQF Santa Fe de la Vera Cruz, Santa Fe, Argentina",
+    "telefono": "+54 342 455-0776",
+    "sitioWeb": "",
+    "lat": -31.6414037,
+    "lon": -60.7156366
+  },
+  {
+    "nombre": "Animalandia Santa Fe",
+    "provincia": "Santa Fe",
+    "direccion": "San Luis 3098, S3000GBL Santa Fe de la Vera Cruz, Santa Fe, Argentina",
+    "telefono": "+54 342 456-5926",
+    "sitioWeb": "",
+    "lat": -31.6410076,
+    "lon": -60.7013221
+  },
+  {
+    "nombre": "Veterinaria Cibeles",
+    "provincia": "Santa Fe",
+    "direccion": "Av. Juan José Paso 3519, S3000 Santa Fe de la Vera Cruz, Santa Fe, Argentina",
+    "telefono": "+54 342 459-4906",
+    "sitioWeb": "http://www.veterinariacibeles.com/",
+    "lat": -31.661568,
+    "lon": -60.7236006
+  },
+  {
+    "nombre": "Wildlife Veterinary Clinic",
+    "provincia": "Santa Fe",
+    "direccion": "Corrientes 2734, S3000 Santa Fe de la Vera Cruz, Santa Fe, Argentina",
+    "telefono": "+54 342 459-8628",
+    "sitioWeb": "",
+    "lat": -31.653294,
+    "lon": -60.7104526
+  },
+  {
+    "nombre": "Fiorentini Veterinaria",
+    "provincia": "Santa Fe",
+    "direccion": "Marcial Candioti 2927, S3000 Santa Fe de la Vera Cruz, Santa Fe, Argentina",
+    "telefono": "+54 342 452-3444",
+    "sitioWeb": "https://www.instagram.com/veterinariafiorentini/",
+    "lat": -31.6426185,
+    "lon": -60.6971366
+  },
+  {
+    "nombre": "Sólo Gatos - Centro Clínico Felino, Especialistas en Gatos",
+    "provincia": "Santa Fe",
+    "direccion": "Cra. 24 #45C-23 2do piso, Bogotá, Colombia",
+    "telefono": "+57 300 4334241",
+    "sitioWeb": "https://www.sologatos.com.co/",
+    "lat": 4.6361653,
+    "lon": -74.0750404
+  },
+  {
+    "nombre": "Medicina Animal",
+    "provincia": "Santa Fe",
+    "direccion": "Salvador del Carril 925, S3004FPC Santa Fe de la Vera Cruz, Santa Fe, Argentina",
+    "telefono": "+54 342 460-9917",
+    "sitioWeb": "https://www.medicinaanimal.com/",
+    "lat": -31.6217406,
+    "lon": -60.679753
+  },
+  {
+    "nombre": "THERIOS Veterinaria",
+    "provincia": "Santa Fe",
+    "direccion": "Av. Gdor. Freyre 2939, S3000 EPH, Santa Fe, Argentina",
+    "telefono": "+54 342 653-8736",
+    "sitioWeb": "https://www.facebook.com/Veterinaria-Therios-Dr-Marcelo-Gauna-889218311271801/",
+    "lat": -31.639512,
+    "lon": -60.71698
+  },
+  {
+    "nombre": "Veterinarias 24 Hs",
+    "provincia": "Santa Fe",
+    "direccion": "Av. José Gorriti 4552, S3006DMH Santa Fe de la Vera Cruz, Santa Fe, Argentina",
+    "telefono": "+54 342 582-9237",
+    "sitioWeb": "",
+    "lat": -31.5851034,
+    "lon": -60.7156173
+  },
+  {
+    "nombre": "Veterinaria Norvet",
+    "provincia": "Santa Fe",
+    "direccion": "Av. Ángel V. Peñaloza 7650, S3000 Santa Fe de la Vera Cruz, Santa Fe, Argentina",
+    "telefono": "+54 342 406-2185",
+    "sitioWeb": "http://www.veterinarianorvet.com/",
+    "lat": -31.5934222,
+    "lon": -60.7118556
+  },
+  {
+    "nombre": "Veterinaria Zam Blas",
+    "provincia": "Santiago del Estero",
+    "direccion": "Av. Libertad 2332, G4200 Santiago del Estero, Argentina",
+    "telefono": "+54 385 475-8037",
+    "sitioWeb": "",
+    "lat": -27.8000096,
+    "lon": -64.280041
+  },
+  {
+    "nombre": "Veterinaria Santiago",
+    "provincia": "Santiago del Estero",
+    "direccion": "Sarmiento 690, G4200 Santiago del Estero, Argentina",
+    "telefono": "+54 385 422-5772",
+    "sitioWeb": "",
+    "lat": -27.7944403,
+    "lon": -64.2682734
+  },
+  {
+    "nombre": "Clinica Veterinaria del Estero",
+    "provincia": "Santiago del Estero",
+    "direccion": "Dr. José Abalos, G4200 Santiago del Estero, Argentina",
+    "telefono": "+54 385 575-5200",
+    "sitioWeb": "",
+    "lat": -27.8284116,
+    "lon": -64.2456323
+  },
+  {
+    "nombre": "Veterinaria Massi",
+    "provincia": "Santiago del Estero",
+    "direccion": "Lavalle 1157, G4200 Santiago del Estero, Argentina",
+    "telefono": "+54 385 589-9902",
+    "sitioWeb": "https://www.facebook.com/Veterinaria-Massi-420911921774494/?ti=as",
+    "lat": -27.8089297,
+    "lon": -64.2650749
+  },
+  {
+    "nombre": "Veterinaria Batuque",
+    "provincia": "Santiago del Estero",
+    "direccion": "Av. Belgrano Sur 1209, G4200 Santiago del Estero, Argentina",
+    "telefono": "+54 4225023",
+    "sitioWeb": "",
+    "lat": -27.796561,
+    "lon": -64.2556732
+  },
+  {
+    "nombre": "VETERINARIA SAINT GERMAIN",
+    "provincia": "Santiago del Estero",
+    "direccion": "Avenida Doctor Victor Yunes Mz15, Santiago del Estero, Argentina",
+    "telefono": "+54 385 600-6610",
+    "sitioWeb": "https://m.facebook.com/saintgermainvet/?ref=bookmarks",
+    "lat": -27.8442934,
+    "lon": -64.2488541
+  },
+  {
+    "nombre": "Clínica Veterinaria Abril",
+    "provincia": "Santiago del Estero",
+    "direccion": "Av. Moreno Nte. 349, G4200 Santiago del Estero, Argentina",
+    "telefono": "+54 385 422-5906",
+    "sitioWeb": "",
+    "lat": -27.7897733,
+    "lon": -64.2653087
+  },
+  {
+    "nombre": "Veterinaria Centro",
+    "provincia": "Santiago del Estero",
+    "direccion": "Congreso 51, G4200 Santiago del Estero, Argentina",
+    "telefono": "+54 385 425-1019",
+    "sitioWeb": "",
+    "lat": -27.7920399,
+    "lon": -64.2586704
+  },
+  {
+    "nombre": "Don Lilo Veterinaria",
+    "provincia": "Santiago del Estero",
+    "direccion": "Chubut 110, G4200 Santiago del Estero, Argentina",
+    "telefono": "+54 385 433-4343",
+    "sitioWeb": "",
+    "lat": -27.7976046,
+    "lon": -64.2746135
+  },
+  {
+    "nombre": "Veterinaria El Camino",
+    "provincia": "Santiago del Estero",
+    "direccion": "Av. Moreno Sur 1595, G4200 Santiago del Estero, Argentina",
+    "telefono": "+54 385 601-5748",
+    "sitioWeb": "",
+    "lat": -27.8017557,
+    "lon": -64.2554036
+  },
+  {
+    "nombre": "Veterinaria Alem",
+    "provincia": "Santiago del Estero",
+    "direccion": "Shopping El Portal, Ejercito Argentino Norte Local 1016, G4200 Santiago del Estero, Argentina",
+    "telefono": "+54 385 412-0034",
+    "sitioWeb": "http://veterinariaalem.com/",
+    "lat": -27.7776536,
+    "lon": -64.2578787
+  },
+  {
+    "nombre": "Veterinaria Kuhn Suc Centro.",
+    "provincia": "Santiago del Estero",
+    "direccion": "Av. Colón 2241, G4200LBH Santiago del Estero, Argentina",
+    "telefono": "+54 385 493-2446",
+    "sitioWeb": "https://instagram.com/veterinariaskuhn?igshid=YmMyMTA2M2Y=",
+    "lat": -27.8120707,
+    "lon": -64.2575295
+  },
+  {
+    "nombre": "VETERINARIA LA CABAÑA",
+    "provincia": "Santiago del Estero",
+    "direccion": "Av R, Sáenz Peña 1150, G4200 Santiago del Estero, Argentina",
+    "telefono": "+54 385 422-9634",
+    "sitioWeb": "https://business.facebook.com/Veterinaria-la-Caba%C3%B1a-111351056978291/",
+    "lat": -27.794158,
+    "lon": -64.2732087
+  },
+  {
+    "nombre": "Veterinaria Chocolate Clinica Veterinaria - Pet Shop",
+    "provincia": "Santiago del Estero",
+    "direccion": "24 de Septiembre 893, G4200 CMO, Santiago del Estero, Argentina",
+    "telefono": "+54 385 421-1120",
+    "sitioWeb": "",
+    "lat": -27.7963726,
+    "lon": -64.2527182
+  },
+  {
+    "nombre": "El Bagual",
+    "provincia": "Santiago del Estero",
+    "direccion": "Av. Libertad 2707, G4200 Santiago del Estero, Argentina",
+    "telefono": "+54 385 439-2282",
+    "sitioWeb": "",
+    "lat": -27.8028031,
+    "lon": -64.2853615
+  },
+  {
+    "nombre": "Mundo Animal",
+    "provincia": "Santiago del Estero",
+    "direccion": "Av. Belgrano Nte. 43, G4200 Santiago del Estero, Argentina",
+    "telefono": "+54 385 622-6362",
+    "sitioWeb": "",
+    "lat": -27.7841674,
+    "lon": -64.2662191
+  },
+  {
+    "nombre": "Veterinaria Mendoza",
+    "provincia": "Santiago del Estero",
+    "direccion": "Mendoza 467, G4200 Santiago del Estero, Argentina",
+    "telefono": "+54 385 421-4211",
+    "sitioWeb": "",
+    "lat": -27.7890448,
+    "lon": -64.2513225
+  },
+  {
+    "nombre": "Clínica Veterinaria Lucca",
+    "provincia": "Santiago del Estero",
+    "direccion": "Av. Belgrano Nte. 1468, G4200 Santiago del Estero, Argentina",
+    "telefono": "+54 385 434-4485",
+    "sitioWeb": "https://www.instagram.com/veterinarialucca",
+    "lat": -27.7694637,
+    "lon": -64.2771038
+  },
+  {
+    "nombre": "Veterinaria Raíces",
+    "provincia": "Santiago del Estero",
+    "direccion": "Av. Roca Nte. 395, G4200 Santiago del Estero, Argentina",
+    "telefono": "+54 385 601-1415",
+    "sitioWeb": "",
+    "lat": -27.774567,
+    "lon": -64.265907
+  },
+  {
+    "nombre": "Veterinaria yanasus",
+    "provincia": "Santiago del Estero",
+    "direccion": "7P24+HP, G4200 Santiago del Estero, Argentina",
+    "telefono": "+54 385 305-2012",
+    "sitioWeb": "",
+    "lat": -27.7485665,
+    "lon": -64.29315
+  },
+  {
+    "nombre": "Veterinaria Orbe",
+    "provincia": "Tierra del Fuego",
+    "direccion": "Av. Leandro Alem 1992, V9410ADN Ushuaia, Tierra del Fuego, Argentina",
+    "telefono": "+54 2901 41-5777",
+    "sitioWeb": "",
+    "lat": -54.806348,
+    "lon": -68.3310684
+  },
+  {
+    "nombre": "Medivet - Ushuaia",
+    "provincia": "Tierra del Fuego",
+    "direccion": "Av. Leandro Alem 2589, V9410 Ushuaia, Tierra del Fuego, Argentina",
+    "telefono": "+54 2901 58-3737",
+    "sitioWeb": "",
+    "lat": -54.8095807,
+    "lon": -68.3396407
+  },
+  {
+    "nombre": "Civet clínica veterinaria",
+    "provincia": "Tierra del Fuego",
+    "direccion": "Kuanip 966, V9410 BQT, Tierra del Fuego, Argentina",
+    "telefono": "+54 2901 56-4786",
+    "sitioWeb": "",
+    "lat": -54.81837,
+    "lon": -68.3391205
+  },
+  {
+    "nombre": "Veterinaria GreenPet",
+    "provincia": "Tierra del Fuego",
+    "direccion": "Gdor. Paz 1002, V9410 Ushuaia, Tierra del Fuego, Argentina",
+    "telefono": "+54 2901 65-6918",
+    "sitioWeb": "https://www.facebook.com/clinicaveterinariagreenpet/",
+    "lat": -54.806711,
+    "lon": -68.313018
+  },
+  {
+    "nombre": "Veterinaria Fabbro",
+    "provincia": "Tierra del Fuego",
+    "direccion": "Tte. Gral. Juan Domingo Perón Sur 762, V9410GWA Ushuaia, Tierra del Fuego, Argentina",
+    "telefono": "+54 2901 64-4172",
+    "sitioWeb": "https://www.facebook.com/pages/Veterinaria-Fabro/266703196720447",
+    "lat": -54.8252725,
+    "lon": -68.3306705
+  },
+  {
+    "nombre": "Veterinaria Austral",
+    "provincia": "Tierra del Fuego",
+    "direccion": "ADN, Av. Leandro Alem 1992, V9410ADN Ushuaia, Tierra del Fuego, Argentina",
+    "telefono": "",
+    "sitioWeb": "",
+    "lat": -54.8063711,
+    "lon": -68.3310927
+  },
+  {
+    "nombre": "Veterinaria Veterinary Medical Center",
+    "provincia": "Tierra del Fuego",
+    "direccion": "Venezuela 373, V9420 Río Grande, Tierra del Fuego, Argentina",
+    "telefono": "+54 2964 60-3021",
+    "sitioWeb": "",
+    "lat": -53.7711684,
+    "lon": -67.7197369
+  },
+  {
+    "nombre": "Ladran Laika",
+    "provincia": "Tierra del Fuego",
+    "direccion": "Gdor. Paz 301, V9410BAG Ushuaia, Tierra del Fuego, Argentina",
+    "telefono": "+54 2901 49-1094",
+    "sitioWeb": "",
+    "lat": -54.8042099,
+    "lon": -68.3037227
+  },
+  {
+    "nombre": "Veterinaria",
+    "provincia": "Tierra del Fuego",
+    "direccion": "Kuanip 699, V9410 Ushuaia, Tierra del Fuego, Argentina",
+    "telefono": "",
+    "sitioWeb": "",
+    "lat": -54.8177512,
+    "lon": -68.3350187
+  },
+  {
+    "nombre": "Veterinaria Alfa",
+    "provincia": "Tierra del Fuego",
+    "direccion": "25 de Mayo 1013, V9420 Río Grande, Tierra del Fuego, Argentina",
+    "telefono": "+54 2964 69-7521",
+    "sitioWeb": "",
+    "lat": -53.7858461,
+    "lon": -67.711558
+  },
+  {
+    "nombre": "Servicios Veterinarios Jeremías Sarmiento",
+    "provincia": "Tierra del Fuego",
+    "direccion": "Guatemala 537, V9420 Río Grande, Tierra del Fuego, Argentina",
+    "telefono": "+54 2964 62-0827",
+    "sitioWeb": "http://www.serviciosveterinariossarmiento.com/",
+    "lat": -53.7716406,
+    "lon": -67.7142762
+  },
+  {
+    "nombre": "Veterinaria del Sur",
+    "provincia": "Tierra del Fuego",
+    "direccion": "Calle Juan Bautista Alberdi 921, V9421 Río Grande, Tierra del Fuego, Argentina",
+    "telefono": "+54 2964 56-6440",
+    "sitioWeb": "",
+    "lat": -53.7854196,
+    "lon": -67.7093328
+  },
+  {
+    "nombre": "Veterinaria Austral",
+    "provincia": "Tierra del Fuego",
+    "direccion": "Tolhuin 329, V9420 Río Grande, Tierra del Fuego, Argentina",
+    "telefono": "+54 2964 57-1684",
+    "sitioWeb": "",
+    "lat": -53.8046671,
+    "lon": -67.6675634
+  },
+  {
+    "nombre": "Veterinaria Pet House Ushuaia",
+    "provincia": "Tierra del Fuego",
+    "direccion": "Teresa Rodríguez Lavado 1680, V9410 Ushuaia, Tierra del Fuego, Argentina",
+    "telefono": "+54 2901 43-0101",
+    "sitioWeb": "",
+    "lat": -54.8085857,
+    "lon": -68.3245142
+  },
+  {
+    "nombre": "Centro Integral Veterinario Río Grande",
+    "provincia": "Tierra del Fuego",
+    "direccion": "Francisco Bilbao 479, V9420 Río Grande, Tierra del Fuego, Argentina",
+    "telefono": "+54 9 2964 69-8649",
+    "sitioWeb": "",
+    "lat": -53.7912246,
+    "lon": -67.7063785
+  },
+  {
+    "nombre": "VETERINARIA RIO GRANDE DR ALDO J. SANCHEZ",
+    "provincia": "Tierra del Fuego",
+    "direccion": "Carlos Pellegrini 190, V9420 Río Grande, Tierra del Fuego, Argentina",
+    "telefono": "+54 2964 62-4540",
+    "sitioWeb": "https://www.facebook.com/Veterinaria-Rio-Grande-Dr-Aldo-J-Sanchez-104194214543135/",
+    "lat": -53.7725399,
+    "lon": -67.7223945
+  },
+  {
+    "nombre": "Veterinaria Bauca",
+    "provincia": "Tierra del Fuego",
+    "direccion": "Juan Facundo Quiroga 2652, V9410 Ushuaia, Tierra del Fuego, Argentina",
+    "telefono": "+54 2901 65-1373",
+    "sitioWeb": "",
+    "lat": -54.7918251,
+    "lon": -68.2658735
+  },
+  {
+    "nombre": "Veterinary Wild Kingdom",
+    "provincia": "Tierra del Fuego",
+    "direccion": "J B, Calle Juan Bautista Alberdi 244, V9420 Río Grande, Tierra del Fuego, Argentina",
+    "telefono": "+54 2964 42-3333",
+    "sitioWeb": "",
+    "lat": -53.790195,
+    "lon": -67.6991355
+  },
+  {
+    "nombre": "Veterinaria Hocicos",
+    "provincia": "Tierra del Fuego",
+    "direccion": "C. Leonardo Rosales 629, V9421 Río Grande, Tierra del Fuego, Argentina",
+    "telefono": "+54 2964 43-3306",
+    "sitioWeb": "",
+    "lat": -53.7847525,
+    "lon": -67.7011248
+  },
+  {
+    "nombre": "Clínica Veterinaria Casa Campo Suc. San Lorenzo",
+    "provincia": "Tucumán",
+    "direccion": "Combate de San Lorenzo 558, T4000CAP San Miguel de Tucumán, Tucumán, Argentina",
+    "telefono": "+54 381 439-9224",
+    "sitioWeb": "",
+    "lat": -26.8334669,
+    "lon": -65.2064486
+  },
+  {
+    "nombre": "San Miguel Vets",
+    "provincia": "Tucumán",
+    "direccion": "Av. Mate de Luna 3448, T4000 San Miguel de Tucumán, Tucumán, Argentina",
+    "telefono": "+54 381 260-1670",
+    "sitioWeb": "https://facebook.com/sanmiguelclinicaveterinaria/",
+    "lat": -26.8216385,
+    "lon": -65.2487844
+  },
+  {
+    "nombre": "Clinica Veterinaria Ikigai en tucumán",
+    "provincia": "Tucumán",
+    "direccion": "Av. América 1547, T4000 San Miguel de Tucumán, Tucumán, Argentina",
+    "telefono": "+54 381 561-6104",
+    "sitioWeb": "https://www.veterinariaikigai.com/",
+    "lat": -26.8010119,
+    "lon": -65.2458984
+  },
+  {
+    "nombre": "SUR 24 - CENTRO VETERINARIO",
+    "provincia": "Tucumán",
+    "direccion": "Combate de Las Piedras 1066, T4000 San Miguel de Tucumán, Tucumán, Argentina",
+    "telefono": "+54 381 512-2320",
+    "sitioWeb": "https://www.gvetweb.com/sur-24-centro-veterinario",
+    "lat": -26.83345,
+    "lon": -65.2145515
+  },
+  {
+    "nombre": "Veterinaria Cruz Morada",
+    "provincia": "Tucumán",
+    "direccion": "Av. Gral. Roca 697, T4000 San Miguel de Tucumán, Tucumán, Argentina",
+    "telefono": "+54 381 420-1972",
+    "sitioWeb": "",
+    "lat": -26.8423956,
+    "lon": -65.2105757
+  },
+  {
+    "nombre": "Veterinaria Casa Campo Santiago 772",
+    "provincia": "Tucumán",
+    "direccion": "Santiago del Estero 772, T4000 San Miguel de Tucumán, Tucumán, Argentina",
+    "telefono": "+54 381 487-3113",
+    "sitioWeb": "",
+    "lat": -26.8234308,
+    "lon": -65.2071384
+  },
+  {
+    "nombre": "Emergencia Veterinaria",
+    "provincia": "Tucumán",
+    "direccion": "Av. Manuel Belgrano 2589, T4000 San Miguel de Tucumán, Tucumán, Argentina",
+    "telefono": "+54 381 231-0826",
+    "sitioWeb": "",
+    "lat": -26.8122986,
+    "lon": -65.2336511
+  },
+  {
+    "nombre": "Clínica Veterinaria del Pueblo",
+    "provincia": "Tucumán",
+    "direccion": "Av. Pres. Néstor Kirchner 1533, T4000 San Miguel de Tucumán, Tucumán, Argentina",
+    "telefono": "+54 381 420-4776",
+    "sitioWeb": "",
+    "lat": -26.8399531,
+    "lon": -65.2230305
+  },
+  {
+    "nombre": "Guardia Animal Clinica Veterinaria",
+    "provincia": "Tucumán",
+    "direccion": "Marcos Paz 776, T4000 San Miguel de Tucumán, Tucumán, Argentina",
+    "telefono": "+54 381 216-5812",
+    "sitioWeb": "https://www.facebook.com/profile.php?id=61555491232820&mibextid=ZbWKwL",
+    "lat": -26.8207601,
+    "lon": -65.206431
+  },
+  {
+    "nombre": "Clínica Veterinaria TucuMascotas",
+    "provincia": "Tucumán",
+    "direccion": "ex ruta 305 esquina, Fray Mamerto Esquiú, T4101 Las Talitas, Tucumán, Argentina",
+    "telefono": "+54 381 414-9921",
+    "sitioWeb": "http://www.tucumascotas.com.ar/",
+    "lat": -26.7797951,
+    "lon": -65.1834391
+  },
+  {
+    "nombre": "Clinical veterinary medication Arlequín",
+    "provincia": "Tucumán",
+    "direccion": "Av. Manuel Belgrano 2879, T4000 San Miguel de Tucumán, Tucumán, Argentina",
+    "telefono": "+54 381 231-5641",
+    "sitioWeb": "",
+    "lat": -26.8114586,
+    "lon": -65.2377841
+  },
+  {
+    "nombre": "Veterinaria - Quirofano San Roque -SOLO CON TURNO PREVIO POR WHATSAPP , respondemos rapido - MV Paulina Criscuolo",
+    "provincia": "Tucumán",
+    "direccion": "Juan Heller 1300, T4107 Yerba Buena, Tucumán, Argentina",
+    "telefono": "+54 381 505-6863",
+    "sitioWeb": "https://www.instagram.com/quirofanoveterinario/",
+    "lat": -26.8276742,
+    "lon": -65.2762786
+  },
+  {
+    "nombre": "Veterinario.tuc CONSULTAS A DOMICILIO 24 HS",
+    "provincia": "Tucumán",
+    "direccion": "25 de Mayo 305, T4000 San Miguel de Tucumán, Tucumán, Argentina",
+    "telefono": "+54 9 381 530-3858",
+    "sitioWeb": "https://wa.me/message/WRYNF4MBHRY2M1",
+    "lat": -26.8269171,
+    "lon": -65.2035709
+  },
+  {
+    "nombre": "Veterinary Cucha",
+    "provincia": "Tucumán",
+    "direccion": "Av. Ejército del Nte. 257, T4000 San Miguel de Tucumán, Tucumán, Argentina",
+    "telefono": "+54 381 368-1422",
+    "sitioWeb": "",
+    "lat": -26.8216663,
+    "lon": -65.2311547
+  },
+  {
+    "nombre": "Veterinario a domicilio",
+    "provincia": "Tucumán",
+    "direccion": "Sta. Fe 1876, T4000EON San Miguel de Tucumán, Tucumán, Argentina",
+    "telefono": "",
+    "sitioWeb": "",
+    "lat": -26.815974,
+    "lon": -65.2228593
+  },
+  {
+    "nombre": "Veterinary Clinic La Luna",
+    "provincia": "Tucumán",
+    "direccion": "San Juan 255, T4000 San Miguel de Tucumán, Tucumán, Argentina",
+    "telefono": "+54 381 519-3636",
+    "sitioWeb": "",
+    "lat": -26.8261911,
+    "lon": -65.1997151
+  },
+  {
+    "nombre": "MascoVet- Clínica Veterinaria- Dr. Esteban Villa MP 172",
+    "provincia": "Tucumán",
+    "direccion": "Av Las Americas 1632, T4000 San Miguel de Tucumán, Tucumán, Argentina",
+    "telefono": "+54 381 434-0214",
+    "sitioWeb": "https://www.paginasamarillas.com.ar/fichas/mascovet-clinica-veterinaria-dr-esteban-villa-mp-172_16560707/",
+    "lat": -26.7997352,
+    "lon": -65.2461417
+  },
+  {
+    "nombre": "Clínica Veterinaria Grey's",
+    "provincia": "Tucumán",
+    "direccion": "AFG San Miguel de Tucumán Tucumán AR, Av. Estado de Israel 2047, T4001, Argentina",
+    "telefono": "+54 381 233-3900",
+    "sitioWeb": "https://www.instagram.com/greysveterinaria?igsh=MW0ybTgxZmJxbjBlbA==",
+    "lat": -26.7962534,
+    "lon": -65.2345739
+  },
+  {
+    "nombre": "Los Pequeños Clínica Veterinaria",
+    "provincia": "Tucumán",
+    "direccion": "JDC, Balcarce 970, T4001 San Miguel de Tucumán, Tucumán, Argentina",
+    "telefono": "+54 381 422-3589",
+    "sitioWeb": "",
+    "lat": -26.8187892,
+    "lon": -65.1956746
+  },
+  {
+    "nombre": "Veterinaria Casa Campo Suc. Avellaneda",
+    "provincia": "Tucumán",
+    "direccion": "Av. Nicolás Avellaneda 679, T4000 San Miguel de Tucumán, Tucumán, Argentina",
+    "telefono": "+54 381 232-0198",
+    "sitioWeb": "",
+    "lat": -26.8230777,
+    "lon": -65.1946832
+  }
+]
