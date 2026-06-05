@@ -1,7 +1,5 @@
 const map = L.map('map').setView([-34.6, -58.4], 10);
 
-//Consumo de API
-
 // TILES
 L.tileLayer(
   "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
@@ -11,79 +9,120 @@ L.tileLayer(
   }
 ).addTo(map);
 
-// ========================
 // CAPA ACTUAL
-// ========================
-
 let capaActual = null;
 
-// ========================
 // SERVICIO ACTIVO
-// ========================
-
 let servicioActual = null;
 
-// ========================
-// EMOJIS
-// ========================
-
 const emojis = {
-
-  hospital: "🏥",
-
-  pharmacy: "💊",
-
-  clinic: "🩺",
-
-  dentist: "🦷",
-
+  hospital:   "🏥",
+  pharmacy:   "💊",
+  clinic:     "🩺",
+  dentist:    "🦷",
   veterinary: "🐶"
-
 };
 
-// ========================
 // BOTONES
-// ========================
+const botones = document.querySelectorAll(".boton-servicio");
 
-const botones =
-  document.querySelectorAll(
-    ".boton-servicio"
-  );
+// CACHE Y DEBOUNCE
+const cache = {};
+let timeoutCarga = null;
 
-// ========================
-// CARGAR
-// ========================
+// LÍMITES POR PROVINCIA
+const limitesProvincias = {
+  "Buenos Aires":        { minLat:-41.0, maxLat:-33.0, minLon:-64.5, maxLon:-56.0 },
+  "Catamarca":           { minLat:-30.5, maxLat:-25.0, minLon:-69.5, maxLon:-64.0 },
+  "Chaco":               { minLat:-28.5, maxLat:-24.0, minLon:-63.5, maxLon:-58.0 },
+  "Chubut":              { minLat:-47.5, maxLat:-41.0, minLon:-72.0, maxLon:-64.0 },
+  "Córdoba":             { minLat:-35.5, maxLat:-29.0, minLon:-65.5, maxLon:-61.5 },
+  "Corrientes":          { minLat:-31.0, maxLat:-27.0, minLon:-59.5, maxLon:-55.5 },
+  "Entre Ríos":          { minLat:-34.5, maxLat:-29.0, minLon:-60.5, maxLon:-57.5 },
+  "Formosa":             { minLat:-27.5, maxLat:-22.0, minLon:-62.5, maxLon:-57.5 },
+  "Jujuy":               { minLat:-24.5, maxLat:-21.5, minLon:-67.5, maxLon:-63.5 },
+  "La Pampa":            { minLat:-39.5, maxLat:-34.0, minLon:-68.5, maxLon:-63.0 },
+  "La Rioja":            { minLat:-31.5, maxLat:-27.0, minLon:-69.5, maxLon:-65.0 },
+  "Mendoza":             { minLat:-37.5, maxLat:-31.0, minLon:-70.5, maxLon:-66.0 },
+  "Misiones":            { minLat:-28.5, maxLat:-25.0, minLon:-56.5, maxLon:-53.5 },
+  "Neuquén":             { minLat:-41.5, maxLat:-35.0, minLon:-72.0, maxLon:-68.0 },
+  "Río Negro":           { minLat:-42.5, maxLat:-37.0, minLon:-72.0, maxLon:-62.0 },
+  "Salta":               { minLat:-27.5, maxLat:-22.0, minLon:-68.5, maxLon:-62.0 },
+  "San Juan":            { minLat:-32.5, maxLat:-28.0, minLon:-70.0, maxLon:-67.0 },
+  "San Luis":            { minLat:-37.5, maxLat:-31.5, minLon:-67.5, maxLon:-64.5 },
+  "Santa Cruz":          { minLat:-53.0, maxLat:-45.0, minLon:-73.0, maxLon:-65.0 },
+  "Santa Fe":            { minLat:-34.5, maxLat:-28.0, minLon:-63.5, maxLon:-59.0 },
+  "Santiago del Estero": { minLat:-30.5, maxLat:-25.0, minLon:-65.5, maxLon:-61.0 },
+  "Tierra del Fuego":    { minLat:-55.5, maxLat:-52.0, minLon:-69.5, maxLon:-64.0 },
+  "Tucumán":             { minLat:-28.5, maxLat:-25.5, minLon:-66.5, maxLon:-64.0 },
+};
 
-async function cargar(tipo) {
-
+// JSON - DENTISTAS
+async function fetchDentistasJSON(provincia) {
   try {
+    const res = await fetch("./datasets/dentistas.json");
+    const data = await res.json();
+    return data.filter(item => {
+      if (item.provincia !== provincia) return false;
+      const lat = parseFloat(item.lat);
+      const lon = parseFloat(item.lon);
+      const limites = limitesProvincias[provincia];
+      if (limites) {
+        if (lat < limites.minLat || lat > limites.maxLat ||
+            lon < limites.minLon || lon > limites.maxLon) return false;
+      }
+      return true;
+    });
+  } catch (e) {
+    console.warn("No se pudo cargar dentistas.json", e);
+    return [];
+  }
+}
 
-    servicioActual = tipo;
+// JSON - VETERINARIAS
+async function fetchVeterinariasJSON(provincia) {
+  try {
+    const res = await fetch("./datasets/veterinarias.json");
+    const data = await res.json();
+    return data.filter(item => {
+      if (item.provincia !== provincia) return false;
+      const lat = parseFloat(item.lat);
+      const lon = parseFloat(item.lon);
+      const limites = limitesProvincias[provincia];
+      if (limites) {
+        if (lat < limites.minLat || lat > limites.maxLat ||
+            lon < limites.minLon || lon > limites.maxLon) return false;
+      }
+      return true;
+    });
+  } catch (e) {
+    console.warn("No se pudo cargar veterinarias.json", e);
+    return [];
+  }
+}
 
-    actualizarBotones();
+// CARGAR
+function cargar(tipo) {
+  clearTimeout(timeoutCarga);
+  timeoutCarga = setTimeout(async () => {
 
-    // PROVINCIA
-    const provincia =
-      document
-      .getElementById("provincia")
-      .value;
+    try {
 
-    // BORRAR ANTERIOR
-    if (capaActual) {
+      servicioActual = tipo;
+      actualizarBotones();
 
-      map.removeLayer(
-        capaActual
-      );
+      // PROVINCIA
+      const provincia = document.getElementById("provincia").value;
 
-    }
+      // BORRAR ANTERIOR
+      if (capaActual) {
+        map.removeLayer(capaActual);
+      }
 
-    capaActual = L.featureGroup();
+      capaActual = L.featureGroup();
 
-    // ========================
-    // QUERY OVERPASS
-    // ========================
-
-    const query = `
+      // QUERY OVERPASS
+      const query = `
 [out:json][timeout:25];
 
 area["boundary"="administrative"]
@@ -97,373 +136,138 @@ area["boundary"="administrative"]
 out body;
 `;
 
-    console.log(query);
+      console.log(query);
 
-    // ========================
-    // FETCH
-    // ========================
+      // FETCH CON FALLBACK
+      const servidores = [
+        "https://overpass-api.de/api/interpreter",
+        "https://overpass.kumi.systems/api/interpreter",
+        "https://overpass.openstreetmap.ru/api/interpreter",
+      ];
 
-    const res = await fetch(
-      "https://overpass-api.de/api/interpreter",
-      {
-        method: "POST",
-        body: query
+      let res = null;
+      for (const url of servidores) {
+        try {
+          res = await fetch(url, { method: "POST", body: query });
+          if (res.ok) break;
+        } catch {}
       }
-    );
 
-    const data =
-      await res.json();
+      if (!res || !res.ok) throw new Error("Todos los servidores Overpass fallaron");
 
-    console.log(data);
+      const data = await res.json();
+      console.log(data);
 
-    // ========================
-    // RECORRER
-    // ========================
+      // JSON según tipo
+      let elementosJSON = [];
+      if (tipo === "dentist") {
+        const jsonData = await fetchDentistasJSON(provincia);
+        elementosJSON = jsonData.map(item => ({
+          lat:      parseFloat(item.lat),
+          lon:      parseFloat(item.lon),
+          nombre:   item.nombre,
+          direccion: item.direccion || "",
+        }));
+      } else if (tipo === "veterinary") {
+        const jsonData = await fetchVeterinariasJSON(provincia);
+        elementosJSON = jsonData.map(item => ({
+          lat:      parseFloat(item.lat),
+          lon:      parseFloat(item.lon),
+          nombre:   item.nombre,
+          direccion: item.direccion || "",
+        }));
+      }
 
-data.elements.forEach(lugar => {
+      // DEDUPLICAR - JSON tiene prioridad sobre OSM
+      const vistos = new Map();
 
-  // SIN COORDENADAS
-  if (!lugar.lat || !lugar.lon)
-    return;
+      elementosJSON.forEach(item => {
+        const clave = `${Math.round(item.lat * 1000)},${Math.round(item.lon * 1000)}`;
+        vistos.set(clave, item);
+      });
 
-  // SIN NOMBRE
-  if (!lugar.tags?.name)
-    return;
+      data.elements.forEach(lugar => {
+        if (!lugar.lat || !lugar.lon) return;
+        if (!lugar.tags?.name) return;
+        if (lugar.tags["addr:country"] && lugar.tags["addr:country"] !== "AR") return;
 
-  // FILTRO ARGENTINA
-  if (
-    lugar.tags["addr:country"] &&
-    lugar.tags["addr:country"] !== "AR"
-  ) {
-    return;
-  }
+        const limites = limitesProvincias[provincia];
+        if (limites) {
+          if (
+            lugar.lat < limites.minLat ||
+            lugar.lat > limites.maxLat ||
+            lugar.lon < limites.minLon ||
+            lugar.lon > limites.maxLon
+          ) return;
+        }
 
-  // FILTRO PROVINCIA
+        const clave = `${Math.round(lugar.lat * 1000)},${Math.round(lugar.lon * 1000)}`;
+        if (!vistos.has(clave)) {
+          vistos.set(clave, {
+            lat:      lugar.lat,
+            lon:      lugar.lon,
+            nombre:   lugar.tags?.name || "Sin nombre",
+            direccion: lugar.tags?.["addr:street"] || "",
+          });
+        }
+      });
 
-const limitesProvincias = {
+      // MARKERS
+      const emoji = emojis[tipo] || "📍";
 
-  "Buenos Aires": {
-    minLat: -41.0,
-    maxLat: -33.0,
-    minLon: -64.5,
-    maxLon: -56.0
-  },
+      vistos.forEach(lugar => {
 
-  "Catamarca": {
-    minLat: -30.5,
-    maxLat: -25.0,
-    minLon: -69.5,
-    maxLon: -64.0
-  },
+        const nombre   = lugar.nombre   || "Sin nombre";
+        const calle    = lugar.direccion || "";
 
-  "Chaco": {
-    minLat: -28.5,
-    maxLat: -24.0,
-    minLon: -63.5,
-    maxLon: -58.0
-  },
+        const icono = L.divIcon({
+          html: `<div style="font-size: 28px;">${emoji}</div>`,
+          className: "",
+          iconSize: [30, 30],
+          iconAnchor: [15, 30]
+        });
 
-  "Chubut": {
-    minLat: -47.5,
-    maxLat: -41.0,
-    minLon: -72.0,
-    maxLon: -64.0
-  },
+        const marker = L.marker([lugar.lat, lugar.lon], { icon: icono })
+          .bindPopup(`
+            <div style="font-size:22px">${emoji}</div>
+            <b>${nombre}</b>
+            <br><br>
+            ${tipo}
+            <br>
+            ${calle}
+          `);
 
-  "Córdoba": {
-    minLat: -35.5,
-    maxLat: -29.0,
-    minLon: -65.5,
-    maxLon: -61.5
-  },
+        capaActual.addLayer(marker);
+      });
 
-  "Corrientes": {
-    minLat: -31.0,
-    maxLat: -27.0,
-    minLon: -59.5,
-    maxLon: -55.5
-  },
+      // MAPA
+      capaActual.addTo(map);
 
-  "Entre Ríos": {
-    minLat: -34.5,
-    maxLat: -29.0,
-    minLon: -60.5,
-    maxLon: -57.5
-  },
+      // ZOOM
+      if (capaActual.getLayers().length > 0) {
+        map.fitBounds(capaActual.getBounds());
+      }
 
-  "Formosa": {
-    minLat: -27.5,
-    maxLat: -22.0,
-    minLon: -62.5,
-    maxLon: -57.5
-  },
-
-  "Jujuy": {
-    minLat: -24.5,
-    maxLat: -21.5,
-    minLon: -67.5,
-    maxLon: -63.5
-  },
-
-  "La Pampa": {
-    minLat: -39.5,
-    maxLat: -34.0,
-    minLon: -68.5,
-    maxLon: -63.0
-  },
-
-  "La Rioja": {
-    minLat: -31.5,
-    maxLat: -27.0,
-    minLon: -69.5,
-    maxLon: -65.0
-  },
-
-  "Mendoza": {
-    minLat: -37.5,
-    maxLat: -31.0,
-    minLon: -70.5,
-    maxLon: -66.0
-  },
-
-  "Misiones": {
-    minLat: -28.5,
-    maxLat: -25.0,
-    minLon: -56.5,
-    maxLon: -53.5
-  },
-
-  "Neuquén": {
-    minLat: -41.5,
-    maxLat: -35.0,
-    minLon: -72.0,
-    maxLon: -68.0
-  },
-
-  "Río Negro": {
-    minLat: -42.5,
-    maxLat: -37.0,
-    minLon: -72.0,
-    maxLon: -62.0
-  },
-
-  "Salta": {
-    minLat: -27.5,
-    maxLat: -22.0,
-    minLon: -68.5,
-    maxLon: -62.0
-  },
-
-  "San Juan": {
-    minLat: -32.5,
-    maxLat: -28.0,
-    minLon: -70.0,
-    maxLon: -67.0
-  },
-
-  "San Luis": {
-    minLat: -37.5,
-    maxLat: -31.5,
-    minLon: -67.5,
-    maxLon: -64.5
-  },
-
-  "Santa Cruz": {
-    minLat: -53.0,
-    maxLat: -45.0,
-    minLon: -73.0,
-    maxLon: -65.0
-  },
-
-  "Santa Fe": {
-    minLat: -34.5,
-    maxLat: -28.0,
-    minLon: -63.5,
-    maxLon: -59.0
-  },
-
-  "Santiago del Estero": {
-    minLat: -30.5,
-    maxLat: -25.0,
-    minLon: -65.5,
-    maxLon: -61.0
-  },
-
-  "Tierra del Fuego": {
-    minLat: -55.5,
-    maxLat: -52.0,
-    minLon: -69.5,
-    maxLon: -64.0
-  },
-
-  "Tucumán": {
-    minLat: -28.5,
-    maxLat: -25.5,
-    minLon: -66.5,
-    maxLon: -64.0
-  }
-
-};
-
-const limites =
-  limitesProvincias[provincia];
-
-if (limites) {
-
-  if (
-    lugar.lat < limites.minLat ||
-    lugar.lat > limites.maxLat ||
-    lugar.lon < limites.minLon ||
-    lugar.lon > limites.maxLon
-  ) {
-    return;
-  }
-
-}
-
-      // NOMBRE
-      const nombre =
-        lugar.tags?.name ||
-        "Sin nombre";
-
-      // DIRECCION
-      const calle =
-        lugar.tags?.["addr:street"] ||
-        "";
-
-      // ICONO
-      const emoji =
-        emojis[tipo] || "📍";
-
-      // MARKER
-const icono = L.divIcon({
-
-  html: `
-    <div style="
-      font-size: 28px;
-    ">
-      ${emoji}
-    </div>
-  `,
-
-  className: "",
-
-  iconSize: [30, 30],
-
-  iconAnchor: [15, 30]
-
-});
-
-const marker =
-  L.marker(
-    [lugar.lat, lugar.lon],
-    {
-      icon: icono
-    }
-  )
-  .bindPopup(`
-
-    <div style="
-      font-size:22px
-    ">
-      ${emoji}
-    </div>
-
-    <b>${nombre}</b>
-
-    <br><br>
-
-    ${tipo}
-
-    <br>
-
-    ${calle}
-
-  `);
-
-      capaActual.addLayer(
-        marker
-      );
-
-    });
-
-    // ========================
-    // MAPA
-    // ========================
-
-    capaActual.addTo(map);
-
-    // ========================
-    // ZOOM
-    // ========================
-
-    if (
-      capaActual
-      .getLayers()
-      .length > 0
-    ) {
-
-      map.fitBounds(
-        capaActual.getBounds()
-      );
-
+    } catch(error) {
+      console.error(error);
     }
 
-  } catch(error) {
-
-    console.error(error);
-
-  }
-
+  }, 400);
 }
 
-// ========================
 // BOTON ACTIVO
-// ========================
-
 function actualizarBotones() {
-
-  botones.forEach(
-    boton => {
-
-    boton.classList.remove(
-      "activo"
-    );
-
-    if (
-      boton.dataset.tipo ===
-      servicioActual
-    ) {
-
-      boton.classList.add(
-        "activo"
-      );
-
+  botones.forEach(boton => {
+    boton.classList.remove("activo");
+    if (boton.dataset.tipo === servicioActual) {
+      boton.classList.add("activo");
     }
-
   });
-
 }
 
-// ========================
 // CAMBIO PROVINCIA
-// ========================
-
-document
-  .getElementById("provincia")
-  .addEventListener(
-    "change",
-    () => {
-
-      // SI YA HABIA
-      // UN SERVICIO
-      if (servicioActual) {
-
-        cargar(
-          servicioActual
-        );
-
-      }
-
-    }
-  );
+document.getElementById("provincia").addEventListener("change", () => {
+  if (servicioActual) {
+    cargar(servicioActual);
+  }
+});
