@@ -1,173 +1,248 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SaludMap AR — Servicios de salud en Argentina</title>
 
-<title>Servicios Argentina</title>
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <!-- MarkerCluster CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
+  <!-- Google Fonts: Inter (body) + Sora (display) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700&display=swap" rel="stylesheet">
 
-  <link
-    rel="stylesheet"
-    href="https://unpkg.com/leaflet/dist/leaflet.css"
-  />
   <link rel="stylesheet" href="./styles.css">
 </head>
-
 <body>
 
-<div id="panel">
+  <!-- ═══════════════════════════════════════
+       HEADER
+  ═══════════════════════════════════════ -->
+  <header class="header">
+    <div class="header__brand">
+      <!-- Logotipo SVG inline: cruz médica + pin de mapa -->
+      <div class="header__logo" aria-hidden="true">
+        <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <!-- Pin -->
+          <path d="M18 2C12.477 2 8 6.477 8 12c0 7 10 22 10 22s10-15 10-22c0-5.523-4.477-10-10-10Z"
+                fill="#2563eb"/>
+          <!-- Cruz médica blanca -->
+          <rect x="15.5" y="7" width="5" height="10" rx="1.5" fill="white"/>
+          <rect x="11" y="9.5" width="14" height="5" rx="1.5" fill="white"/>
+        </svg>
+      </div>
+      <div class="header__titles">
+        <span class="header__name">SaludMap <span class="header__country">AR</span></span>
+        <span class="header__tagline">Servicios de salud en Argentina</span>
+      </div>
+    </div>
 
-  <select id="provincia">
+    <!-- Indicador de estado (visible cuando hay resultados) -->
+    <div class="header__status" id="statusBadge" aria-live="polite">
+      <span class="status-dot"></span>
+      <span id="statusText">Seleccioná una categoría para comenzar</span>
+    </div>
 
-    <option value="Buenos Aires">
-      Buenos Aires
-    </option>
+    <!-- Botón hamburguesa (solo móvil) -->
+    <button class="header__menu-toggle" id="menuToggle" aria-label="Abrir filtros" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
 
-    <option value="Catamarca">
-      Catamarca
-    </option>
 
-    <option value="Chaco">
-      Chaco
-    </option>
+  <!-- ═══════════════════════════════════════
+       LAYOUT PRINCIPAL
+  ═══════════════════════════════════════ -->
+  <div class="layout">
 
-    <option value="Chubut">
-      Chubut
-    </option>
+    <!-- ── SIDEBAR ── -->
+    <aside class="sidebar" id="sidebar" aria-label="Panel de filtros">
 
-    <option value="Córdoba">
-      Córdoba
-    </option>
+      <!-- Overlay para cerrar en móvil -->
+      <div class="sidebar__overlay" id="sidebarOverlay"></div>
 
-    <option value="Corrientes">
-      Corrientes
-    </option>
+      <div class="sidebar__inner">
 
-    <option value="Entre Ríos">
-      Entre Ríos
-    </option>
+        <!-- Sección: Provincia -->
+        <section class="sidebar__section">
+          <label class="sidebar__label" for="provincia">
+            <svg class="label-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
+            </svg>
+            Provincia
+          </label>
+          <div class="select-wrapper">
+            <select id="provincia" class="select-provincia" aria-label="Seleccionar provincia">
+              <option value="Buenos Aires">Buenos Aires</option>
+              <option value="Catamarca">Catamarca</option>
+              <option value="Chaco">Chaco</option>
+              <option value="Chubut">Chubut</option>
+              <option value="Córdoba">Córdoba</option>
+              <option value="Corrientes">Corrientes</option>
+              <option value="Entre Ríos">Entre Ríos</option>
+              <option value="Formosa">Formosa</option>
+              <option value="Jujuy">Jujuy</option>
+              <option value="La Pampa">La Pampa</option>
+              <option value="La Rioja">La Rioja</option>
+              <option value="Mendoza">Mendoza</option>
+              <option value="Misiones">Misiones</option>
+              <option value="Neuquén">Neuquén</option>
+              <option value="Río Negro">Río Negro</option>
+              <option value="Salta">Salta</option>
+              <option value="San Juan">San Juan</option>
+              <option value="San Luis">San Luis</option>
+              <option value="Santa Cruz">Santa Cruz</option>
+              <option value="Santa Fe">Santa Fe</option>
+              <option value="Santiago del Estero">Santiago del Estero</option>
+              <option value="Tierra del Fuego">Tierra del Fuego</option>
+              <option value="Tucumán">Tucumán</option>
+            </select>
+            <!-- Flecha del select -->
+            <svg class="select-arrow" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd"/>
+            </svg>
+          </div>
+        </section>
 
-    <option value="Formosa">
-      Formosa
-    </option>
+        <!-- Divider -->
+        <div class="sidebar__divider" aria-hidden="true"></div>
 
-    <option value="Jujuy">
-      Jujuy
-    </option>
+        <!-- Sección: Categorías -->
+        <section class="sidebar__section">
+          <p class="sidebar__label">
+            <svg class="label-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10zm0 5.25a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75a.75.75 0 01-.75-.75z"/>
+            </svg>
+            Tipo de servicio
+          </p>
 
-    <option value="La Pampa">
-      La Pampa
-    </option>
+          <!-- Botones de categoría -->
+          <div class="categorias" role="group" aria-label="Categorías de servicios">
 
-    <option value="La Rioja">
-      La Rioja
-    </option>
+            <button class="boton-servicio" data-tipo="hospital" onclick="cargar('hospital')" aria-pressed="false">
+              <span class="btn-icon" aria-hidden="true">🏥</span>
+              <span class="btn-label">Hospitales</span>
+              <svg class="btn-arrow" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd"/>
+              </svg>
+            </button>
 
-    <option value="Mendoza">
-      Mendoza
-    </option>
+            <button class="boton-servicio" data-tipo="pharmacy" onclick="cargar('pharmacy')" aria-pressed="false">
+              <span class="btn-icon" aria-hidden="true">💊</span>
+              <span class="btn-label">Farmacias</span>
+              <svg class="btn-arrow" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd"/>
+              </svg>
+            </button>
 
-    <option value="Misiones">
-      Misiones
-    </option>
+            <button class="boton-servicio" data-tipo="clinic" onclick="cargar('clinic')" aria-pressed="false">
+              <span class="btn-icon" aria-hidden="true">🩺</span>
+              <span class="btn-label">Clínicas</span>
+              <svg class="btn-arrow" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd"/>
+              </svg>
+            </button>
 
-    <option value="Neuquén">
-      Neuquén
-    </option>
+            <button class="boton-servicio" data-tipo="dentist" onclick="cargar('dentist')" aria-pressed="false">
+              <span class="btn-icon" aria-hidden="true">🦷</span>
+              <span class="btn-label">Dentistas</span>
+              <svg class="btn-arrow" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd"/>
+              </svg>
+            </button>
 
-    <option value="Río Negro">
-      Río Negro
-    </option>
+            <button class="boton-servicio" data-tipo="veterinary" onclick="cargar('veterinary')" aria-pressed="false">
+              <span class="btn-icon" aria-hidden="true">🐶</span>
+              <span class="btn-label">Veterinarias</span>
+              <svg class="btn-arrow" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd"/>
+              </svg>
+            </button>
 
-    <option value="Salta">
-      Salta
-    </option>
+          </div>
+        </section>
 
-    <option value="San Juan">
-      San Juan
-    </option>
+        <!-- Divider -->
+        <div class="sidebar__divider" aria-hidden="true"></div>
 
-    <option value="San Luis">
-      San Luis
-    </option>
+        <!-- Sección: Ayuda / info -->
+        <section class="sidebar__section sidebar__section--info">
+          <div class="info-card">
+            <svg class="info-card__icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a.75.75 0 000 1.5h.253a.25.25 0 01.244.304l-.459 2.066A1.75 1.75 0 0010.747 15H11a.75.75 0 000-1.5h-.253a.25.25 0 01-.244-.304l.459-2.066A1.75 1.75 0 009.253 9H9z" clip-rule="evenodd"/>
+            </svg>
+            <p class="info-card__text">
+              Los datos provienen de <strong>OpenStreetMap</strong> y datasets locales. La cobertura puede variar por zona.
+            </p>
+          </div>
+        </section>
 
-    <option value="Santa Cruz">
-      Santa Cruz
-    </option>
+        <!-- Footer del sidebar -->
+        <footer class="sidebar__footer">
+          <p>Datos: OSM · Overpass API</p>
+          <p>Proyecto académico · Gobierno Electrónico</p>
+          <p>UNAJ</p>
+          <p>·2026·</p>
+        </footer>
 
-    <option value="Santa Fe">
-      Santa Fe
-    </option>
+      </div><!-- /sidebar__inner -->
+    </aside><!-- /sidebar -->
 
-    <option value="Santiago del Estero">
-      Santiago del Estero
-    </option>
 
-    <option value="Tierra del Fuego">
-      Tierra del Fuego
-    </option>
+    <!-- ── MAPA ── -->
+    <main class="map-container" role="main" aria-label="Mapa interactivo">
 
-    <option value="Tucumán">
-      Tucumán
-    </option>
+      <!-- Overlay de carga (se puede mostrar/ocultar con JS si se desea) -->
+      <div class="map-loading" id="mapLoading" aria-live="polite" aria-hidden="true">
+        <div class="map-loading__spinner" aria-hidden="true"></div>
+        <p class="map-loading__text">Cargando resultados…</p>
+      </div>
 
-  </select>
+      <!-- ⚠️ NO MODIFICAR — contenedor del mapa Leaflet -->
+      <div id="map"></div>
 
-  <button
-    class="boton-servicio"
-    data-tipo="hospital"
-    onclick="cargar('hospital')"
-  >
-    🏥 Hospitales
-  </button>
+    </main>
 
-  <button
-    class="boton-servicio"
-    data-tipo="pharmacy"
-    onclick="cargar('pharmacy')"
-  >
-    💊 Farmacias
-  </button>
+  </div><!-- /layout -->
 
-  <button
-    class="boton-servicio"
-    data-tipo="clinic"
-    onclick="cargar('clinic')"
-  >
-    🩺 Clínicas
-  </button>
 
-  <button
-    class="boton-servicio"
-    data-tipo="dentist"
-    onclick="cargar('dentist')"
-  >
-    🦷 Dentistas
-  </button>
-
-  <button
-    class="boton-servicio"
-    data-tipo="veterinary"
-    onclick="cargar('veterinary')"
-  >
-    🐶 Veterinarias
-  </button>
-
-</div>
-
-  <div id="map"></div>
-
-  <!-- <title>Mapa</title>
-
-  <!-- CSS de Leaflet -->
-  <!-- <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" /> -->
-<!-- </head> -->
-<!-- <body style="height: 100%;">
-  <div id="map" style="height: 100vh;"></div> -->
-</body>
+  <!-- Scripts -->
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
   <script src="api.js"></script>
+
+  <!-- UI helpers: hamburguesa + aria-pressed en botones -->
+  <script>
+    // Menú hamburguesa (móvil)
+    const menuToggle   = document.getElementById('menuToggle');
+    const sidebar      = document.getElementById('sidebar');
+    const overlay      = document.getElementById('sidebarOverlay');
+
+    function toggleSidebar(force) {
+      const open = force !== undefined ? force : !sidebar.classList.contains('sidebar--open');
+      sidebar.classList.toggle('sidebar--open', open);
+      menuToggle.setAttribute('aria-expanded', open);
+      document.body.classList.toggle('sidebar-is-open', open);
+    }
+
+    menuToggle.addEventListener('click', () => toggleSidebar());
+    overlay.addEventListener('click', () => toggleSidebar(false));
+
+    // Sincronizar aria-pressed con el botón activo
+    // (se ejecuta después de que api.js actualiza las clases)
+    const observer = new MutationObserver(() => {
+      document.querySelectorAll('.boton-servicio').forEach(btn => {
+        btn.setAttribute('aria-pressed', btn.classList.contains('activo') ? 'true' : 'false');
+      });
+    });
+    document.querySelectorAll('.boton-servicio').forEach(btn => {
+      observer.observe(btn, { attributes: true, attributeFilter: ['class'] });
+    });
+  </script>
+
+</body>
 </html>

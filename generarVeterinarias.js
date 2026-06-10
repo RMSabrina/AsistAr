@@ -111,7 +111,7 @@ const dataset = await axios.get(
   );
 
   console.log(
-    `Generados ${resultados.length} dentistas`
+    `Generados ${resultados.length} veterinarias`
   );
 
 }

@@ -59,11 +59,11 @@ async function generarDentistas() {
       resolve => setTimeout(resolve, 30000)
     );
 
-    const dataset = await axios.get(
+const dataset = await axios.get(
   `https://api.apify.com/v2/datasets/${datasetId}/items`,
   {
-    params: {
-      token: process.env.APIFY_TOKEN
+    headers: {
+      Authorization: `Bearer ${process.env.APIFY_TOKEN}`
     }
   }
 );
