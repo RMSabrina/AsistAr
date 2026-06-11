@@ -167,6 +167,8 @@ out body;
           lon:      parseFloat(item.lon),
           nombre:   item.nombre,
           direccion: item.direccion || "",
+          telefono: item.telefono || null,
+          sitioWeb: item.sitioWeb || null
         }));
       } else if (tipo === "veterinary") {
         const jsonData = await fetchVeterinariasJSON(provincia);
@@ -175,6 +177,8 @@ out body;
           lon:      parseFloat(item.lon),
           nombre:   item.nombre,
           direccion: item.direccion || "",
+          telefono: item.telefono || null,
+          sitioWeb: item.sitioWeb || null
         }));
       }
 
@@ -203,11 +207,36 @@ out body;
 
         const clave = `${Math.round(lugar.lat * 1000)},${Math.round(lugar.lon * 1000)}`;
         if (!vistos.has(clave)) {
+          const calle =
+            lugar.tags?.["addr:street"] || "";
+
+          const numero =
+            lugar.tags?.["addr:housenumber"] || "";
+
+          const direccion =
+            `${calle} ${numero}`.trim();
+
+          const telefono =
+            lugar.tags?.phone ||
+            lugar.tags?.["contact:phone"] ||
+            null;
+
+          const sitioWeb =
+            lugar.tags?.website ||
+            lugar.tags?.["contact:website"] ||
+            null;
+
           vistos.set(clave, {
-            lat:      lugar.lat,
-            lon:      lugar.lon,
-            nombre:   lugar.tags?.name || "Sin nombre",
-            direccion: lugar.tags?.["addr:street"] || "",
+            nombre: lugar.tags?.name || "Sin nombre",
+
+            direccion,
+
+            lat: lugar.lat,
+            lon: lugar.lon,
+
+            telefono,
+
+            sitioWeb
           });
         }
       });
@@ -219,6 +248,42 @@ out body;
 
         const nombre   = lugar.nombre   || "Sin nombre";
         const calle    = lugar.direccion || "";
+        let popupHTML = `
+            <div class="popup-card">
+
+              <div class="popup-header">
+                <span style="font-size:24px">${emoji}</span>
+                <strong>${nombre}</strong>
+              </div>
+          `;
+        if (calle) {
+          popupHTML += `
+            <p><span class="material-symbols-outlined popup-pin">
+              location_on
+            </span>${calle}</p>
+          `;
+        }  
+        if (lugar.telefono) {
+          popupHTML += `
+            <p><span class="material-symbols-outlined">call</span> ${lugar.telefono}</p>
+          `;
+        }
+        if (lugar.sitioWeb) {
+          popupHTML += `
+            <p>
+              <span class="material-symbols-outlined">
+                language
+              </span>
+              <a
+                href="${lugar.sitioWeb}"
+                target="_blank"
+              >
+                Sitio web
+              </a>
+            </p>
+          `;
+        }
+        popupHTML += `</div>`;
 
         const icono = L.divIcon({
           html: `<div style="font-size: 28px;">${emoji}</div>`,
@@ -228,14 +293,7 @@ out body;
         });
 
         const marker = L.marker([lugar.lat, lugar.lon], { icon: icono })
-          .bindPopup(`
-            <div style="font-size:22px">${emoji}</div>
-            <b>${nombre}</b>
-            <br><br>
-            ${tipo}
-            <br>
-            ${calle}
-          `);
+          .bindPopup(popupHTML);
 
         capaActual.addLayer(marker);
       });
