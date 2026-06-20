@@ -15,6 +15,9 @@ let capaActual = null;
 // SERVICIO ACTIVO
 let servicioActual = null;
 
+// ESTADO DE CARGA (NUEVO)
+let estaCargando = false;
+
 const emojis = {
   hospital:   "🏥",
   pharmacy:   "💊",
@@ -101,10 +104,97 @@ async function fetchVeterinariasJSON(provincia) {
   }
 }
 
+// JSON - HOSPITALES
+async function fetchHospitalesJSON(provincia, tipo) {
+  try {
+    const res = await fetch("./datasets/hospitales.json");
+    const data = await res.json();
+
+    const tipologiasHospital = new Set(["ESCIG","ESCIEP","ESCIEM","ESCIE","ESCIESM","ESCIRES"]);
+    const tipologiasClinica  = new Set(["ESSIDT","ESSID","ESSIT","ESCL","ESAIS"]);
+
+    return data.filter(item => {
+      // filtro provincia
+      if (item.provincia_nombre?.toUpperCase() !== provincia.toUpperCase()) return false;
+
+      // filtro tipología según tipo solicitado
+      const sigla = item.tipologia_sigla?.toUpperCase();
+      if (tipo === "hospital" && !tipologiasHospital.has(sigla)) return false;
+      if (tipo === "clinic"   && !tipologiasClinica.has(sigla))  return false;
+
+      // filtro coordenadas
+      const lat = parseFloat(item.latitud);
+      const lon = parseFloat(item.longitud);
+      if (isNaN(lat) || isNaN(lon)) return false;
+      const limites = limitesProvincias[provincia];
+      if (limites) {
+        if (lat < limites.minLat || lat > limites.maxLat ||
+            lon < limites.minLon || lon > limites.maxLon) return false;
+      }
+
+      return true;
+    }).map(item => ({
+      lat:      parseFloat(item.latitud),
+      lon:      parseFloat(item.longitud),
+      nombre:   item.establecimiento_nombre || "Sin nombre",
+      direccion: item.domicilio || "",
+      telefono: null,
+      sitioWeb: item.sitio_web || null,
+    }));
+  } catch (e) {
+    console.warn("No se pudo cargar hospitales.json", e);
+    return [];
+  }
+}
+
+// JSON - FARMACIAS
+async function fetchFarmaciasJSON(provincia) {
+  try {
+    const res = await fetch("./datasets/farmacias.json");
+    const data = await res.json();
+    return data.filter(item => {
+      if (item.provincia !== provincia) return false;
+      const lat = parseFloat(item.lat);
+      const lon = parseFloat(item.lon);
+      const limites = limitesProvincias[provincia];
+      if (limites) {
+        if (lat < limites.minLat || lat > limites.maxLat ||
+            lon < limites.minLon || lon > limites.maxLon) return false;
+      }
+      return true;
+    });
+  } catch (e) {
+    console.warn("No se pudo cargar farmacias.json", e);
+    return [];
+  }
+}
+
+
+function bloquearUI(bloquear) {
+  // Bloquea o desbloquea el selector de provincia
+  document.getElementById("provincia").disabled = bloquear;
+  
+  // Bloquea o desbloquea los botones de servicio
+  botones.forEach(boton => {
+    boton.disabled = bloquear;
+    // Opcional: cambiar el cursor para dar feedback visual
+    boton.style.cursor = bloquear ? "not-allowed" : "pointer"; 
+    boton.style.opacity = bloquear ? "0.6" : "1";
+  });
+}
+
+
 // CARGAR
 function cargar(tipo) {
+  // 1. Si ya está cargando, ignoramos el clic y salimos de la función
+  if (estaCargando) return;
+
   clearTimeout(timeoutCarga);
   timeoutCarga = setTimeout(async () => {
+
+    // 2. Avisamos que empezamos a cargar y bloqueamos la UI
+    estaCargando = true;
+    bloquearUI(true);
 
     try {
 
@@ -180,6 +270,23 @@ out body;
           telefono: item.telefono || null,
           sitioWeb: item.sitioWeb || null
         }));
+      }
+      else if (tipo === "pharmacy") {
+        const jsonData = await fetchFarmaciasJSON(provincia);
+        elementosJSON = jsonData.map(item => ({
+          lat:      parseFloat(item.lat),
+          lon:      parseFloat(item.lon),
+          nombre:   item.nombre,
+          direccion: item.direccion || "",
+          telefono: item.telefono || null,
+          sitioWeb: item.sitioWeb || null
+        }));
+      } else if (tipo === "hospital") {
+        const jsonData = await fetchHospitalesJSON(provincia, "hospital");
+        elementosJSON = jsonData;
+      } else if (tipo === "clinic") {
+        const jsonData = await fetchHospitalesJSON(provincia, "clinic");
+        elementosJSON = jsonData;
       }
 
       // DEDUPLICAR - JSON tiene prioridad sobre OSM
@@ -308,6 +415,10 @@ out body;
 
     } catch(error) {
       console.error(error);
+    }finally {
+      // 3. Pase lo que pase (éxito o error), liberamos el estado y la UI
+      estaCargando = false;
+      bloquearUI(false);
     }
 
   }, 400);
