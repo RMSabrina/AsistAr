@@ -243,10 +243,18 @@ out body;
         } catch {}
       }
 
-      if (!res || !res.ok) throw new Error("Todos los servidores Overpass fallaron");
-
-      const data = await res.json();
-      console.log(data);
+      // NUEVO: Creamos un array vacío para los elementos de Overpass/OSM
+      let elementosOSM = [];
+      
+      // En lugar de hacer un throw, validamos pacíficamente
+      if (res && res.ok) {
+        const data = await res.json();
+        elementosOSM = data.elements || [];
+        console.log("Datos de Overpass cargados con éxito:", elementosOSM);
+      } else {
+        // Si falla, avisamos en consola pero NO frenamos la ejecución
+        console.warn("Todos los servidores Overpass fallaron. Se procederá usando únicamente el JSON local.");
+      }
 
       // JSON según tipo
       let elementosJSON = [];
@@ -297,7 +305,7 @@ out body;
         vistos.set(clave, item);
       });
 
-      data.elements.forEach(lugar => {
+      elementosOSM.forEach(lugar => {
         if (!lugar.lat || !lugar.lon) return;
         if (!lugar.tags?.name) return;
         if (lugar.tags["addr:country"] && lugar.tags["addr:country"] !== "AR") return;
